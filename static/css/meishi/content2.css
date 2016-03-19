@@ -1,0 +1,91 @@
+@charset "utf-8";
+/*body{margin:0px;padding:0px;font-family:"华文细黑";}*/
+/*content2代码开始*/
+<!--#content2 a{ text-decoration:none; color:#000;}-->
+/*c2-s（content中的导航）开始*/
+#content2{ width:1000px; height:1000px; float:left; margin:0px; padding:0px;margin:0 auto; position:relative;}
+#content2 #c2-top{ width:1000px; height:125px; margin:0px; padding:0px; position:relative;}
+#content2 #c2-top #c2-s{ width:1000px; height:25px; margin:0px; padding:0px;/*导航差一个背景色*/ /*padding-top:10px;*/ }
+#content2 #c2-top #c2-s ul{ list-style:none; margin:0px; padding:0px;}
+#content2 #c2-top #c2-s ul li a{width:100px; height:25px; display:block; float:left; text-align:center; }
+#content2 #c2-top #c2-s ul li .wdmssx{ width:220px;}
+#content2 #c2-top #c2-s ul li .hover{ color:#70A000;}
+#content2 #c2-top #c2-s ul li a:hover{color:#70A000;}
+#content2 #c2-top #c2-s ul li .hb{ width:60px;}
+/*c2-s（content中的导航）结束*/
+
+/*c2-z开始*/
+#content2 #c2-top #c2-z { width:1000px; height:50px; margin:0px; padding:0px; margin-top:0px;}
+#content2 #c2-top #c2-z dt{ line-height:25px; font-size:18px; margin:0px;}
+#content2 #c2-top #c2-z dd{ padding:0px; margin:7px 0px 0px 1px; display:block;}
+#content2 #c2-top #c2-z dd a{ width:50px; height:20px; display:block; float:left;font-size:14px; text-align:left; color:#666666;}
+#content2 #c2-top #c2-z dd .shz{ width:60px;}
+#content2 #c2-top #c2-z dd .sz{ width:80px;}
+#content2 #c2-top #c2-z dd a:hover{ color:#70A000;}
+/*c2-z结束*/
+/*c2-x-z开始*/
+#content2 #c2-top #c2-x-z{ width:300px; height:50px; margin:0px; padding:0px; display:block; float:left;}
+#content2 #c2-top #c2-x-z dt{ line-height:25px; font-size:18px; margin:0px;}
+#content2 #c2-top #c2-x-z dd{ padding:0px; margin:7px 0px 0px 1px; display:block;}
+#content2 #c2-top #c2-x-z dd a{ width:50px; height:20px; display:block; float:left;font-size:14px; text-align:left; color:#666666;}
+#content2 #c2-top #c2-x-z dd a:hover{ color:#70A000;}
+#content2 #c2-top #c2-x-z dd .shz{ width:60px;}
+/*c2-x-z结束*/
+/*c2-x-c开始*/
+#content2 #c2-top #c2-x-c{ width:250px; height:50px; margin:0px; padding:0px; display:block; float:left;}
+#content2 #c2-top #c2-x-c dt{ line-height:25px; font-size:18px; margin:0px;}
+#content2 #c2-top #c2-x-c dd{ padding:0px; margin:7px 0px 0px 1px; display:block;}
+#content2 #c2-top #c2-x-c dd a{ width:50px; height:20px; display:block; float:left;font-size:14px; text-align:left; color:#666666;}
+#content2 #c2-top #c2-x-c dd .shz{ width:60px;}
+#content2 #c2-top #c2-x-c dd .sz{ width:80px;}
+#content2 #c2-top #c2-x-c dd a:hover{ color:#70A000;}
+/*c2-x-c结束*/
+
+/*c2-x-y开始*/
+#content2 #c2-top #c2-x-y{ width:350px; height:50px; margin:0px; padding:0px; display:block; float:left;}
+#content2 #c2-top #c2-x-y dt{ line-height:25px; font-size:18px; margin:0px;}
+#content2 #c2-top #c2-x-y dd{ padding:0px; margin:7px 0px 0px 1px; display:block;}
+#content2 #c2-top #c2-x-y dd a{ width:80px; height:20px; display:block; float:left;font-size:14px; text-align:left; color:#666666;}
+#content2 #c2-top #c2-x-y dd a:hover{ color:#70A000;}
+/*c2-x-y结束*/
+/*c2-title开始*/
+#content2 #c2-title{ width:1000px; height:30px; margin-top:8px; margin-bottom:5px; padding:0px; font-size:18px;float:left; text-align:center; position:relative; color:#70A000;}
+#content2 #c2-title span{ width:100px; height:20px; display:block; float:right; margin:0px; padding:0px; font-size:10px; color:#706670;}
+#content2 #c2-title span .current{ color:#70A000;}
+#content2 #c2-title span a:hover{color:#70A000;}
+/*c2-title结束*/
+/*c2-tp中c2-sx筛选代码开始*/
+#content2 #c2-tp{ width:1000px; margin:0px; padding:0px; float:left; position:relative;}
+#content2 #c2-tp #c2-sx{ width:220px; height:500px; float:left; margin:0px; padding:0px; margin-right:5px; }
+#content2 #c2-tp #c2-sx .c2-shaixuan{ list-style:none; margin:0px; margin-left:3px; padding:0px;}
+#content2 #c2-tp #c2-sx .c2-shaixuan li a{ width:100px; height:35px; display:block; float:left; padding-top:10px;text-align:center; font-weight:bold;}
+#content2 #c2-tp #c2-sx .c2-shaixuan li a.ptsx{ background:#F5F5F5;}
+#content2 #c2-tp #c2-sx .c2-shaixuan li a.scsx{ color:#70A000;}
+#content2 #c2-tp #c2-px{ width:213px; height:400px; float:left; margin:0px; padding:0px; margin-left:3px;}
+#content2 #c2-tp #c2-px dt{ width:200px; height:35px; border-top:1px solid #DDDDDD; border-bottom:1px solid #DDDDDD; margin-top:3px; padding-top:10px; padding-left:20px;}
+#content2 #c2-tp #c2-px dd{ width:220px; height:430px; background:#FAFAFA; margin:0px; padding:0px; text-align:center;}
+#content2 #c2-tp #c2-px dd a{ font-size:12px; font-weight:normal; width:200px; height:23px; display:block; float:left; margin:0px; margin-left:10px; padding:0px; border:1px solid #EEEEEE; padding-top:8px; margin-top:10px; font-family:serif; background:#FFF;}
+#content2 #c2-tp #c2-px dd span{ width:24px; height:15px; display:block; float:left; margin:0px; padding:0px; background:#60A531; color:#FFF; margin-left:8px;}
+#content2 #c2-tp #c2-px dd strong{ width:45px; height:20px; display:block; float:left; font-size:14px; font-weight:normal; color:#563343; margin-left:10px;}
+#content2 #c2-tp #c2-px dd em{ width:30px; height:20px; display:block; float:right; margin:0px; padding:0px; font-style:normal; color:#BB9999;}
+#content2 #c2-tp #c2-px .zkgd{ width:240px; height:42px; border-top:2px solid #DDDDDD; margin-left:-10px;}
+/*c2-sx筛选代码结束*/
+
+/*c2-tp中c2-tpzs的c2-tpys图片展示代码开始*/
+#content2 #c2-tp #c2-tpzs{ width:752px;margin:0px; padding:0px; float:right; display:block; position:relative;}
+#content2 #c2-tp #c2-tpys{ width:180px; height:270px; margin:0px 8px 0px 0px; padding:0px; float:left;position:relative;}
+#content2 #c2-tp #c2-tpys img{ max-width:180px; max-height:180px;}
+#content2 #c2-tp #c2-tpys #c2-zlg{ width:180px; height:62px; margin:0px; pa 0px;position:relative; overflow:hidden;}
+#content2 #c2-tp #c2-tpys #c2-zl{ width:170px; height:60px; margin:0px 0px 0px 10px; float:left; display:block; }
+#content2 #c2-tp #c2-tpys #c2-zl stong{ width:170px; height:20px; display:block;}
+#content2 #c2-tp #c2-tpys #c2-zl span{ width:170px; height:20px; display:block; color:#999999;}
+#content2 #c2-tp #c2-tpys #c2-zl em{width:170px; height:20px; display:block;color:#70A000; position:relative;}
+#content2 #c2-tp #c2-tpys #c2-g{width:180px; height:60px; margin:0px; padding:0px; background:#EEEEEE; float:left; margin-top:2px;}
+#content2 #c2-tp #c2-tpys #c2-g li{ list-style:none; color:#999999;}
+/*图片展示代码结束*/
+#content2 #c2-tp #btlist{width:752px; height:30px; margin:0px auto; padding:0px; float:right; margin-top:10px;}
+#content2 #c2-tp #btlist span{ width:450px; height:30px; display:block; margin:0 auto; padding:0px;}
+#content2 #c2-tp #btlist a{ width:60px; height:25px; display:block; float:left; margin-right:2px; background:#EEEEEE; text-align:center; margin-top:5px;}  
+#content2 #c2-tp #btlist a.current-1{ background:#70A000;}
+#content2 #c2-tp #btlist a:hover{ background:#70A000;}
+/*content2代码开始*/
