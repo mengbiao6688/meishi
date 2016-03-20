@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use App\Meishi;
 use Illuminate\Http\Request;
 
@@ -38,7 +39,8 @@ class HomeController extends Controller
 		$this->_guonei = $this->meishiType(2);
 		//家常菜肴
 		$this->_jiachang = $this->meishiType(3);
-
+		//分类
+		$this->_categories = Category::all();
 
 		return $this->view('index');
 	}
@@ -51,5 +53,6 @@ class HomeController extends Controller
 		}
 		return $types;
 	}
+
 
 }

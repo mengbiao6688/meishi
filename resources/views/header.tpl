@@ -17,7 +17,7 @@
     </div>
     <!--login结束-->
     <ul id="nav">
-        <li ><a class="fl"href="#">菜谱分类导航</a>
+        <!--<li ><a class="fl"href="#">菜谱分类导航</a>
             <ul>
                 <li><a href="#">热门分类</a></li>
                 <li><a href="#">菜市菜品</a></li>
@@ -27,11 +27,11 @@
                 <li><a href="#">口味</a></li>
                 <li><a href="#" style="color:#70A000;">更多分类标签</a></li>
             </ul>
-        </li>
+        </li>-->
 
-        <li><a href="/">首页</a></li>
+        <li><a href="/" <{if !$cat_id}>class="cpdq"<{/if}>>首页</a></li>
         <{foreach $_categories as $category}>
-        <li><a class="cpdq" href="#"><{$category.name}></a></li>
+        <li><a class="<{if $category.id eq $cat_id}>cpdq<{/if}>" href="#"><{$category.name}></a></li>
         <{/foreach}>
     </ul>
 </div><!--nav导航条结束-->

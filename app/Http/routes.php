@@ -47,3 +47,6 @@ $router->group(['namespace' => 'Service','prefix' => 'service'], function($route
 
 //根目录的其它路由需放置在本条前
 $router->addUndefinedRoutes();
+
+$router->get('category/{id}','DetailController@category');
+$router->get('meishi/{id}','DetailController@meishi');
