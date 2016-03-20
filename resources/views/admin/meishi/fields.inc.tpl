@@ -21,9 +21,15 @@
 </div>
 
 <div class="form-group">
-	<label class="col-md-3 control-label" for="special">推荐</label>
+	<label class="col-md-3 control-label">特别</label>
 	<div class="col-md-9">
-		此功能稍后再做
+		<label class="radio-inline">
+			<input type="radio" name="special" value="1" <{if $_data.special eq 1}>checked="checked"<{/if}> > 是
+		</label>
+		<label class="radio-inline">
+			<input type="radio" name="special" value="0" <{if $_data.special eq 0}>checked="checked"<{/if}> > 否
+		</label>
+		<div class="clearfix"></div>
 	</div>
 </div>
 
@@ -31,9 +37,9 @@
 	<label class="col-md-3 control-label" for="type">类型</label>
 	<div class="col-md-9">
 		<select name="type" id="type" class="select-model form-control"  data-text="请选择类型" data-placeholder="上级分类">
-			<option value="1">国外菜肴</option>
-			<option value="2">国内菜肴</option>
-			<option value="3">家常菜肴</option>
+			<option <{if $_data.type eq 1}>selected="selected"<{/if}> value="1">国外菜肴</option>
+			<option <{if $_data.type eq 2}>selected="selected"<{/if}> value="2">国内菜肴</option>
+			<option <{if $_data.type eq 3}>selected="selected"<{/if}> value="3">家常菜肴</option>
 		</select>
 	</div>
 </div>

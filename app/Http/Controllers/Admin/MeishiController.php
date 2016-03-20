@@ -60,6 +60,7 @@ class MeishiController extends Controller
     {
         $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids';
         $data = $this->_validates = $this->autoValidate($request,'meishi',$keys);
+        dd($data);
         $cover_aids = $data['cover_aids'];unset($data['cover_aids']);
         $meishi = Meishi::create($data);
         foreach($cover_aids as $id) {
@@ -68,17 +69,6 @@ class MeishiController extends Controller
             ]);
         }
         return $this->success('',url('admin/meishi'));
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
     }
 
     /**
@@ -120,7 +110,7 @@ class MeishiController extends Controller
         $cover = $meishi->covers();
         $cover->delete();
         foreach($cover_aids as $id) {
-            $meishi->covers()->create([
+            $cover->create([
                 'cover_id'=>$id
             ]);
         }

@@ -94,7 +94,7 @@ return [
 		],
 		'special' => [
 			'name' => '推荐',
-			'rules' => 'bool',
+			'rules' => 'required|bool',
 		],
 		'type' => [
 			'name' => '类型',
