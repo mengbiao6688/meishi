@@ -14,7 +14,10 @@ class Meishi extends Model
     }
 
     public function getCovers() {
-        $convers = $this->covers()->get(['cover_id']);
-        return $convers;
+        return $this->covers()->get(['cover_id']);
+    }
+
+    public function getCover() {
+        return $this->covers()->take(1)->get(['cover_id'])->pluck('cover_id');
     }
 }

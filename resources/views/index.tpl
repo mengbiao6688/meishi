@@ -118,61 +118,28 @@
         <div id="tszx"><!--特色菜谱、最新菜谱开始-->
             <div id="tesecai"><!--特色菜开始-->
                 <h3>特色菜谱<a>more</a></h3>
+                <{foreach $_special as $item}>
                 <div id="xdjh">
             <span><a>
-                    <img class="yi" src="<{'static/img/meishi/page1/zs2.jpg'|url}>">
-                    <img class="er" src="<{'static/img/meishi/page1/zs3.jpg'|url}>">
-                    <img class="san" src="<{'static/img/meishi/page1/zs4.jpg'|url}>">
-                    <img src="<{'static/img/meishi/page1/zs5.jpg'|url}>">
+                    <img class="yi" src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" />
+
                 </a></span>
-                    <p>三亚特色糕点</p>
+                    <p><{$item.name}></p>
                 </div>
-                <div id="xdjh">
-            <span><a>
-                    <img class="yi" src="<{'static/img/meishi/page1/zs2.jpg'|url}>">
-                    <img class="er" src="<{'static/img/meishi/page1/zs3.jpg'|url}>">
-                    <img class="san" src="<{'static/img/meishi/page1/zs4.jpg'|url}>">
-                    <img src="<{'static/img/meishi/page1/zs5.jpg'|url}>">
-                </a></span>
-                    <p>三亚特色糕点</p>
-                </div>
-                <div id="xdjh">
-            <span><a>
-                    <img class="yi" src="<{'static/img/meishi/page1/zs2.jpg'|url}>">
-                    <img class="er" src="<{'static/img/meishi/page1/zs3.jpg'|url}>">
-                    <img class="san" src="<{'static/img/meishi/page1/zs4.jpg'|url}>">
-                    <img src="<{'static/img/meishi/page1/zs5.jpg'|url}>">
-                </a></span>
-                    <p>三亚特色糕点</p>
-                </div>
+             <{/foreach}>
+
             </div><!--特色菜结束-->
 
             <div id="zuixincaipu"><!--最新菜谱开始-->
                 <h3>最新菜谱<a>more</a></h3>
-                <div id="zuixin"><img src="<{'static/img/meishi/page1/zxcp1.jpg'|url}>">
+                <{foreach $_new as $item}>
+                <div id="zuixin"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" />
         <span>
-                <img class="yi" src="<{'static/img/meishi/page1/zs2.jpg'|url}>">
-                <img class="er" src="<{'static/img/meishi/page1/zs3.jpg'|url}>">
-                <img class="san" src="<{'static/img/meishi/page1/zs4.jpg'|url}>">
-                <img src="<{'static/img/meishi/page1/zs5.jpg'|url}>">
+                <{$item.name}>
         </span>
                 </div>
-                <div id="zuixin"><img src="<{'static/img/meishi/page1/zxcp1.jpg'|url}>">
-        <span>
-                <img class="yi" src="<{'static/img/meishi/page1/zs2.jpg'|url}>">
-                <img class="er" src="<{'static/img/meishi/page1/zs3.jpg'|url}>">
-                <img class="san" src="<{'static/img/meishi/page1/zs4.jpg'|url}>">
-                <img src="<{'static/img/meishi/page1/zs5.jpg'|url}>">
-        </span>
-                </div>
-                <div id="zuixin"><img src="<{'static/img/meishi/page1/zxcp1.jpg'|url}>">
-        <span>
-                <img class="yi" src="<{'static/img/meishi/page1/zs2.jpg'|url}>">
-                <img class="er" src="<{'static/img/meishi/page1/zs3.jpg'|url}>">
-                <img class="san" src="<{'static/img/meishi/page1/zs4.jpg'|url}>">
-                <img src="<{'static/img/meishi/page1/zs5.jpg'|url}>">
- </span>
-                </div>
+                <{/foreach}>
+
             </div><!--最新菜谱结束-->
         </div><!--特色菜谱结束、最新菜谱结束结束-->
         <img style="margin:5px 0px 0px 0px;" src="<{'static/img/meishi/comment/hor_separator.png'|url}>">
@@ -189,26 +156,20 @@
             <div class="main1box">
                 <div class="main" id="main1">
                     <ul class="block"><!--block是设置其显示与隐藏属性，若选中则用block类，没选中则不用block类--> <!--ul是主显示区域，每次只显示一个ul区域 -->
-                        <li><a><img src="<{'static/img/meishi/page1/np.jpg'|url}>"/><p>意大利牛排</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/page1/swy.jpg'|url}>" /><p>三文鱼</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/page1/td.jpg'|url}>" /><p>法式甜点</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/page1/ydlm.jpg'|url}>" /><p>意大利面条</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/page1/ydlm.jpg'|url}>" /><p>意大利面条</p></a></li>
+                       <{foreach $_guowai as $item}>
+                        <li><a><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>"/><p><{$item.name}></p></a></li>
+                        <{/foreach}>
                     </ul>
 
                     <ul>
-                        <li><a><img src="<{'static/img/meishi/ydlm.jpg'|url}>" /><p>意大利面条</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/ydlm.jpg'|url}>" /><p>意大利面条</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/ydlm.jpg'|url}>" /><p>意大利面条</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/ydlm.jpg'|url}>" /><p>意大利面条</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/ydlm.jpg'|url}>" /><p>意大利面条</p></a></li>
+                        <{foreach $_guonei as $item}>
+                        <li><a><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" /><p><{$item.name}></p></a></li>
+                        <{/foreach}>
                     </ul>
                     <ul>
-                        <li><a><img src="<{'static/img/meishi/td.jpg'|url}>" /><p>法式甜点</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/td.jpg'|url}>" /><p>法式甜点</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/td.jpg'|url}>" /><p>法式甜点</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/td.jpg'|url}>" /><p>法式甜点</p></a></li>
-                        <li><a><img src="<{'static/img/meishi/td.jpg'|url}>" /><p>法式甜点</p></a></li>
+                        <{foreach $_jiachang as $item}>
+                        <li><a><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" /><p><{$item.name}></p></a></li>
+                        <{/foreach}>
                     </ul>
                 </div>
             </div><!--main1box结束-->

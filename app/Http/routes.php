@@ -34,6 +34,16 @@ $router->group(['namespace' => 'Admin','prefix' => 'admin', 'middleware' => ['au
 	$router->addUndefinedRoutes();
 });
 
+$router->group(['namespace' => 'Service','prefix' => 'service'], function($router) {
+
+	$router->addAdminRoutes([
+
+	]);
+
+	//admin目录下的其它路由需放置在本条前
+	$router->addUndefinedRoutes();
+});
+
 
 //根目录的其它路由需放置在本条前
 $router->addUndefinedRoutes();
