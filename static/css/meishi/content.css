@@ -1,7 +1,7 @@
 ﻿/*首页样式（音乐馆样式）*/
 /*轮播图 开始*/
 .main_banner{width:1000px; height:375px; float:left; padding:0px;overflow-x:hidden;}
-.main_banner .main_banner_wrap{/*设置显示宽度、高度，背景颜色*/ 
+.main_banner .main_banner_wrap{/*设置显示宽度、高度，背景颜色*/
 	width:1000px; height:375px; position:relative; /*background-color:#112233;*//*333D46*/ background-image:url(../images/lbbj.jpg); margin:0 auto; overflow:hidden;  box-shadow: 0px 1px 2px #c5c5c5;
 }
 .main_banner .main_banner_wrap #myCanvas {
@@ -14,14 +14,14 @@
 }
 @-webkit-keyframes roll {
 	from{-webkit-transform:rotate(120deg);opacity:0;}
-	to{-webkit-transform:rotate(0deg);opacity:0.8;}		
+	to{-webkit-transform:rotate(0deg);opacity:0.8;}
 }
 @keyframes roll {
 	from{transform:rotate(120deg);opacity:0;}
-	to{transform:rotate(0deg);opacity:0.8;}		
+	to{transform:rotate(0deg);opacity:0.8;}
 }
 .main_banner .main_banner_wrap .banner_btn{ 	/*a 标签 按钮*/
-		width:255px; height:240px; position:absolute; 
+		width:255px; height:240px; position:absolute;
 		display:block; z-index:9; top:20px;
 }
 .btn_next{right:30px;/*调节右边写一个图片的按钮*/}
@@ -49,7 +49,7 @@
 }*//*火狐倒影图层样式*/
 .main_banner li{
 		position:absolute; background:#000; overflow:hidden;
-		box-shadow:0 4px 8px rgba(0, 0, 0, 0.15);		
+		box-shadow:0 4px 8px rgba(0, 0, 0, 0.15);
 }
 /*给每张图片初始设置不同宽高，层级，位置*/
 .main_banner li#imgCard0{/*刚开始时最中间的那张*/
@@ -57,7 +57,7 @@
 		left:250px; top:0px; opacity:1; background:#333d46;
 }
 .main_banner li#imgCard1{/*第1个图片是刚开始时最右边上显示的那张*/
-		/*width:580px; height:240px;*/width:400px; height:300px;z-index:1; 
+		/*width:580px; height:240px;*/width:400px; height:300px;z-index:1;
 		left:600px; top:20px; opacity:1; background:#333d46;
 }
 .main_banner li#imgCard2{/*初始在背后，透明度为0*/
@@ -69,12 +69,12 @@
 		left:0px; top:60px; opacity:0; background:#333d46;
 }
 .main_banner li#imgCard4{/*第4个图片是刚开始时最左边上显示的那张*/
-		/*width:580px; height:240px;*/ width:400px; height:300px; z-index:1; 
+		/*width:580px; height:240px;*/ width:400px; height:300px; z-index:1;
 		left:0px; top:20px; opacity:1; background:#333d46;
 }
 .main_banner li img{width:100%; height:100%;}
 .main_banner li span{/*遮罩层*/
-		width:100%; height:100%; position:absolute; top:0; left:0; 
+		width:100%; height:100%; position:absolute; top:0; left:0;
 		z-index:1; background:#fff; opacity:0.5; filter:alpha(opacity=0.5);
 		color:#fff; font-size:30px; line-height:120px; text-align:center;
 }

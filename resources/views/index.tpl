@@ -4,11 +4,9 @@
     <{block "head-styles-before"}>
     <link rel="stylesheet" href="<{'static/css/meishi/header.css'|url}>"/>
     <link rel="stylesheet"  href="<{'static/css/meishi/tab.css'|url}>"/>
-    <link rel="stylesheet" href="<{'static/css/meishi/header.css'|url}>"/>
+    <link rel="stylesheet" href="<{'static/css/meishi/content.css'|url}>"/>
     <{/block}>
     <{include file="common/styles.inc.tpl"}>
-    <{block "head-styles-plus"}><{/block}>
-    <{block "head-styles-after"}><{/block}>
     <{/block}>
 
 <{block "head-scripts"}>
@@ -28,46 +26,7 @@
 <{block "body-container"}>
 
     <div id="main">
-        <div id="header">
-            <div id="login">
-                <div id="login_bz"><img src="<{'static/img/meishi/comment/logo.png'|url}>"></div><!--标志图片1张-->
-                <!--login_bz结束-->
-                <form id="hd_search">
-                    <input type="text" name="search_txt" class="search_txt" id="search_txt" onBlur="if(value=='')this.value='搜菜谱、话题、专辑、豆友';"  onClick="if(this.value == '搜菜谱、话题、专辑、豆友')this.value='';" value="搜菜谱、话题、专辑、豆友"><!--搜索框-->
-                    <input type="submit" id="search_bt" name="search_bt" value="搜索">
-                    <!--搜索按钮-->
-                </form>
-                <!--hd_search结束-->
-          <span id="denglu">
-              <button style="width:100px;"><img src="<{'static/img/meishi/comment/qq.jpg'|url}>"><b>qq登录</b></button>
-              <button style="width:100px;"><img src="<{'static/img/meishi/comment/wb.jpg'|url}>"><b>微博登录</b></button>
-              <button>登录</button>
-              <button>注册</button>
-          </span>
-            </div>
-            <!--login结束-->
-            <ul id="nav">
-                <li ><a class="fl"href="#">菜谱分类导航</a>
-                    <ul>
-                        <li><a href="#">热门分类</a></li>
-                        <li><a href="#">菜市菜品</a></li>
-                        <li><a href="#">菜系</a></li>
-                        <li><a href="#">食材</a></li>
-                        <li><a href="#">烹饪方法</a></li>
-                        <li><a href="#">口味</a></li>
-                        <li><a href="#" style="color:#70A000;">更多分类标签</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">首页</a></li>
-                <li><a class="cpdq" href="#">菜谱大全</a></li>
-                <li><a href="#">食谱分类</a></li>
-                <li><a href="#">食材大全</a></li>
-                <li><a href="#">家常菜谱</a></li>
-                <li><a href="#">健康食疗</a></li>
-                <li><a href="#">关于我们</a></li>
-            </ul>
-        </div><!--nav导航条结束-->
+        <{include file="header.tpl"}>
         <div class="main_banner">
             <div class="main_banner_wrap">
                 <canvas id="myCanvas" width="150" height="150"></canvas>
@@ -147,9 +106,9 @@
         <div id="tab">
             <div class="menu1box">
                 <ul id="menu1">
-                    <li class="hover" onclick="setTab(1,0)"><!--若要区别选中的选项卡与没选中的就要用到hover类，为其加背景图片--> <a href="#">国外菜肴</a></li>  <!--li是选项卡 -->
-                    <li onclick="setTab(1,1)"><a href="#">国内菜肴</a></li>
-                    <li onclick="setTab(1,2)"><a href="#">家常菜肴</a></li>
+                    <li class="hover" onclick="setTab(1,0)"><!--若要区别选中的选项卡与没选中的就要用到hover类，为其加背景图片--> <a href="javascript:void(0)">国外菜肴</a></li>  <!--li是选项卡 -->
+                    <li onclick="setTab(1,1)"><a href="javascript:void(0)">国内菜肴</a></li>
+                    <li onclick="setTab(1,2)"><a href="javascript:void(0)">家常菜肴</a></li>
                 </ul>
             </div>
 
