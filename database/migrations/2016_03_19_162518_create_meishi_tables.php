@@ -24,7 +24,7 @@ class CreateMeishiTables extends Migration
             $table->timestamps();
         });
 
-        Schema::create('category', function (Blueprint $table) {
+        Schema::create('categories', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name',20)->comment = '分类名称';
             $table->unsignedInteger('parent_id')->comment = '上级分类';

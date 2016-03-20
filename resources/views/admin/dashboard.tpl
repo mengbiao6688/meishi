@@ -151,7 +151,7 @@
 								</h3>
 							</div>
 							<div class="widget-extra">
-								
+
 							</div>
 						</div>
 						<!-- END Timeline Widget -->

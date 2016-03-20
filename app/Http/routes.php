@@ -26,6 +26,8 @@ $router->group(['namespace' => 'Admin','prefix' => 'admin', 'middleware' => ['au
 	
 	$router->addAdminRoutes([
 		'member' => 'MemberController',
+		'category' => 'CategoryController',
+		'meishi' => 'MeishiController',
 	]);
 
 	//admin目录下的其它路由需放置在本条前

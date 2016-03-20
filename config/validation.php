@@ -65,4 +65,10 @@ return [
 			],
 		]
 	],
+	'category' => [
+		'name' => [
+			'name' => '分类名称',
+			'rules' => 'required'
+		],
+	],
 ];
