@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Meishi;
+use App\MeishiCover;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -12,7 +13,7 @@ use Addons\Core\Controllers\AdminTrait;
 class MeishiController extends Controller
 {
     use AdminTrait;
-    public function index($request)
+    public function index(Request $request)
     {
         $meishi = new Meishi();
         $builder = $meishi->newQuery();
@@ -44,10 +45,9 @@ class MeishiController extends Controller
      */
     public function create()
     {
-        $keys = 'title,content';
-        $this->_validates = $this->getScriptValidate('news.store',$keys);
-        $this->_data = [];
-        return $this->view('admin.news.create');
+        $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids';
+        $this->_validates = $this->getScriptValidate('meishi',$keys);
+        return $this->view('admin.meishi.create');
     }
 
     /**
@@ -58,7 +58,16 @@ class MeishiController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids';
+        $data = $this->_validates = $this->autoValidate($request,'meishi',$keys);
+        $cover_aids = $data['cover_aids'];unset($data['cover_aids']);
+        $meishi = Meishi::create($data);
+        foreach($cover_aids as $id) {
+            $meishi->covers()->create([
+                'cover_id' => $id,
+            ]);
+        }
+        return $this->success('',url('admin/meishi'));
     }
 
     /**
@@ -80,14 +89,15 @@ class MeishiController extends Controller
      */
     public function edit($id)
     {
-        $news = News::find($id);
-        if(!$news) {
+        $meishi = Meishi::find($id);
+        if(!$meishi) {
             return $this->failure_noexists();
         }
-        $keys = 'name,developers,area,address,natrue,type';
-        $this->_validates = $this->getScriptValidate('product.store',$keys);
-        $this->_data = $news;
-        return $this->view('admin.news.edit');
+        $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids';
+        $this->_validates = $this->getScriptValidate('meishi',$keys);
+        $this->_cover_aids = $meishi->getCovers();
+        $this->_data = $meishi;
+        return $this->view('admin.meishi.edit');
     }
 
     /**
@@ -99,15 +109,22 @@ class MeishiController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $product = News::find($id);
-        if(!$product) {
+        $meishi = Meishi::find($id);
+        if(!$meishi) {
             return $this->failure_noexists();
         }
 
-        $keys = 'name,content';
-        $data = $this->autoValidate($request,'news.store',$keys);
-
-        $product->update($data);
+        $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids';
+        $data = $this->autoValidate($request,'meishi',$keys);
+        $cover_aids = $data['cover_aids'];unset($data['cover_aids']);
+        $cover = $meishi->covers();
+        $cover->delete();
+        foreach($cover_aids as $id) {
+            $meishi->covers()->create([
+                'cover_id'=>$id
+            ]);
+        }
+        $meishi->update($data);
         return $this->success();
     }
 
@@ -117,13 +134,16 @@ class MeishiController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Request $request,$id)
     {
         empty($id) && !empty($request->input('id')) && $id = $request->input('id');
         $id = (array) $id;
 
-        foreach ($id as $v)
-            $product = News::destroy($v);
+        foreach ($id as $v) {
+            $meishi = Meishi::find($v);
+            $meishi->covers()->delete();
+            $meishi->delete();
+        }
         return $this->success('', count($id) > 5, compact('id'));
     }
 }

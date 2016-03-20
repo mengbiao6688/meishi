@@ -26,7 +26,7 @@
 				<li>
 					<a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator"></i><i class="gi gi-user sidebar-nav-icon"></i>美食管理</a>
 					<ul>
-						<li><a href="<{'admin/meishi'|url}>" name="member/list">美食列表</a></li>
+						<li><a href="<{'admin/meishi'|url}>" name="meishi/list">美食列表</a></li>
 						<li><a href="<{'admin/meishi/create'|url}>" name="meishi/create"><i class="gi gi-plus"></i> 添加美食</a></li>
 					</ul>
 				</li>
@@ -34,7 +34,7 @@
 				<li>
 					<a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator"></i><i class="gi gi-user sidebar-nav-icon"></i>分类管理</a>
 					<ul>
-						<li><a href="<{'admin/category'|url}>" name="member/list">分类列表</a></li>
+						<li><a href="<{'admin/category'|url}>" name="category/list">分类列表</a></li>
 						<li><a href="<{'admin/category/create'|url}>" name="category/create"><i class="gi gi-plus"></i> 添加分类</a></li>
 					</ul>
 				</li>

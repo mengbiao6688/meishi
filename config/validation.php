@@ -71,4 +71,39 @@ return [
 			'rules' => 'required'
 		],
 	],
+	'meishi' => [
+		'name' => [
+			'name' => '名称',
+			'rules' => 'required',
+		],
+		'gongyi' => [
+			'name' => '工艺',
+			'rules' => 'required',
+		],
+		'kouwei' => [
+			'name' => '口味',
+			'rules' => 'required',
+		],
+		'yongliao' => [
+			'name' => '用料',
+			'rules' => 'required',
+		],
+		'zuofa' => [
+			'name' => '做法',
+			'rules' => 'required',
+		],
+		'special' => [
+			'name' => '推荐',
+			'rules' => 'bool',
+		],
+		'type' => [
+			'name' => '类型',
+			'rules' => 'required',
+		],
+		'cover_aids' => [
+			'name' => '美食图片',
+			'rules' => 'required|array',
+			'message' => '请上传图片'
+		],
+	],
 ];
