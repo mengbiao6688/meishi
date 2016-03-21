@@ -31,7 +31,7 @@
 
         <li><a href="/" <{if !$cat_id}>class="cpdq"<{/if}>>首页</a></li>
         <{foreach $_categories as $category}>
-        <li><a class="<{if $category.id eq $cat_id}>cpdq<{/if}>" href="#"><{$category.name}></a></li>
+        <li><a class="<{if $category.id eq $cat_id}>cpdq<{/if}>" href="<{'category'|url}>/<{$category.id}>"><{$category.name}></a></li>
         <{/foreach}>
     </ul>
 </div><!--nav导航条结束-->

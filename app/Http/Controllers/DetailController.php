@@ -16,6 +16,8 @@ class DetailController extends Controller
         if(!$category) {
             return $this->failure_noexists();
         }
+        $this->_data = $category;
+        return $this->view('category');
 
     }
 
