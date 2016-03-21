@@ -106,7 +106,7 @@
         <div id="tab">
             <div class="menu1box">
                 <ul id="menu1">
-                    <li class="hover" onclick="setTab(1,0)"><!--若要区别选中的选项卡与没选中的就要用到hover类，为其加背景图片--> <a href="javascript:void(0);">国外菜肴</a></li>  <!--li是选项卡 -->
+                    <li onclick="setTab(1,0)"><!--若要区别选中的选项卡与没选中的就要用到hover类，为其加背景图片--> <a href="javascript:void(0);">国外菜肴</a></li>  <!--li是选项卡 -->
                     <li onclick="setTab(1,1)"><a href="javascript:void(0);">国内菜肴</a></li>
                     <li onclick="setTab(1,2)"><a href="javascript:void(0);">家常菜肴</a></li>
                 </ul>
@@ -138,6 +138,10 @@
 
 <{block "body-scripts-jquery"}>
     (function($){
-
+        $("#menu1 li a").eq(0).css('color','#70A000');
+        $("#menu1 li a").click(function() {
+            $("#menu1 li a").css('color','#666');
+            $(this).css('color','#70A000');
+        });
     })(jQuery);
     <{/block}>
