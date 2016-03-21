@@ -116,18 +116,18 @@
                 <div class="main" id="main1">
                     <ul class="block"><!--block是设置其显示与隐藏属性，若选中则用block类，没选中则不用block类--> <!--ul是主显示区域，每次只显示一个ul区域 -->
                        <{foreach $_guowai as $item}>
-                        <li><a href="<{'meishi'|url}>/<{$item.id}>"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>"/><p><{$item.name}></p></a></li>
+                        <li><a href="<{'meishi'|url}>/<{$item.id}>"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>&width=200&height=200"/><p><{$item.name}></p></a></li>
                         <{/foreach}>
                     </ul>
 
                     <ul>
                         <{foreach $_guonei as $item}>
-                        <li><a href="<{'meishi'|url}>/<{$item.id}>"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" /><p><{$item.name}></p></a></li>
+                        <li><a href="<{'meishi'|url}>/<{$item.id}>"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>&width=200&height=200" /><p><{$item.name}></p></a></li>
                         <{/foreach}>
                     </ul>
                     <ul>
                         <{foreach $_jiachang as $item}>
-                        <li><a href="<{'meishi'|url}>/<{$item.id}>"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" /><p><{$item.name}></p></a></li>
+                        <li><a href="<{'meishi'|url}>/<{$item.id}>"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>&width=200&height=200" /><p><{$item.name}></p></a></li>
                         <{/foreach}>
                     </ul>
                 </div>
