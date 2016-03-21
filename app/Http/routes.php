@@ -46,6 +46,6 @@ $router->group(['namespace' => 'Service','prefix' => 'service'], function($route
 
 $router->get('/','HomeController@index');
 
-$router->get('category/{id}','DetailController@category');
+$router->get('category/{id}','HomeController@category');
 
-$router->get('meishi/{id}','DetailController@meishi');
+$router->get('meishi/{id}','HomeController@meishi');

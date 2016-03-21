@@ -79,7 +79,7 @@
                 <h3>特色菜谱<a>more</a></h3>
                 <{foreach $_special as $item}>
                 <div id="xdjh">
-            <span><a>
+            <span><a href="<{'meishi'|url}>/<{$item.id}>">
                     <img class="yi" src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" />
 
                 </a></span>
@@ -92,7 +92,7 @@
             <div id="zuixincaipu"><!--最新菜谱开始-->
                 <h3>最新菜谱<a>more</a></h3>
                 <{foreach $_new as $item}>
-                <div id="zuixin"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" />
+                <div id="zuixin"><a href="<{'meishi'|url}>/<{$item.id}>"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" /></a>
         <span>
                 <{$item.name}>
         </span>
@@ -116,18 +116,18 @@
                 <div class="main" id="main1">
                     <ul class="block"><!--block是设置其显示与隐藏属性，若选中则用block类，没选中则不用block类--> <!--ul是主显示区域，每次只显示一个ul区域 -->
                        <{foreach $_guowai as $item}>
-                        <li><a><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>"/><p><{$item.name}></p></a></li>
+                        <li><a href="<{'meishi'|url}>/<{$item.id}>"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>"/><p><{$item.name}></p></a></li>
                         <{/foreach}>
                     </ul>
 
                     <ul>
                         <{foreach $_guonei as $item}>
-                        <li><a><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" /><p><{$item.name}></p></a></li>
+                        <li><a href="<{'meishi'|url}>/<{$item.id}>"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" /><p><{$item.name}></p></a></li>
                         <{/foreach}>
                     </ul>
                     <ul>
                         <{foreach $_jiachang as $item}>
-                        <li><a><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" /><p><{$item.name}></p></a></li>
+                        <li><a href="<{'meishi'|url}>/<{$item.id}>"><img src="<{'/attachment/resize?id='|url}><{$item.cover_id}>" /><p><{$item.name}></p></a></li>
                         <{/foreach}>
                     </ul>
                 </div>

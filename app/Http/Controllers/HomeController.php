@@ -17,6 +17,11 @@ class HomeController extends Controller
 	 *
 	 * @return Response
 	 */
+	public function __construct()
+	{
+		$this->_categories = Category::all();
+	}
+
 	public function index(Request $request)
 	{
 		//特色菜谱
@@ -39,11 +44,10 @@ class HomeController extends Controller
 		$this->_guonei = $this->meishiType(2);
 		//家常菜肴
 		$this->_jiachang = $this->meishiType(3);
-		//分类
-		$this->_categories = Category::all();
 
 		return $this->view('index');
 	}
+
 
 	private function meishiType($type) {
 		$types = Meishi::where('id',$type)->take(5)->get();
@@ -54,5 +58,21 @@ class HomeController extends Controller
 		return $types;
 	}
 
+	public function category($id) {
+		$category = Category::find($id);
+		if(!$category) {
+			return $this->failure_noexists();
+		}
+		$this->_data = $category;
+		return $this->view('category');
 
+	}
+
+	public function meishi($id) {
+		$meishi = Meishi::find($id);
+		$meishi->cover_id = $meishi->getCover()->toArray()[0];
+		$this->_meishi = $meishi;
+
+        return $this->view('meishi');
+	}
 }
