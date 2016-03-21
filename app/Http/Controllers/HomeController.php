@@ -46,7 +46,7 @@ class HomeController extends Controller
 	}
 
 	private function meishiType($type) {
-		$types = Meishi::where('id',$type)->take(5);
+		$types = Meishi::where('id',$type)->take(5)->get();
 		foreach($types as $item) {
 			$data = $item->getCover();
 			$item->cover_id = $data->toArray()[0];
