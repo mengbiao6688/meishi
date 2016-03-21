@@ -60,7 +60,6 @@ class MeishiController extends Controller
     {
         $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids';
         $data = $this->_validates = $this->autoValidate($request,'meishi',$keys);
-        dd($data);
         $cover_aids = $data['cover_aids'];unset($data['cover_aids']);
         $meishi = Meishi::create($data);
         foreach($cover_aids as $id) {
