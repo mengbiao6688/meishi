@@ -3,7 +3,7 @@
 	<label class="col-md-3 control-label" for="parent">上级分类</label>
 	<div class="col-md-9">
 
-		<select name="parent" id="parent" class="select-model form-control"  data-model="admin/category" data-text="暂时没做此功能" data-placeholder="上级分类"></select>
+		<select name="parent_id" id="parent_id" class="select-model form-control"  data-model="admin/category"  data-text="{name}" data-placeholder="上级分类"></select>
 
 	</div>
 </div>

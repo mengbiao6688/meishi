@@ -34,8 +34,14 @@ class CategoryController extends Controller
 
     public function data(Request $request)
     {
+        $referer = $_SERVER['HTTP_REFERER'];
         $category = new Category();
-        $builder = $category->newQuery();
+        if($referer == 'http://laravel.meishi.org/admin/category') {
+
+            $builder = $category->newQuery()->where('id','!=',1);
+        } else {
+            $builder = $category->newQuery()->orderBy('id','ASC');
+        }
         $_builder = clone $builder;$total = $_builder->count();unset($_builder);
         $data = $this->_getData($request, $builder);
         $data['recordsTotal'] = $total;
@@ -62,7 +68,7 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        $keys = 'name';
+        $keys = 'name,parent_id';
         $data = $this->autoValidate($request,'category',$keys);
         Category::create($data);
 
@@ -112,8 +118,12 @@ class CategoryController extends Controller
             return $this->failure_noexists();
         }
 
-        $keys = 'name';
+        $keys = 'name,parent_id';
         $data = $this->autoValidate($request,'category',$keys);
+
+        if($id == $data['parent_id']) {
+            return $this->failure('');
+        }
 
         $category->update($data);
         return $this->success();

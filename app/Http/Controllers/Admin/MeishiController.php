@@ -58,7 +58,7 @@ class MeishiController extends Controller
      */
     public function store(Request $request)
     {
-        $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids';
+        $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids,desc';
         $data = $this->_validates = $this->autoValidate($request,'meishi',$keys);
         $cover_aids = $data['cover_aids'];unset($data['cover_aids']);
         $meishi = Meishi::create($data);

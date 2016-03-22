@@ -31,7 +31,7 @@
             <div id="c3-s-y"><!--s(上面)y(右边)部分开始-->
                 <div id="c3-s-y-top"><!--上面的top部分开始-->
                     <h2>
-                        <a href="#">虾干</a>
+                        <a href="#"><{$_meishi.name}></a>
                     </h2>
                     <div id="fx">
                         <a class="sc" href="#">收藏（6） </a>
@@ -46,7 +46,7 @@
                     <ul id="c3-s-y-center">
                         <li class="kz">
                             <strong>工艺</strong>
-                            <a href="#">烤</a>
+                            <a href="#"><{$_meishi.gongyi}></a>
                         </li>
                         <li class="kc">
                             <strong>难度</strong>
@@ -64,7 +64,7 @@
                         </li>
                         <li class="kz">
                             <strong>口味</strong>
-                            <a href="#">家常味</a>
+                            <a href="#"><{$_meishi.kouwei}></a>
                         </li>
                         <li class="kc">
                             <strong>准备时间</strong>

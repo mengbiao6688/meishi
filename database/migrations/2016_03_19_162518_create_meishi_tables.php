@@ -17,6 +17,7 @@ class CreateMeishiTables extends Migration
             $table->string('name',20)->comment = '美食名称';
             $table->string('gongyi',20)->comment = '工艺';
             $table->string('kouwei',20)->comment = '口味';
+            $table->text('desc')->comment = '美食描述';
             $table->text('yongliao')->comment = '用料';
             $table->text('zuofa')->comment = '做法';
             $table->unsignedTinyInteger('special')->default(0)->comment = '特别菜谱';

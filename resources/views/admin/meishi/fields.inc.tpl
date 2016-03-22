@@ -57,9 +57,17 @@
 </div>
 
 <div class="form-group">
+	<label class="col-md-3 control-label" for="desc">描述</label>
+	<div class="col-md-9">
+		<textarea id="desc" rows="15" cols="100" name="desc" class="" placeholder="美食描述"><{$_data->zuofa}></textarea>
+	</div>
+	<div class="clearfix"></div>
+</div>
+
+<div class="form-group">
 	<label class="col-md-3 control-label" for="yongliao">用料</label>
 	<div class="col-md-9">
-		<textarea id="content" name="yongliao" class="" placeholder="请输入..."><{$_data->zuofa}></textarea>
+		<textarea id="content" rows="15" cols="100" name="yongliao" class="" placeholder="用料"><{$_data->zuofa}></textarea>
 	</div>
 	<div class="clearfix"></div>
 </div>
