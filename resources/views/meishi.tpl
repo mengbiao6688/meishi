@@ -29,7 +29,7 @@
         <div id="c3-s"><!--上面的s上面部分-->
             <div id="c3-s-z"><img src="images/page3/xt1.jpg"></div>
             <div id="c3-s-y"><!--s(上面)y(右边)部分开始-->
-                <div id="c3-s-y-top"><!--上面的top部分开始-->
+               <!-- <div id="c3-s-y-top">
                     <h2>
                         <a href="#"><{$_meishi.name}></a>
                     </h2>
@@ -41,7 +41,8 @@
                     	<a href="#"><img src="images/comment/kj.jpg"></a>
                         <a href="#"><img src="images/comment/wb.jpg"></a>
                     </span>
-                    </div><!--上面的top部分结束-->
+                    </div>
+                    --><!--上面的top部分结束-->
                     <!--上面的center部分开始-->
                     <ul id="c3-s-y-center">
                         <li class="kz">

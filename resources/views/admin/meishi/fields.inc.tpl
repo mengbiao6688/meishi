@@ -34,6 +34,15 @@
 </div>
 
 <div class="form-group">
+	<label class="col-md-3 control-label" for="cat_id">美食分类</label>
+	<div class="col-md-9">
+
+		<select name="cat_id" id="cat_id" class="select-model form-control"  data-model="admin/category"  data-text="{name}" data-placeholder="上级分类"></select>
+
+	</div>
+</div>
+
+<div class="form-group">
 	<label class="col-md-3 control-label" for="type">类型</label>
 	<div class="col-md-9">
 		<select name="type" id="type" class="select-model form-control"  data-text="请选择类型" data-placeholder="上级分类">
@@ -59,7 +68,7 @@
 <div class="form-group">
 	<label class="col-md-3 control-label" for="desc">描述</label>
 	<div class="col-md-9">
-		<textarea id="desc" rows="15" cols="100" name="desc" class="" placeholder="美食描述"><{$_data->zuofa}></textarea>
+		<textarea id="desc" rows="15" cols="100" name="desc" class="" placeholder="美食描述"><{$_data->desc}></textarea>
 	</div>
 	<div class="clearfix"></div>
 </div>
@@ -67,7 +76,7 @@
 <div class="form-group">
 	<label class="col-md-3 control-label" for="yongliao">用料</label>
 	<div class="col-md-9">
-		<textarea id="content" rows="15" cols="100" name="yongliao" class="" placeholder="用料"><{$_data->zuofa}></textarea>
+		<textarea id="content" rows="15" cols="100" name="yongliao" class="" placeholder="用料"><{$_data->yongliao}></textarea>
 	</div>
 	<div class="clearfix"></div>
 </div>
