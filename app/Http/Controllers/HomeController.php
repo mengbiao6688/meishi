@@ -75,4 +75,15 @@ class HomeController extends Controller
 
         return $this->view('meishi');
 	}
+
+	public function login() {
+
+		return $this->view('login');
+	}
+
+	public function register() {
+		$keys = 'username,password,password2';
+		$this->_validates = $this->getScriptValidate('login',$keys);
+		return $this->view('register');
+	}
 }

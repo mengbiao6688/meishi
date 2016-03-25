@@ -106,4 +106,19 @@ return [
 			'message' => '请上传图片'
 		],
 	],
+
+	'login' => [
+		'username' => [
+			'name' => '用户名',
+			'rules' => 'required',
+		],
+		'password' => [
+			'name' => '密码',
+			'rules' => 'required',
+		],
+		'password2' => [
+			'name' => '确认密码',
+			'rules' => 'required',
+		],
+	],
 ];

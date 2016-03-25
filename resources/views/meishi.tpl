@@ -27,7 +27,7 @@
     <{include file="header.tpl"}>
     <div id="c3">
         <div id="c3-s"><!--上面的s上面部分-->
-            <div id="c3-s-z"><img src="images/page3/xt1.jpg"></div>
+            <div id="c3-s-z"><img src="<{'attachment/preview?id='|url}><{$_meishi.id}>"></div>
             <div id="c3-s-y"><!--s(上面)y(右边)部分开始-->
                <!-- <div id="c3-s-y-top">
                     <h2>
@@ -98,8 +98,9 @@
         </div>
         <div id="c3-z">
             <strong>"</strong>
-            这个夏天猫比往年要忙了些，相对去逛市场的时间也就跟着少了好多，本应在夏季多吃些当季海鲜的，也只能缩水，趁着周日休息，买了两斤鲜虾准备做虾干，这样的虾干烤好之后就可以直接食用，如果想要吃些有风味的，可以蒸，炒，炸，拌，煮粥，做汤，只要你愿意，可以入很多菜，自己在家做，也处理的相对要干净很多，并且可以把今个夏季的鲜美味留下来慢慢品。做好后，跟LG两个人就干掉了不少，人家说明天还要用它来蒸着吃，呵呵，看样子是还没吃够啊~<strong>"</strong>
+            <{$_meishi.desc}>~<strong>"</strong>
             <strong class="yl">用料</strong>
+    <!--
             <div id="c3-z-x">
                 <div id="fl">
                     <ul>
@@ -138,7 +139,8 @@
                         <li><a></a></li>
                 </div>
             </div>
-
+            -->
+            <{$_meishi.yongliao}>
             <div id="c3-x">
                 <h2>虾干的做法</h2>
                 <div id="step">

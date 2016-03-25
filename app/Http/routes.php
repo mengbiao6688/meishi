@@ -49,3 +49,7 @@ $router->get('/','HomeController@index');
 $router->get('category/{id}','HomeController@category');
 
 $router->get('meishi/{id}','HomeController@meishi');
+
+$router->get('login','HomeController@login');
+
+$router->get('register','HomeController@register');
