@@ -82,8 +82,8 @@ class HomeController extends Controller
 	}
 
 	public function register() {
-		$keys = 'username,password,password2';
-		$this->_validates = $this->getScriptValidate('login',$keys);
+//		$keys = 'username,password,password2';
+//		$this->_validates = $this->getScriptValidate('login',$keys);
 		return $this->view('register');
 	}
 }

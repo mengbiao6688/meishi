@@ -53,10 +53,10 @@
                                     <a href="courses.html"><img src="<{'static/img/meishi/lx.png'|url}>"></a>
                                 </div>
                                 <img style=" display:block;  margin:0 auto;" src="<{'static/img/meishi/login-or.png'|url}>"><!--一直到这里都是没用的图片除了那几个a标签外-->
-                                <form id="form">
+                                <form id="form" method="post">
                                     <ul>
-                                        <li><span>用户名：</span><input type="text" name="username" id="username" class="input"></li>
-                                        <li><span>密　码：</span><input type="password" name="password" id="password" class="input"></li>
+                                        <li><span>用户名：</span><input type="text" name="username" id="username" class="input" required></li>
+                                        <li><span>密　码：</span><input type="password" name="password" id="password" class="input" required></li>
                                         <li><button class="button" id="button">注　册</button><li>
                                     </ul>
                                 </form>
@@ -96,10 +96,21 @@
         </div><!-----------------------padding结束----------------------------->
     </footer>
     <script type="text/javascript"> Cufon.now(); </script>
+    <script type="text/javascript">
+        $("#form").submit(function(e) {
+            e.preventDefault();
+            $.ajax({
+                url:"<{'service/account/register'|url}>",
+                type:'post',
+                data:{
+                    _token:"<{csrf_token()}>",
+                    username:$("#username").val(),
+                    password:$("#password").val()
+                },
+                success:function(data) {
+                    alert(data);
+                }
+            });
+        });
+    </script>
 <{/block}>
-
-<{block "body-scripts-jquery"}>
-    (function($){
-
-    })(jQuery);
-    <{/block}>

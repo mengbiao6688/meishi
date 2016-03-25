@@ -42,7 +42,7 @@ class CreateMeishiTables extends Migration
             $table->timestamps();
         });
 
-        Schema::create('customer', function (Blueprint $table) {
+        Schema::create('customers', function (Blueprint $table) {
             $table->increments('id');
             $table->string('username',20)->comment = '用户名';
             $table->string('password',32)->comment = '密码';
