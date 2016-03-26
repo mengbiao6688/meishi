@@ -2,6 +2,7 @@
 <{include file="common/head.tpl"}>
 
 <{block "body-container"}>
+<div id="page7">
     <div id="bgSlider"></div>
     <div class="bg_spinner"></div>
     <!--==============================header=================================-->
@@ -92,4 +93,5 @@
 			});
 		});
     </script>
+ </div>
  <{/block}>
