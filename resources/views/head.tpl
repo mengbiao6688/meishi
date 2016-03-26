@@ -1,4 +1,3 @@
-<{extends file="extends/main.block.tpl"}>
 
 <{block "head-icons"}>
 <{/block}>
@@ -6,7 +5,6 @@
 <link rel="stylesheet" href="<{'static/css/meishi/reset.css'|url}>" type="text/css" media="screen">
 <link rel="stylesheet" href="<{'static/css/meishi/style.css'|url}>" type="text/css" media="screen">
 <link rel="stylesheet" href="<{'static/css/meishi/layout.css'|url}>" type="text/css" media="screen">
-<link rel="stylesheet" href="<{'static/css/meishi/login.css'|url}>" type="text/css" >
 <link rel="stylesheet" href="<{'static/css/meishi/font.css'|url}>" type="text/css" >
 <{/block}>
 
@@ -23,4 +21,6 @@
     <script src="<{'static/js/meishi/jquery.easing.1.3.js'|url}>" type="text/javascript"></script>
     <script src="<{'static/js/meishi/tms-0.3.js'|url}>" type="text/javascript"></script>
     <script src="<{'static/js/meishi/tms_presets.js'|url}>" type="text/javascript"></script>
-    <{/block}>
+<{/block}>
+
+
