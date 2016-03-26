@@ -1,5 +1,5 @@
 <{extends file="extends/main.block.tpl"}>
-<{include file="header.tpl"}>
+<{include file="head.tpl"}>
 
 <{block "body-container"}>
     <div id="bgSlider"></div>
