@@ -11,6 +11,16 @@
                 <div class="main">
                     <div class="wrapper">
                         <h1><a href="index.html">GoodCook</a></h1>
+                         <div class="search">
+                            <form class="search_border" action="" method="post">
+                                <input class="search_text" type="text" name="search_text"/>
+                                <input class="search_btn" type="image" name="search_btn"  src="<{'static/img/meishi/search.png'|url}>"/>
+                            </form>
+                            <span>
+                                <a href="login.html">登录</a>
+                                <a href="zuce.html">注册</a>
+                            </span>
+						</div>
                         <ul class="pagination">
                             <li class="current"><a href="<{'static/img/meishi/bg-img1.jpg'|url}>">1</a></li>
                             <li><a href="<{'static/img/meishi/bg-img2.jpg'|url}>">2</a></li>
