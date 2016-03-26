@@ -16,9 +16,9 @@ class AccountController extends Controller
        if($customer->count()) {
            $customer = $customer->toArray()[0];
            if($customer['password'] == md5($request->get('password'))) {
-               exit('登录成功！');
+               exit('登录成功，请尽情的享用吧！');
            } else {
-               exit('密码错误！');
+               exit('密码错误，不要急哦！');
            }
        } else {
            exit('用户名不存在，亲！');

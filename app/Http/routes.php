@@ -16,7 +16,7 @@ $router->group(['namespace' => 'Admin','prefix' => 'admin', 'middleware' => ['au
 $router->group(['namespace' => 'Service','prefix' => 'service'], function($router) {
 
 	$router->addAdminRoutes([
-
+		'search' => 'SearchController'
 	]);
 
 	//admin目录下的其它路由需放置在本条前
@@ -32,5 +32,7 @@ $router->get('meishi/{id}','HomeController@meishi');
 $router->get('login','HomeController@login');
 
 $router->get('register','HomeController@register');
+
+$router->post('search','HomeController@search');
 
 $router->addUndefinedRoutes();

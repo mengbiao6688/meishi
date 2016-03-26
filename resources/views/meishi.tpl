@@ -1,170 +1,154 @@
 <{extends file="extends/main.block.tpl"}>
-
-<{block "head-styles"}>
-    <{block "head-styles-before"}>
-<link rel="stylesheet" href="<{'static/css/meishi/header.css'|url}>"/>
-<link rel="stylesheet" href="<{'static/css/meishi/content3.css'|url}>"/>
-    <{/block}>
-    <{include file="common/styles.inc.tpl"}>
-    <{/block}>
-
-<{block "head-scripts"}>
-    <{block "head-scripts-before"}>
-    <script src="<{'static/js/meishi/jquery-1.9.1.min.js'}>" type="text/javascript"></script>
-    <script src="<{'static/js/meishi/cotent-1.js'|url}>"></script>
-    <script src="<{'static/js/meishi/header.js'|url}>" type="text/javascript"></script>
-    <{/block}>
-    <{include file="common/scripts.inc.tpl"}>
-    <{block "head-scripts-validate"}><{include file="common/validate.inc.tpl"}><{/block}>
-    <{block "head-scripts-plus"}><{/block}>
-    <{block "head-scripts-after"}><{/block}>
-    <{/block}>
-
+<{include file="head.tpl"}>
 
 <{block "body-container"}>
-
-<div id="main">
-    <{include file="header.tpl"}>
-    <div id="c3">
-        <div id="c3-s"><!--上面的s上面部分-->
-            <div id="c3-s-z"><img src="<{'attachment/preview?id='|url}><{$_meishi.id}>"></div>
-            <div id="c3-s-y"><!--s(上面)y(右边)部分开始-->
-               <!-- <div id="c3-s-y-top">
-                    <h2>
-                        <a href="#"><{$_meishi.name}></a>
-                    </h2>
-                    <div id="fx">
-                        <a class="sc" href="#">收藏（6） </a>
-                        <strong>分享到:</strong>
-                  	<span>
-                    	<a href="#"><img src="images/comment/qq.jpg"></a>
-                    	<a href="#"><img src="images/comment/kj.jpg"></a>
-                        <a href="#"><img src="images/comment/wb.jpg"></a>
-                    </span>
+    <div id="bgSlider"></div>
+    <div class="bg_spinner"></div>
+    <!--==============================header=================================-->
+    <div class="extra">
+   	  <header>
+        	<div class="top-row">
+            	<div class="main">
+                	<div class="wrapper">
+                        <h1><a href="index.html">GoodCook</a></h1>
+                        <div class="search">
+                            <form class="search_border" action="" method="post">
+                                <input class="search_text" type="text" name="search_text"/>
+                                <input class="search_btn" type="image" name="search_btn"  src="images/search.png" />
+                            </form>
+                            <span>
+                                <a href="login">登录</a>
+                                <a href="register">注册</a>
+                            </span>
+						</div>
+                        <ul class="pagination">
+                            <li class="current"><a href="images/bg-img1.jpg">1</a></li>
+                            <li><a href="images/bg-img2.jpg">2</a></li>
+                            <li><a href="images/bg-img3.jpg">3</a></li>
+                        </ul>
+                        <strong class="bg-text">Background:</strong>
                     </div>
-                    --><!--上面的top部分结束-->
-                    <!--上面的center部分开始-->
-                    <ul id="c3-s-y-center">
-                        <li class="kz">
-                            <strong>工艺</strong>
-                            <a href="#"><{$_meishi.gongyi}></a>
-                        </li>
-                        <li class="kc">
-                            <strong>难度</strong>
-                            <div class="kc-x">
-                                <span><img src="images/page3/nandu.jpg"><img src="images/page3/ndzs.jpg"></span>
-                                <a href="#">初级入门</a>
-                                <div>
-                        </li>
-                        <li class="kc">
-                            <strong>人数</strong>
-                            <div class="kc-x">
-                                <span><img src="images/page3/renshu.jpg"><img src="images/page3/ndzs.jpg"></span>
-                                <a href="#">2人份</a>
-                                <div>
-                        </li>
-                        <li class="kz">
-                            <strong>口味</strong>
-                            <a href="#"><{$_meishi.kouwei}></a>
-                        </li>
-                        <li class="kc">
-                            <strong>准备时间</strong>
-                            <div class="kc-x">
-                                <span><img src="images/page3/shijian.jpg"><img src="images/page3/ndzs.jpg"></span>
-                                <a href="#">10分钟</a>
-                                <div>
-                        </li>
-                        <li class="kc">
-                            <strong>烹饪时间</strong>
-                            <div class="kc-x">
-                                <span><img src="images/page3/prshijian.jpg"><img src="images/page3/ndzs.jpg"></span>
-                                <a href="#"><2小时</a>
-                                <div>
-                        </li>
-
-                    </ul><!--上面的center部分结束-->
-                    <div id="c3-s-y-bottom"><!--上面的下面部分开始-->
-                        <a href="#"><img src="images/page3/zuoze.jpg"></a>
-                        <div class="xinxi">
-                            <h2>liuqian</h2>
-                            <span>菜谱:690 / 关注：49 / 粉丝：8649 </span>
-                            <strong>2015-12-22  /  1484人看过</strong>
-                            <div>
-                            </div><!--上面的下面部分结束-->
-                        </div><!--y(右边)部分结束-->
-                    </div><!--是（上面）部分结束-->
                 </div>
             </div>
+            <div class="menu-row">
+            	<div class="menu-border">
+                	<div class="main">
+                        <nav>
+                            <ul class="menu">
+                                <li><a href="index.html">首页</a></li>
+                                <li><a href="about.html">关于我们</a></li>
+                                <li><a href="courses.html">Courses</a></li>
+                                <li><a href="recipes.html">最新菜谱</a></li>
+                                <li><a class="active" href="calendar.html">Calendar</a></li>
+                                <li class="last"><a href="contacts.html">联系我们</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+			<div class="ic"></div>
+      </header>
+      <!--==============================content=================================-->
+      <div class="inner" style="height:1250px;">
+      	<div class="main" >
+        	<section id="content">
+            	<div class="indent">
+                   <div class="wrapper">
+                      <article class="col-1">
+                     	 <div class="bg">
+                             <div class="padding">
+                                  <h3 class="p2">Good Cook</h3>
+                                     <div class="wrapper p3">
+                                             <figure class="img-indent"><img src="images/page2/p2-1.jpg" alt="" /></figure>
+                                             <div class="extra-wrap">
+                                                 <h6 style="height:35px;">素三丝</h6>
+                                                 <div class="cailiao">
+                                                    <h8>主料</h8>
+                                                    <ul class="cllb">
+                                                        <li><a><h9>胡萝卜</h9><span>1段</span></a></li>
+                                                        <li><a><h9>豆芽菜</h9><span>3两</span></a></li>
+                                                        <li><a><h9>青椒</h9><span>2颗</span></a></li>
+                                                        <li><a><h9></h9><span></span></a></li>
+                                                    </ul>
+                                                 </div>
+                                                 <div class="cailiao"> 
+                                                    <h8>辅料</h8>
+                                                    <ul class="cllb">
+                                                        <li><a><h9>姜</h9><span>少许</span></a></li>
+                                                        <li><a><h9>蒜</h9><span>少许</span></a></li>
+                                                        <li><a><h9>盐</h9><span>少许</span></a></li>
+                                                        <li><a><h9>胡椒</h9><span>少许</span></a></li>
+                                                    </ul>
+                                                 </div> 
+                                             </div>
+                                      </div>
+                                  <h3 class="p2" style="border-bottom:#eeeeee 1px solid; margin-top:-8px; line-height:2.2em;" >做法</h3>
+                             		 <div class="wrapper p3">
+                               			 <figure class="img-indent"><img src="images/page3/sss/sss.png"></figure>
+                                 		 <div class="extra-wrap"> 
+                                            <h10>1、</h10>
+                                            <p8>准备好食材，葱、姜、蒜、胡萝卜、豆芽菜，并将其切好，然后热好油爆大蒜和辣椒。</p8> 
+                                        </div>
+                                    </div> 
+                                     <div class="wrapper p3">
+                                    	<figure class="img-indent"><img  src="images/page3/sss/sss2.png"></figure>
+                                        <div class="extra-wrap">
+                                            <h10>2、</h10>
+                                            <p8>将黄豆芽和胡萝卜丝放入锅内反炒，再放盐和蚝油。</p8> 
+                                        </div>
+                                    </div>
+                                     <div class="wrapper p3">
+                                    	<figure class="img-indent"><img src="images/page3/sss/sss3.png"></figure>
+                                        <div class="extra-wrap">
+                                            <h10>3、</h10>
+                                            <p8>五分熟时加入淀粉、葱花再进行翻炒，再过10 分钟即可出锅。</p8> 
+                                        </div>
+                                    </div>
+                            </div>
+                         </div>
+                      </article>
+                      <article class="col-2">
+                        <h3 class="border-bot p2">Popular Recepes</h3>
+                                        <h6 class="color-3">美食菜谱</h6>
+                                        <p>"生活水平的不断提高，人们对美食的需求也在真加，让我们看看那些菜肴获得大家的欢迎"</p>
+                                        <figure class="p2"><img src="images/page2/p2-5.jpg" alt="" /></figure>
+                                        <ul class="list-1 img-indent-bot">
+                                            <li><a href="#">减肥鸡蛋沙拉···················营养均衡</a></li>
+                                                <li><a href="#">猪耳麻辣香锅···················开胃健脾</a></li> 
+                                                <li><a href="#">酸辣酿尖椒······················开胃健脾</a></li> 
+                                                <li><a href="#">蟹粉鲜虾丸······················增强抵抗力</a></li>
+                                        </ul>
+                                        <ul class="list-1">
+                                             <li><a href="#">酸辣酿尖椒·····················开胃膳食</a></li>
+                                                <li><a href="#">洋葱炒芹菜·····················利于抗癌</a></li>
+                                                <li><a href="#">脆皮香豆腐·····················美味可口</a></li>
+                                                <li><a href="#">北京烤肉························预防贫血</a></li>                                 
+                                         </ul>
+                      </article>
+                   </div>
+                </div>
+            </section>
         </div>
-        <div id="c3-z">
-            <strong>"</strong>
-            <{$_meishi.desc}>~<strong>"</strong>
-            <strong class="yl">用料</strong>
-    <!--
-            <div id="c3-z-x">
-                <div id="fl">
-                    <ul>
-                        <h2>主料</h2>
-                        <li><a href="#"><img src="images/page3/xx.jpg">
-
-                                <h5 class="x">虾</h5>
-                                <h6 class="1qk">1000克</h6>
-
-                            </a>
-                        </li>
-                        <li><a></a></li>
-                        <h2>辅料</h2>
-                        <li><a href="#">
-
-                                <h5>盐</h5>
-                                <h6>1勺</h6>
-
-                            </a>
-                        </li>
-                        <li><a href="#">
-
-                                <h5>葱</h5>
-                                <h6>20克</h6>
-
-                            </a>
-                        </li>
-                        <h2 style="background:#FFF;"></h2>
-                        <li><a href="#">
-
-                                <h5>姜</h5>
-                                <h6>20克</h6>
-
-                            </a>
-                        </li>
-                        <li><a></a></li>
-                </div>
-            </div>
-            -->
-            <{$_meishi.yongliao}>
-            <div id="c3-x">
-                <h2>虾干的做法</h2>
-                <div id="step">
-                    <em>1、</em>
-                    <div id="step1">
-                        <p>鲜虾冲洗一下，然后清洗虾肠，去虾线。烧沸水入虾，待虾身卷成U型捞起</p>
-
-                    </div>
-                </div>
-
-                <div id="step">
-                    <em>2、</em>
-                    <div id="step1">
-                        <p>准备好辣椒，生姜等调料味</p>
-                        <p><img src="images/page3/lzl.jpg"><img src="images/page3/jszl.jpg"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-<{/block}>
+     </div><!--------------------------------------extra结束------------------------------------>
+    <footer>  <!--style=" margin-top:100px;"-->
+    	<{include file="footer.tpl"}>
+    </footer>
 
-<{block "body-scripts-jquery"}>
-    (function($){
-
-    })(jQuery);
-    <{/block}>
+ <script type="text/javascript"> Cufon.now(); </script>
+    <script type="text/javascript">
+		$(window).load(function() {
+			$('.slider')._TMS({
+				duration:1000,
+				easing:'easeOutQuart',
+				preset:'simpleFade',
+				slideshow:10000,
+				banners:'fade',
+				pauseOnHover:true,
+				waitBannerAnimation:false,
+				pagination:'.pags'
+			});
+		});
+    </script>
+ <{/block}>

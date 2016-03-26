@@ -86,4 +86,12 @@ class HomeController extends Controller
 //		$this->_validates = $this->getScriptValidate('login',$keys);
 		return $this->view('register');
 	}
+
+	public function search(Request $request) {
+		$keys = $request->get('keys');
+//		if(!$keys) {
+//			return $this->failure('search.null',url('/'));
+//		}
+		return $this->view('search');
+	}
 }

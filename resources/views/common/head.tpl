@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="<{'static/css/meishi/style.css'|url}>" type="text/css" media="screen">
 <link rel="stylesheet" href="<{'static/css/meishi/layout.css'|url}>" type="text/css" media="screen">
 <link rel="stylesheet" href="<{'static/css/meishi/font.css'|url}>" type="text/css" >
+<link rel="stylesheet" href="<{'static/css/meishi/login.css'|url}>" type="text/css" >
 <{/block}>
 
 <{block "head-scripts"}>

@@ -1,5 +1,5 @@
 <{extends file="extends/main.block.tpl"}>
-<{include file="head.tpl"}>
+<{include file="common/head.tpl"}>
 
 <{block "body-container"}>
     <div id="bgSlider"></div>
@@ -7,46 +7,7 @@
     <div class="extra">
         <!--==============================header=================================-->
         <header>
-            <div class="top-row">
-                <div class="main">
-                    <div class="wrapper">
-                        <h1><a href="index.html">GoodCook</a></h1>
-                         <div class="search">
-                            <form class="search_border" action="" method="post">
-                                <input class="search_text" type="text" name="search_text"/>
-                                <input class="search_btn" type="image" name="search_btn"  src="<{'static/img/meishi/search.png'|url}>"/>
-                            </form>
-                            <span>
-                                <a href="login">登录</a>
-                                <a href="register">注册</a>
-                            </span>
-						</div>
-                        <ul class="pagination">
-                            <li class="current"><a href="<{'static/img/meishi/bg-img1.jpg'|url}>">1</a></li>
-                            <li><a href="<{'static/img/meishi/bg-img2.jpg'|url}>">2</a></li>
-                            <li><a href="<{'static/img/meishi/bg-img3.jpg'|url}>">3</a></li>
-                        </ul>
-                        <strong class="bg-text">Background:</strong>
-                    </div>
-                </div>
-            </div>
-            <div class="menu-row">
-                <div class="menu-border">
-                    <div class="main">
-                        <nav>
-                            <ul class="menu">
-                                <li><a class="active" href="index.html">首页</a></li>
-                                <li><a href="about.html">关于我们</a></li>
-                                <li><a href="courses.html">主要课程</a></li>
-                                <li><a href="recipes.html">新菜谱</a></li>
-                                <li><a href="index-2.html">Calendar</a></li>
-                                <li class="last"><a href="contacts.html">联系我们</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <div class="ic"></div>
+            <{include file="common/header.tpl"}>
         </header>
         <!--==============================content================================-->
         <div class="inner">
@@ -110,7 +71,7 @@
 
                                     </ul>
                                     <div class="relative">
-                                        <a class="button-1" href="index-2.html">Read More</a>
+                                        <a class="button-1" href="search.tpl">Read More</a>
                                     </div>
                                 </article>
                                 <article class="col-1">
@@ -125,7 +86,7 @@
                                         <li><a href="#">蟹粉鲜虾丸······················增强抵抗力</a></li>										 <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>">
                                     </ul>
                                     <div class="relative">
-                                        <a class="button-1" href="index-2.html">Read More</a>
+                                        <a class="button-1" href="search.tpl">Read More</a>
                                     </div>
                                 </article>
                                 <article class="col-2">
@@ -141,7 +102,7 @@
                                         <img src="<{'static/img/meishi/page2/p2-11.jpg'|url}>">
                                     </ul>
                                     <div class="relative">
-                                        <a class="button-1"  href="index-2.html">Read More</a>
+                                        <a class="button-1"  href="search.tpl">Read More</a>
                                     </div>
                                 </article>
                             </div><!-----------------wrapper结束--------------------->
@@ -175,23 +136,7 @@
     </div><!------------------------extra结束--------------------------->
 <!--==============================footer=================================-->
     <footer>
-        <div class="padding">
-            <div class="main">
-                <div class="wrapper">
-                    <div class="fleft footer-text">
-                        <span>Good Cook</span> &copy; liuqian
-                        <strong>欢迎大家光临我的美食网站</strong>
-                        <!-- {%FOOTER_LINK} -->
-                    </div>
-                    <ul class="list-services">
-                        <li>Link to Us:</li>
-                        <li><a class="tooltips" title="facebook" href="#"></a></li>
-                        <li class="item-1"><a class="tooltips" title="twitter" href="#"></a></li>
-                        <li class="item-2"><a class="tooltips" title="linkedin" href="#"></a></li>
-                    </ul>
-                </div><!-------------------------wrapper结束------------------------->
-            </div><!---------------------main结束-------------------->
-        </div><!-----------------------padding结束----------------------------->
+        <{include file="common/footer.tpl"}>
     </footer>
     <script type="text/javascript"> Cufon.now(); </script>
     <script type="text/javascript">
