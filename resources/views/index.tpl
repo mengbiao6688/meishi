@@ -1,4 +1,4 @@
-
+<{extends file="extends/main.block.tpl"}>
 <{include file="header.tpl"}>
 
 <{block "body-container"}>
@@ -216,8 +216,4 @@
         $('.col-3 ul li').animate({top:100},200)
 
     </script>
-<{/block}>
-
-<{block "body-scripts-jquery"}>
-
 <{/block}>
