@@ -1,14 +1,16 @@
 <{extends file="extends/main.block.tpl"}>
 
-
-<{block "head-styles-before"}>
+<{block "head-icons"}>
+<{/block}>
+<{block "head-styles"}>
 <link rel="stylesheet" href="<{'static/css/meishi/reset.css'|url}>" type="text/css" media="screen">
 <link rel="stylesheet" href="<{'static/css/meishi/style.css'|url}>" type="text/css" media="screen">
 <link rel="stylesheet" href="<{'static/css/meishi/layout.css'|url}>" type="text/css" media="screen">
 <link rel="stylesheet" href="<{'static/css/meishi/login.css'|url}>" type="text/css" >
-    <{/block}>
+<link rel="stylesheet" href="<{'static/css/meishi/font.css'|url}>" type="text/css" >
+<{/block}>
 
-<{block "head-scripts-before"}>
+<{block "head-scripts"}>
     <script src="<{'static/js/meishi/jquery-1.6.3.min.js'|url}>" type="text/javascript"></script>
     <script src="<{'static/js/meishi/cufon-yui.js'|url}>" type="text/javascript"></script>
     <script src="<{'static/js/meishi/cufon-replace.js'|url}>" type="text/javascript"></script>
