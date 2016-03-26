@@ -48,7 +48,6 @@ class HomeController extends Controller
 		return $this->view('index');
 	}
 
-
 	private function meishiType($type) {
 		$types = Meishi::where('id',$type)->take(5)->get();
 		foreach($types as $item) {
@@ -76,6 +75,10 @@ class HomeController extends Controller
         return $this->view('meishi');
 	}
 
+	public function about() {
+		return $this->view('about');
+	}
+
 	public function login() {
 
 		return $this->view('login');
@@ -92,6 +95,22 @@ class HomeController extends Controller
 //		if(!$keys) {
 //			return $this->failure('search.null',url('/'));
 //		}
+		$this->_results = $this->getSearchResult($keys);
+		$this->_keys = $keys;
 		return $this->view('search');
+	}
+
+	private function getSearchResult($keys) {
+
+		$meishi = Meishi::where('name','like',"%$keys%")->get();
+		if($meishi->count()) {
+			foreach($meishi as $m) {
+				$m->pid = $m->getCover()->first();
+			}
+			return $meishi;
+
+		} else {
+			return [];
+		}
 	}
 }

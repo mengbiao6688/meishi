@@ -33,6 +33,8 @@ $router->get('login','HomeController@login');
 
 $router->get('register','HomeController@register');
 
+$router->get('about','HomeController@about');
+
 $router->post('search','HomeController@search');
 
 $router->addUndefinedRoutes();

@@ -1,5 +1,5 @@
 <{extends file="extends/main.block.tpl"}>
-<{include file="head.tpl"}>
+<{include file="common/head.tpl"}>
 
 <{block "body-container"}>
     <div id="bgSlider"></div>
@@ -7,46 +7,7 @@
     <!--==============================header=================================-->
     <div class="extra">
    	  <header>
-        	<div class="top-row">
-            	<div class="main">
-                	<div class="wrapper">
-                        <h1><a href="index.html">GoodCook</a></h1>
-                        <div class="search">
-                            <form class="search_border" action="" method="post">
-                                <input class="search_text" type="text" name="search_text"/>
-                                <input class="search_btn" type="image" name="search_btn"  src="images/search.png" />
-                            </form>
-                            <span>
-                                <a href="login">登录</a>
-                                <a href="register">注册</a>
-                            </span>
-						</div>
-                        <ul class="pagination">
-                            <li class="current"><a href="images/bg-img1.jpg">1</a></li>
-                            <li><a href="images/bg-img2.jpg">2</a></li>
-                            <li><a href="images/bg-img3.jpg">3</a></li>
-                        </ul>
-                        <strong class="bg-text">Background:</strong>
-                    </div>
-                </div>
-            </div>
-            <div class="menu-row">
-            	<div class="menu-border">
-                	<div class="main">
-                        <nav>
-                            <ul class="menu">
-                                <li><a href="index.html">首页</a></li>
-                                <li><a href="about.html">关于我们</a></li>
-                                <li><a href="courses.html">Courses</a></li>
-                                <li><a href="recipes.html">最新菜谱</a></li>
-                                <li><a class="active" href="calendar.html">Calendar</a></li>
-                                <li class="last"><a href="contacts.html">联系我们</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-			<div class="ic"></div>
+        	<{include file="common/header.tpl"}>
       </header>
       <!--==============================content=================================-->
       <div class="inner" style="height:1250px;">
@@ -59,9 +20,9 @@
                              <div class="padding">
                                   <h3 class="p2">Good Cook</h3>
                                      <div class="wrapper p3">
-                                             <figure class="img-indent"><img src="images/page2/p2-1.jpg" alt="" /></figure>
+                                             <figure class="img-indent"><img src="<{'attachment/resize?id='|url}><{$_meishi.id}>" alt="" /></figure>
                                              <div class="extra-wrap">
-                                                 <h6 style="height:35px;">素三丝</h6>
+                                                 <h6 style="height:35px;"><{$_meishi.name}></h6>
                                                  <div class="cailiao">
                                                     <h8>主料</h8>
                                                     <ul class="cllb">
@@ -83,27 +44,7 @@
                                              </div>
                                       </div>
                                   <h3 class="p2" style="border-bottom:#eeeeee 1px solid; margin-top:-8px; line-height:2.2em;" >做法</h3>
-                             		 <div class="wrapper p3">
-                               			 <figure class="img-indent"><img src="images/page3/sss/sss.png"></figure>
-                                 		 <div class="extra-wrap"> 
-                                            <h10>1、</h10>
-                                            <p8>准备好食材，葱、姜、蒜、胡萝卜、豆芽菜，并将其切好，然后热好油爆大蒜和辣椒。</p8> 
-                                        </div>
-                                    </div> 
-                                     <div class="wrapper p3">
-                                    	<figure class="img-indent"><img  src="images/page3/sss/sss2.png"></figure>
-                                        <div class="extra-wrap">
-                                            <h10>2、</h10>
-                                            <p8>将黄豆芽和胡萝卜丝放入锅内反炒，再放盐和蚝油。</p8> 
-                                        </div>
-                                    </div>
-                                     <div class="wrapper p3">
-                                    	<figure class="img-indent"><img src="images/page3/sss/sss3.png"></figure>
-                                        <div class="extra-wrap">
-                                            <h10>3、</h10>
-                                            <p8>五分熟时加入淀粉、葱花再进行翻炒，再过10 分钟即可出锅。</p8> 
-                                        </div>
-                                    </div>
+                             		 <{$_meishi.zuofa nofilter}>
                             </div>
                          </div>
                       </article>
@@ -133,7 +74,7 @@
     </div>
      </div><!--------------------------------------extra结束------------------------------------>
     <footer>  <!--style=" margin-top:100px;"-->
-    	<{include file="footer.tpl"}>
+    	<{include file="common/footer.tpl"}>
     </footer>
 
  <script type="text/javascript"> Cufon.now(); </script>
