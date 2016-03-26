@@ -2,6 +2,7 @@
 <{include file="common/head.tpl"}>
 
 <{block "body-container"}>
+<div id="page5">
 <div id="bgSlider"></div>
     <div class="bg_spinner"></div>
 	<div class="extra">
@@ -62,4 +63,5 @@
     	<{include file="common/footer.tpl"}>
     </footer>
     <script type="text/javascript"> Cufon.now(); </script>
+</div>
 <{/block}>
