@@ -20,6 +20,7 @@
                                 <div class="bg">
                                     <div class="padding">
                                     	<h3 class="p2">Good Cook</h3>
+                                        <{if $data}>
                                         <{foreach $_results as $data}>
                                         <div class="wrapper p3">
                                         	<figure class="img-indent"><a href=""><img src="<{'attachment/resize?id='}><{$data.pid}>" alt="" /></a></figure>
@@ -30,6 +31,9 @@
                                             </div>
                                         </div>
                                         <{/foreach}>
+                                        <{else}>
+                                        没有找到“<span style="color:red"><{$_keys}></span>”相关的美食
+                                        <{/if}>
                                     </div>
                                 </div>
                             </article>

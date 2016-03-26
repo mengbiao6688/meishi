@@ -96,9 +96,9 @@ class HomeController extends Controller
 
 	public function search(Request $request) {
 		$keys = $request->get('keys');
-//		if(!$keys) {
-//			return $this->failure('search.null',url('/'));
-//		}
+		if(!$keys) {
+			return $this->failure('search.null',url('/'));
+		}
 		$this->_results = $this->getSearchResult($keys);
 		$this->_keys = $keys;
 		return $this->view('search');
