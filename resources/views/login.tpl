@@ -1,13 +1,8 @@
-<{include file="header.tpl"}>
+<{extends file="extends/main.block.tpl"}>
+<{include file="head.tpl"}>
 
 <{block "head-scripts-plus"}>
-	<script type="text/javascript">
-	(function($){
-		$().ready(function(){
-			<{call validate selector='#form'}>
-		});
-	})(jQuery);
-	</script>
+
 <{/block}>
 
 <{block "body-container"}>

@@ -17,8 +17,8 @@
                                 <input class="search_btn" type="image" name="search_btn"  src="<{'static/img/meishi/search.png'|url}>"/>
                             </form>
                             <span>
-                                <a href="login.html">登录</a>
-                                <a href="zuce.html">注册</a>
+                                <a href="login">登录</a>
+                                <a href="register">注册</a>
                             </span>
 						</div>
                         <ul class="pagination">
