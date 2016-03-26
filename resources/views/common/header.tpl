@@ -28,11 +28,11 @@
             <nav>
                 <ul class="menu">
                     <li><a class="active" href="/">首页</a></li>
-                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="about">关于我们</a></li>
                     <li><a href="courses.html">主要课程</a></li>
                     <li><a href="recipes.html">新菜谱</a></li>
                     <li><a href="search.tpl">Calendar</a></li>
-                    <li class="last"><a href="contacts.html">联系我们</a></li>
+                    <li class="last"><a href="contact">联系我们</a></li>
                 </ul>
             </nav>
         </div>

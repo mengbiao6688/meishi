@@ -79,8 +79,12 @@ class HomeController extends Controller
 		return $this->view('about');
 	}
 
-	public function login() {
+	public function contact() {
+		return $this->view('contact');
+	}
 
+
+	public function login() {
 		return $this->view('login');
 	}
 
