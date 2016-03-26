@@ -53,3 +53,5 @@ $router->get('meishi/{id}','HomeController@meishi');
 $router->get('login','HomeController@login');
 
 $router->get('register','HomeController@register');
+
+$router->addUndefinedRoutes();
