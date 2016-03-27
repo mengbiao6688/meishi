@@ -25,7 +25,7 @@ class HomeController extends Controller
 	public function index(Request $request)
 	{
 		//特色菜谱
-		$special = Meishi::where('special',1)->take(3)->get(['id','name']);
+		/*$special = Meishi::where('special',1)->take(3)->get(['id','name']);
 		foreach($special as $item) {
 			$data = $item->getCover();
 			$item->cover_id = $data->toArray()[0];
@@ -43,7 +43,7 @@ class HomeController extends Controller
 		//国内菜肴
 		$this->_guonei = $this->meishiType(2);
 		//家常菜肴
-		$this->_jiachang = $this->meishiType(3);
+		$this->_jiachang = $this->meishiType(3);*/
 
 		return $this->view('index');
 	}
