@@ -6,52 +6,14 @@
 	</div>
 </div>
 
-<div class="form-group">
-	<label class="col-md-3 control-label" for="name">工艺</label>
-	<div class="col-md-9">
-		<input type="text" id="gongyi" name="gongyi" class="form-control" placeholder="请输入工艺" value="<{$_data.gongyi}>">
-	</div>
-</div>
-
-<div class="form-group">
-	<label class="col-md-3 control-label" for="kouwei">口味</label>
-	<div class="col-md-9">
-		<input type="text" id="kouwei" name="kouwei" class="form-control" placeholder="请输入口味" value="<{$_data.kouwei}>">
-	</div>
-</div>
-
-<div class="form-group">
-	<label class="col-md-3 control-label">特别</label>
-	<div class="col-md-9">
-		<label class="radio-inline">
-			<input type="radio" name="special" value="1" <{if $_data.special eq 1}>checked="checked"<{/if}> > 是
-		</label>
-		<label class="radio-inline">
-			<input type="radio" name="special" value="0" <{if $_data.special eq 0}>checked="checked"<{/if}> > 否
-		</label>
-		<div class="clearfix"></div>
-	</div>
-</div>
-
-<div class="form-group">
+<!--<div class="form-group">
 	<label class="col-md-3 control-label" for="cat_id">美食分类</label>
 	<div class="col-md-9">
 
-		<select name="cat_id" id="cat_id" class="select-model form-control"  data-model="admin/category"  data-text="{name}" data-placeholder="上级分类"></select>
+		<select name="cat_id" id="cat_id" class="select-model form-control" data-placeholder="请选择分类"  data-model="admin/category"  data-text="{name}" data-placeholder="上级分类"></select>
 
 	</div>
-</div>
-
-<div class="form-group">
-	<label class="col-md-3 control-label" for="type">类型</label>
-	<div class="col-md-9">
-		<select name="type" id="type" class="select-model form-control"  data-text="请选择类型" data-placeholder="上级分类">
-			<option <{if $_data.type eq 1}>selected="selected"<{/if}> value="1">国外菜肴</option>
-			<option <{if $_data.type eq 2}>selected="selected"<{/if}> value="2">国内菜肴</option>
-			<option <{if $_data.type eq 3}>selected="selected"<{/if}> value="3">家常菜肴</option>
-		</select>
-	</div>
-</div>
+</div>-->
 
 <div class="form-group">
 	<label class="col-md-3 control-label" for="cover_aids">美食图片</label>
