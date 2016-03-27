@@ -82,7 +82,7 @@ class MeishiController extends Controller
         if(!$meishi) {
             return $this->failure_noexists();
         }
-        $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids,desc,cat_id';
+        $keys = 'name,yongliao,zuofa,cover_aids,desc,cat_id';
         $this->_validates = $this->getScriptValidate('meishi',$keys);
         $this->_cover_aids = $meishi->getCovers();
         $this->_data = $meishi;
