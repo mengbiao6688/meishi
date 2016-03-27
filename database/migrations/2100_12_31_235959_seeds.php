@@ -205,10 +205,6 @@ class Seeds extends Migration
 			'nickname' => '超级管理员',
 		], \App\Role::ADMIN);
 
-		\App\Category::create([
-			'name' => '顶级分类',
-			'parent_id' => 0
-		]);
 	}
 
 	/**
