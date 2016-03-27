@@ -12,7 +12,6 @@ class AccountController extends Controller
 {
    public function login(Request $request) {
        $customer = Customer::where('username',$request->get('username'))->get(['username','password']);
-
        if($customer->count()) {
            $customer = $customer->toArray()[0];
            if($customer['password'] == md5($request->get('password'))) {
