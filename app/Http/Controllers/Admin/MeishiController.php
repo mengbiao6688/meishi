@@ -45,7 +45,7 @@ class MeishiController extends Controller
      */
     public function create()
     {
-        $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids';
+        $keys = 'name,yongliao,zuofa,cover_aids';
         $this->_validates = $this->getScriptValidate('meishi',$keys);
         return $this->view('admin.meishi.create');
     }
@@ -58,7 +58,7 @@ class MeishiController extends Controller
      */
     public function store(Request $request)
     {
-        $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids,desc,cat_id';
+        $keys = 'name,yongliao,zuofa,cover_aids,desc,cat_id';
         $data = $this->_validates = $this->autoValidate($request,'meishi',$keys);
         $cover_aids = $data['cover_aids'];unset($data['cover_aids']);
         $meishi = Meishi::create($data);
