@@ -5,7 +5,7 @@
             <div class="search">
                 <form class="search_border" action="<{'search'|url}>" method="post" id="search">
                     <input type="hidden" name="_token" value="<{csrf_token()}>"/>
-                    <input class="search_text" type="text" name="keys" required/>
+                    <input class="search_text" type="text" name="keys" value="<{$_keys}>" required/>
                     <input class="search_btn" type="image"  src="<{'static/img/meishi/search.png'|url}>"/>
                 </form>
                             <span>
