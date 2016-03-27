@@ -2,6 +2,7 @@
 <{include file="common/head.tpl"}>
 
 <{block "body-container"}>
+<div id="page1">
     <div id="bgSlider"></div>
     <div class="bg_spinner"></div>
     <div class="extra">
@@ -161,4 +162,5 @@
         $('.col-3 ul li').animate({top:100},200)
 
     </script>
+   </div>
 <{/block}>
