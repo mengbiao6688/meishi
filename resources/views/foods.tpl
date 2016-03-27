@@ -24,8 +24,7 @@
                                         	<figure class="img-indent"><img src="<{'static/img/meishi/page4/hlb.jpg'|url}>" alt="" /></figure>
                                             <div class="extra-wrap">
                                             	<h6>胡萝卜</h6>
-                                                <p class="p1">胡萝卜含有大量胡萝卜素，有补肝明目的作用；</br>
-                                                胡萝卜素转变成维生素A,可增强免疫功能；</br>胡萝卜还含有降糖物质，可降血糖血脂。</br>可以保护牙龈和牙齿</br>胡萝卜还可以预防癌症。
+                                                <p class="p1">胡萝卜含有大量胡萝卜素，有补肝明目的作用；</br> 胡萝卜素转变成维生素A,可增强免疫功能；</br>胡萝卜还含有降糖物质，可降血糖血脂
                                                 </p>
                                                <!-- <a class="button-2" href="#">Read More</a>-->
                                             </div>
@@ -34,7 +33,7 @@
                                         	<figure class="img-indent"><img src="<{'static/img/meishi/page4/xhs.jpg'|url}>" alt="" /></figure>
                                             <div class="extra-wrap">
                                             	<h6>番茄、西红柿 </h6>
-                                                <p class="p1">西红柿既包含蛋白质、脂肪、碳水化合物等营养成分，也含有维生素B1、B2、C、P等多种维生素和钾、钙、磷、铁等矿物质。</br>番茄红素具有抗氧化功能，有助消化，提高免疫力。</p>
+                                                <p class="p1">西红柿既包含蛋白质、脂肪、碳水化合物等营养成分，也含有维生素B1、B2、C、P等多种维生素和钾、钙、磷、铁等矿物质。番茄红素具有抗氧化功能，有助消化，提高免疫力。</p>
                                                 <!--<a class="button-2" href="#">Read More</a>-->
                                             </div>
                                         </div>
@@ -42,17 +41,25 @@
                                         	<figure class="img-indent"><img src="<{'static/img/meishi/page4/wj.jpg'|url}>" alt="" /></figure>
                                             <div class="extra-wrap">
                                             	<h6>莴苣</h6>
-                                                <p class="p1">胡萝卜含有大量胡萝卜素，有补肝明目的作用；</br>
-                                                胡萝卜素转变成维生素A,可增强免疫功能；</br>胡萝卜还含有降糖物质，可降血糖血脂。</br>可以保护牙龈和牙齿</br>胡萝卜还可以预防癌症。
-                                                </p>
+                                                <p class="p1">　性味归经：莴笋味甘、性凉、苦，入肠、胃经。</br>
+　　功效主治：具有利五脏，通经脉，清胃热，清热利尿的功效；用于小便不利、尿血、乳汁不通等症。</br>作用：改善肝脏功能，消积下气。</p>
+                                                
                                                <!-- <a class="button-2" href="#">Read More</a>-->
                                             </div>
                                         </div>
                                         <div class="wrapper">
-                                        	<figure class="img-indent"><img src=<{'static/img/meishi/page4/xhs.jpg'|url}>" alt="" /></figure>
+                                        	<figure class="img-indent"><img src="<{'static/img/meishi/page4/hg.jpg'|url}>" alt="" /></figure>
                                             <div class="extra-wrap">
-                                            	<h6>番茄、西红柿 </h6>
-                                                <p class="p1">西红柿既包含蛋白质、脂肪、碳水化合物等营养成分，也含有维生素B1、B2、C、P等多种维生素和钾、钙、磷、铁等矿物质。</br>番茄红素具有抗氧化功能，有助消化，提高免疫力。</p>
+                                            	<h6>黄瓜</h6>
+                                                <p class="p1">葫芦素C具有提高人体免疫功能的作用；</br>老黄瓜中含有丰富的维生素E,可抗衰老；</br>黄瓜中所含的丙醇二酸，可减肥</p>
+                                                <!--<a class="button-2" href="#">Read More</a>-->
+                                            </div>
+                                        </div>
+                                        <div class="wrapper">
+                                        	<figure class="img-indent"><img src="<{'static/img/meishi/page4/sc.jpg'|url}>" alt="" /></figure>
+                                            <div class="extra-wrap">
+                                            	<h6>生菜</h6>
+                                                <p class="p1">生菜营养含量丰富，含有大量β胡萝卜素、抗氧化物、维生素B1、B6 、维生素E、维生素C，还有大量膳食纤维素和微量元素如镁、磷、钙及少量的铁、铜、锌。加强蛋白质和脂肪的消化与吸收，改善肠胃的血液循环可以常吃生菜。</p>
                                                 <!--<a class="button-2" href="#">Read More</a>-->
                                             </div>
                                         </div>
