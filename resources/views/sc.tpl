@@ -31,7 +31,7 @@
                                             </div>
                                         </div>
                                         <div class="wrapper">
-                                        	<figure class="img-indent"><img src=<{'static/img/meishi/page4/xhs.jpg'|url}>" alt="" /></figure>
+                                        	<figure class="img-indent"><img src="<{'static/img/meishi/page4/xhs.jpg'|url}>" alt="" /></figure>
                                             <div class="extra-wrap">
                                             	<h6>番茄、西红柿 </h6>
                                                 <p class="p1">西红柿既包含蛋白质、脂肪、碳水化合物等营养成分，也含有维生素B1、B2、C、P等多种维生素和钾、钙、磷、铁等矿物质。</br>番茄红素具有抗氧化功能，有助消化，提高免疫力。</p>
@@ -39,9 +39,9 @@
                                             </div>
                                         </div>
                                          <div class="wrapper p3">
-                                        	<figure class="img-indent"><img src="<{'static/img/meishi/page4/hlb.jpg'|url}>" alt="" /></figure>
+                                        	<figure class="img-indent"><img src="<{'static/img/meishi/page4/wj.jpg'|url}>" alt="" /></figure>
                                             <div class="extra-wrap">
-                                            	<h6>胡萝卜</h6>
+                                            	<h6>莴苣</h6>
                                                 <p class="p1">胡萝卜含有大量胡萝卜素，有补肝明目的作用；</br>
                                                 胡萝卜素转变成维生素A,可增强免疫功能；</br>胡萝卜还含有降糖物质，可降血糖血脂。</br>可以保护牙龈和牙齿</br>胡萝卜还可以预防癌症。
                                                 </p>
