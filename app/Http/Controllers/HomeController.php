@@ -67,6 +67,7 @@ class HomeController extends Controller
 
 	}
 
+	//详情页
 	public function meishi($id) {
 		$meishi = Meishi::find($id);
 		$meishi->cover_id = $meishi->getCover()->toArray()[0];
@@ -75,15 +76,17 @@ class HomeController extends Controller
         return $this->view('meishi');
 	}
 
+	//关于我们
 	public function about() {
 		return $this->view('about');
 	}
 
+	//联系我们
 	public function contact() {
 		return $this->view('contact');
 	}
 
-
+	//页面
 	public function login() {
 		return $this->view('login');
 	}
@@ -94,6 +97,11 @@ class HomeController extends Controller
 		return $this->view('register');
 	}
 
+	public function foods() {
+		return $this->view('foods');
+	}
+
+	//搜索页面
 	public function search(Request $request) {
 		$keys = $request->get('keys');
 		if(!$keys) {
