@@ -70,6 +70,9 @@ class HomeController extends Controller
 	//详情页
 	public function meishi($id) {
 		$meishi = Meishi::find($id);
+		if(!$meishi) {
+			return $this->failure('meishi.nomeishi',url('/'));
+		}
 		$meishi->cover_id = $meishi->getCover()->toArray()[0];
 		$this->_meishi = $meishi;
 
@@ -105,7 +108,7 @@ class HomeController extends Controller
 	public function search(Request $request) {
 		$keys = $request->get('keys');
 		if(!$keys) {
-			return $this->failure('search.null',url('/'));
+			return $this->failure('meishi.null',url('/'));
 		}
 		$this->_results = $this->getSearchResult($keys);
 		$this->_keys = $keys;
