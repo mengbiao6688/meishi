@@ -103,7 +103,7 @@ class MeishiController extends Controller
             return $this->failure_noexists();
         }
 
-        $keys = 'name,gongyi,kouwei,yongliao,zuofa,special,type,cover_aids';
+        $keys = 'name,yongliao,zuofa,desc,type,cover_aids';
         $data = $this->autoValidate($request,'meishi',$keys);
         $cover_aids = $data['cover_aids'];unset($data['cover_aids']);
         $cover = $meishi->covers();

@@ -46,13 +46,10 @@
 <div class="form-group">
 	<label class="col-md-3 control-label" for="zuofa">做法</label>
 	<div class="col-md-9">
-		<textarea id="content1" name="zuofa" class="" placeholder="请输入..."><{$_data->yongliao}></textarea>
+		<textarea id="content1" name="zuofa" class="" placeholder="请输入..."><{$_data->zuofa}></textarea>
 	</div>
 	<div class="clearfix"></div>
 </div>
-
-
-
 
 
 <div class="form-group form-actions">
