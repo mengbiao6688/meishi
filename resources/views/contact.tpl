@@ -27,8 +27,8 @@
                                                         <textarea></textarea>
                                                         <div class="clear"></div>
                                                         <div class="buttons">
-                                                            <a class="button-2" href="#" onClick="document.getElementById('contact-form').reset()">Clear</a>
-                                                            <a class="button-2" href="#" onClick="document.getElementById('contact-form').submit()">Send</a>
+                                                            <a class="button-1" href="#" onClick="document.getElementById('contact-form').reset()">Clear</a>
+                                                            <a class="button-1" href="#" onClick="document.getElementById('contact-form').submit()">Send</a>
                                                         </div> 
                                                     </div>
                                                   </div>                            
@@ -46,37 +46,38 @@
                             <article class="col-2">
                             	<h3 class="border-bot indent-bot">Our Contacts</h3>
                                 <div class="img-indent-bot">
-                                    <h6>Canada</h6>
+                                    <h6>湖北</h6>
                                     <dl>
-                                        <dt>8901 Marmora Road, Glasgow, D04</dt>
-                                        <dd><span>Telephone:</span>  +1 959 603 6035</dd>
-                                        <dd><span>FAX:</span>  +1 504 889 9898</dd>
-                                        <dd><span>E-mail:</span><a href="#">mail@thomsander.com</a></dd>
+                                        <dt>地址：湖北省黄石市</dt>
+                                        <dd><span>Tel:</span> 123456</dd>
+                                        <dd><span>E-mail:</span><a href="#">mail@123456@qq.com</a></dd>
+                                        <dd><span>联系人：</span>潜行蜗牛</dd> 
                                     </dl>
                                 </div>
                                 <div class="img-indent-bot">
-                                    <h6>Great Britain</h6>
+                                    <h6>湖南</h6>
                                     <dl>
-                                        <dt>8901 Marmora Road, Glasgow, D04</dt>
-                                        <dd><span>Telephone:</span>  +1 959 603 6035</dd>
-                                        <dd><span>FAX:</span>  +1 504 889 9898</dd>
-                                        <dd><span>E-mail:</span><a href="#">mail@thomsander.com</a></dd>
+                                        <dt>湖南省长沙市</dt>
+                                        <dd><span>Tel:</span>123456</dd>
+                                        <dd><span>E-mail:</span><a href="#">mail@123456@qq.com</a></dd>
+                                        <dd><span>联系人：</span>深呼吸</dd>
+                                        
                                     </dl>
                                 </div>
-                                <h6>Japan</h6>
-                                <dl>
-                                    <dt>8901 Marmora Road, Glasgow, D04</dt>
-                                    <dd><span>Telephone:</span>  +1 959 603 6035</dd>
-                                    <dd><span>FAX:</span>  +1 504 889 9898</dd>
-                                    <dd><span>E-mail:</span><a href="#">mail@thomsander.com</a></dd>
-                                </dl>
+                                 <div class="img-indent-bot">
+                                    <h6>安徽省</h6>
+                                    <dl>
+                                        <dt>地址：安徽省安庆市</dt>
+                                        <dd><span>Tel:</span> 123456</dd>
+                                        dd><span>E-mail:</span><a href="#">mail@123456@qq.com</a></dd>
+                                        <dd><span>联系人：</span>等风来</dd>
+                                    </dl>
+                                </div>
                                  <div class="img-indent-bot">
                                     <h6>大家可以一定要记得我们的网址哟！</h6>
                                     <dl>
                                         <dt>我们的网址是：</dt>
                                         <h6><dd>www.meishi.com</dd></h6>
-                                       <!-- <dd><span>FAX:</span>  +1 504 889 9898</dd>
-                                        <dd><span>E-mail:</span><a href="#">mail@thomsander.com</a></dd>-->
                                     </dl>
                                 </div>
                             </article>
