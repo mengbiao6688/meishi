@@ -41,6 +41,8 @@ $router->get('foods','HomeController@foods');
 
 $router->get('recipes','HomeController@recipes');
 
+$router->get('tips','HomeController@tips');
+
 $router->post('search','HomeController@search');
 
 $router->addUndefinedRoutes();

@@ -65,6 +65,10 @@ class HomeController extends Controller
 		return $this->view('recipes');
 	}
 
+	public function tips() {
+		return $this->view('tips');
+	}
+
 	public function register() {
 //		$keys = 'username,password,password2';
 //		$this->_validates = $this->getScriptValidate('login',$keys);
