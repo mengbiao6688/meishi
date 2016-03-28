@@ -20,19 +20,19 @@
                                 <div class="bg">
                                     <div class="padding">
                                     	<h3 class="p2">Good Cook</h3>
-                                        <{if $data}>
-                                        <{foreach $_results as $data}>
-                                        <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href=""><img src="<{'attachment/resize?id='}><{$data.pid}>" alt="" /></a></figure>
-                                            <div class="extra-wrap">
-                                            	<h6><{$data.name}></h6>
-                                                <p class="p1">“<{$data.desc}>”</p>
-                                                <a class="button-2" href="<{'detail'}>/<{$data.id}>">Read More</a>
+                                        <{if $_results}>
+                                            <{foreach $_results as $data}>
+                                            <div class="wrapper p3">
+                                                <figure class="img-indent"><a href=""><img src="<{'attachment/resize?id='}><{$data.pid}>" alt="" /></a></figure>
+                                                <div class="extra-wrap">
+                                                    <h6><{$data.name}></h6>
+                                                    <p class="p1">“<{$data.desc}>”</p>
+                                                    <a class="button-2" href="<{'detail'}>/<{$data.id}>">Read More</a>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <{/foreach}>
+                                            <{/foreach}>
                                         <{else}>
-                                        没有找到“<span style="color:red"><{$_keys}></span>”相关的美食
+                                            没有找到“<span style="color:red"><{$_keys}></span>”相关的美食
                                         <{/if}>
                                     </div>
                                 </div>
