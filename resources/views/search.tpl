@@ -27,7 +27,7 @@
                                                 <div class="extra-wrap">
                                                     <h6><{$data.name}></h6>
                                                     <p class="p1">“<{$data.desc}>”</p>
-                                                    <a class="button-2" href="<{'detail'}>/<{$data.id}>">Read More</a>
+                                                    <a class="button-2" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                                 </div>
                                             </div>
                                             <{/foreach}>
