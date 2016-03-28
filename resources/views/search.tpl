@@ -23,7 +23,7 @@
                                         <{if $_results}>
                                             <{foreach $_results as $data}>
                                             <div class="wrapper p3">
-                                                <figure class="img-indent"><a href=""><img src="<{'attachment/resize?id='}><{$data.pid}>" alt="" /></a></figure>
+                                                <figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'attachment/resize?id='}><{$data.pid}>" alt="" /></a></figure>
                                                 <div class="extra-wrap">
                                                     <h6><{$data.name}></h6>
                                                     <p class="p1">“<{$data.desc}>”</p>

@@ -37,26 +37,26 @@
                                         <div class="wrapper indent-bot">
                                         	<div class="column-1">
                                             	<div class="wrapper">
-                                                	<figure class="img-indent"><a href="#"><img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a></figure>
+                                                	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a></figure>
                                                     <div class="extra-wrap">
                                                     	<div class="margin-top">
                                                             <h6>减肥鸡蛋沙拉</h6>
                                                             <p class="p1">作者：潜行蜗牛；</br>
                                                             主要材料是咸蛋，香菜等，有减肥功能</p>
-                                                            <a class="link" href="#">Read More</a>
+                                                            <a class="link" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="column-2">
                                             	<div class="wrapper">
-                                                	<figure class="img-indent"><a href="#"><img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>" alt="" /></a></figure>
+                                                	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>" alt="" /></a></figure>
                                                     <div class="extra-wrap">
                                                     	<div class="margin-top">
                                                             <h6>蟹粉鲜虾丸</h6>
                                                             <p class="p1">作者：深呼吸；</br>
                                                             主要材料是虾，清理肠胃，排除油脂</p>
-                                                            <a class="link" href="#">Read More</a>
+                                                            <a class="link" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -65,26 +65,26 @@
                                         <div class="wrapper">
                                         	<div class="column-1">
                                             	<div class="wrapper">
-                                                	<figure class="img-indent"><a href="#"><img src="<{'static/img/meishi/page2/p2-6.jpg'|url}>" alt="" /></a></figure>
+                                                	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-6.jpg'|url}>" alt="" /></a></figure>
                                                     <div class="extra-wrap">
                                                     	<div class="margin-top">
                                                             <h6>猪耳麻辣香锅</h6>
                                                             <p class="p1">作者：刘倩;</br>
                                                             主要材料猪耳、辣椒，色香味俱全</p>
-                                                            <a class="link" href="#">Read More</a>
+                                                            <a class="link" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="column-2">
                                             	<div class="wrapper">
-                                                	<figure class="img-indent"><a href="#"><img src="<{'static/img/meishi/page2/p2-10.jpg'|url}>" alt="" /></a></figure>
+                                                	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-10.jpg'|url}>" alt="" /></a></figure>
                                                     <div class="extra-wrap">
                                                     	<div class="margin-top">
                                                             <h6>洋葱炒芹菜</h6>
                                                             <p class="p1">作者：等风来</br>
                                                             主要材料洋葱、芹菜，清热解毒</p>
-                                                            <a class="link" href="#">Read More</a>
+                                                            <a class="link" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                                         </div>
                                                     </div>
                                                 </div>
