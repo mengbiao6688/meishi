@@ -67,23 +67,36 @@
                                 </div>
                             </article>
                             <article class="col-2">
-                            	<h3 class="border-bot p2">All Courses</h3>
-                                <h6 class="color-3">At vero eos et accusamus et iusto odio dignissimos </h6>
+                            	<h3 class="border-bot p2">Advice</h3>
+                              <!--  <h6 class="color-3">At vero eos et accusamus et iusto odio dignissimos </h6>
                                 <p class="p1">Qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                                <figure class="p2"><img src="images/page3-img3.jpg" alt="" /></figure>
+                                <figure class="p2"><img src="images/page3-img3.jpg" alt="" /></figure>-->
+                                 <p class="p2">养心安神食材</p>
                                 <ul class="list-1 indent-bot">
-                                	<li><a href="#">Similique sunt in culpa qui officia</a></li>
-                                    <li><a href="#">Saepe eveniet voluptates repudian</a></li>
-                                    <li><a href="#">Deserunt mollitia animi id est</a></li>
-                                    <li><a href="#">Laborum et dolorum fugait harum</a></li>
-                                    <li><a href="#">Quidem rerum facilis expedita</a></li>
-                                    <li><a href="#">Nam libero tempore cum soluta</a></li>
-                                	<li><a href="#">Nobis eligendi optio cumque nihil</a></li>
-                                    <li><a href="#">Impedit quo minus id quod maxime</a></li>
-                                    <li><a href="#">Placeat facere possimus, omnis</a></li>
-                                    <li><a href="#">Voluptas assumenda omnis dolor</a></li>
-                                    <li><a href="#">Temporibus autem quibusdam</a></li>
-                                    <li><a href="#">Officiis debitis rerum necessitati</a></li>
+                                	<li><a href="#">大米、小麦、糯米等谷物类</a></li>
+                                    <li><a href="#">核桃、大枣、龙眼儿、葡萄、莲子等瓜果类</a></li>
+                                    <li><a href="#">菠菜、鱼、胡萝卜、土豆等蔬菜类</a></li>
+                                    <li><a href="#">牛奶、蜂蜜、鹌鹑蛋、猪心</a></li>
+                                </ul>  
+                                
+                                <p class="p2">清热降火食材</p>
+                                <ul class="list-1 indent-bot"> 
+                                    <li><a href="#">菊花,黄瓜,板蓝根,番茄,竹笋,绿豆</a></li>
+                                	<li><a href="#">豆腐,芹菜,荸荠,菱角,马齿苋,金针菜</a></li>
+                                </ul>
+                                <p class="p2"> 滋阴降火类食材</p>
+                                <ul class="list-1 indent-bot"> 
+                                    <li><a href="#"> 甲鱼,海带,紫菜,海参,菠菜,猪血</a></li>
+                                    <li><a href="#">猪肝,红塘,乌鸡,南瓜,蛤蜊,银耳</a></li>
+                                </ul>
+                                <p class="p2"> 补脏熄火类食材</p>
+                                <ul class="list-1 indent-bot"> 
+                                    <li><a href="#">黑豆,山药,花生,牛乳,薏仁,白木耳,鸽蛋</a></li>
+                                    <li><a href="#">鹌鹑,雀肉,鳝鱼,羊肉,狗肉,韭菜,桑葚</a></li>
+                                </ul>
+                                <p class="p2">减肥食材</p>
+                                <ul class="list-1 indent-bot"> 
+                                    <li><a href="#">生菜、冬瓜</a></li>
                                 </ul>
                             </article>
                         </div>
