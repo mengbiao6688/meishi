@@ -30,7 +30,7 @@
                     <li><a class="active" href="/">首页</a></li>
                     <li><a href="/recipes">菜谱大全</a></li>
                     <li><a href="/foods">食材大全</a></li>
-                    <li><a href="/tips">小厨房</a></li>
+                    <li><a href="/tips">饮食资讯</a></li>
                     <li><a href="/about">关于我们</a></li>
                     <li class="last"><a href="contact">联系我们</a></li>
                 </ul>
