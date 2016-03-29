@@ -47,21 +47,21 @@
                                   <h3 class="p2" style="border-bottom:#eeeeee 1px solid; margin-top:-8px; line-height:2.2em;" >做法</h3>
                                      <div class="wrapper p3">
                                			 <figure class="img-indent"><img  src="../../<{'static/img/meishi/page3/hyxlh/hyxlh1.png':url}>" alt=""/></figure>
-                                 		 <div class="extra-wrapbz"> 
+                                 		 <div class="extra-wrap"> 
                                             <h10>1、</h10>
                                             <p8>先将西兰花用盐水浸泡10分钟，然后将其撕成小块。</p8> 
                                         </div>
                                     </div> 
                                      <div class="wrapper p3">
                                     	<figure class="img-indent"><img  alt=""/></figure>
-                                        <div class="extra-wrapbz">
+                                        <div class="extra-wrap">
                                             <h10>2、</h10>
                                             <p8>再将西兰花放入锅中沸煮5分钟</p8> 
                                         </div>
                                     </div>
                                      <div class="wrapper p3">
                                     	<figure class="img-indent"><img  src="../../<{'static/img/meishi/page3/hyxlh/hyxlh2.png':url}>" alt=""/></figure>
-                                        <div class="extra-wrapbz">
+                                        <div class="extra-wrap">
                                             <h10>3、</h10>
                                             <p8>倒入蚝油、鸡粉、水、淀粉煮开；浇在西兰花上，撒上小米椒做点缀即可</p8> 
                                         </div>
