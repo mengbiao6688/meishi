@@ -76,7 +76,7 @@
                                     </div>
                                 </article>
                                 <article class="col-1">
-                                    <h3><strong>latest</strong> <em>recipes</em></h3>
+                                    <h3><strong>Latest</strong> <em>recipes</em></h3>
                                     <ul class="list-1">
                                         <li><a href="#">减肥鸡蛋沙拉···················营养均衡</a></li>
                                         <img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>">
@@ -91,7 +91,7 @@
                                     </div>
                                 </article>
                                 <article class="col-2">
-                                    <h3><strong>The hottest</strong> <em>recipes</em></h3>
+                                    <h3><strong>Hottest</strong> <em>recipes</em></h3>
                                     <ul class="list-1">
                                         <li><a href="#">酸辣酿尖椒··················开胃膳食</a></li>
                                         <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>">
@@ -153,11 +153,11 @@
                 pagination:'.pags'
             });
         });
-        $('.col-1 .list-1 li').hover(function(){
-            $('.col-1 .list-1 img')	.css('display','block')
+        $('.col-1 .list-1 li').mouseover(function(){
+            $('.col-1 .list-1 img')	.css('display','block').sibling('display','none');
         })
-        $('.col-1 .list-1 li').over(function(){
-            $('.col-1 .list-1 img')	.css('display','none')
+        $('.col-1 .list-1 li').mouseout(function(){
+            $('.col-1 .list-1 img')	.css('display','none');
         })
         $('.col-3 ul li').animate({top:100},200)
 
