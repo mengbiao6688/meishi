@@ -453,7 +453,7 @@ footer {
 } 
 html, body {height:100%;}
 .list{ overflow:hidden;}
-.list-1 img{ max-width:50px; max-height:50px; border:#CCC 2px solid; display:none; z-index:20;}
+.list-1 img{ max-width:50px; max-height:50px; border:#CCC 2px solid; display:none; position:relative; z-index:50;}
 /*--------------------------------------------搜索框css代码---------------------------------------------*/
 .search{ width:380px; height:40px; float:left; margin-left:40px; padding-top:20px;}
 .search .search_border{
