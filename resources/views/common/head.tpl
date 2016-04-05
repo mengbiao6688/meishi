@@ -22,6 +22,7 @@
     <script src="<{'static/js/meishi/jquery.easing.1.3.js'|url}>" type="text/javascript"></script>
     <script src="<{'static/js/meishi/tms-0.3.js'|url}>" type="text/javascript"></script>
     <script src="<{'static/js/meishi/tms_presets.js'|url}>" type="text/javascript"></script>
+    <script src="<{'static/js/meishi/zoom.js'|url}>"  type="text/javascript"></script>
 <{/block}>
 
 

@@ -32,3 +32,24 @@ transition-duration: 0.2s;
 .step img{ max-width:237px; max-height:158px; display:block; float:left;}
 .step .xbz{ width:420px;; height:158px; float:left; padding-left:15px;}
 .step .xbz h10{ width:30px; height:158px; display:block; float:left; color:#CA4B00; font-size:30px; font-style:italic; }
+
+/*---------------------------------------------recipes的图片放大效果CSS代码------------------------------------*/
+.zoom{
+	max-width:210px;
+	max-height:200px;
+	display:block;
+	position:relative;
+	overflow:hidden;
+	border:1px solid #ddd;
+}
+.zoom img{
+	display:none
+}
+.zoomOverlay{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	display:none;
+}

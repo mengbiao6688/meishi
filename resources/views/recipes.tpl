@@ -21,7 +21,7 @@
                                     <div class="padding">
                                     	<h3 class="p2">Good Cook</h3>
                                         <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-1.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a class="zoom" href="<{'meishi'}>/<{$data.id}>" ><img  src="<{'static/img/meishi/page2/p2-1.jpg'|url}>" alt="" /></a></figure>
                                             <div class="extra-wrap">
                                             	<h6>素三丝</h6>
                                                 <p class="p1">“夏天了，就想喝碗粥，就一碟子清爽的小菜。素三丝是我比较常做的，豆芽营养丰富，胡萝卜脆甜，搭配起来口感非常的好，两颗葱给提升了颜值不少，家常小菜也美味”</p>
@@ -29,7 +29,7 @@
                                             </div>
                                         </div>
                                         <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-2.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a class="zoom" href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-2.jpg'|url}>" alt="" /></a></figure>
                                             <div class="extra-wrap">
                                             	<h6>美味蛋包饭 </h6>
                                                 <p class="p1">“家里每次做米饭都会剩一些，除了用来做稀饭炒饭之外，其实还有一种很美味地吃法，你们想知道吗？其实很简单，就是用浓浓的鸡蛋皮将米饭包裹起来，再配上番茄酱，就是俗称的蛋包饭了。”</p>
@@ -37,7 +37,7 @@
                                             </div>
                                         </div>
                                         <div class="wrapper img-indent-bot">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a class="zoom" href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>" alt="" /></a></figure>
                                             <div class="extra-wrap">
                                             	<h6>蒜苗回锅肉</h6>
                                                 <p class="p1">"回锅肉是四川人初一、十五打牙祭的当家菜，逢年过节的餐桌上肯定也少不了这道当家菜，四川人对蒜苗回锅肉的热爱无需多说，这一点从那大大小小川菜馆的菜谱就能说明！一碗家常回锅肉，更能让你体会到家的温暖和味道，思乡了吗？添碗米饭，吃回锅肉吧！~".</p>
@@ -45,7 +45,7 @@
                                             </div>
                                         </div>
                                         <div class="wrapper">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-4.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a class="zoom" href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-4.jpg'|url}>" alt="" /></a></figure>
                                             <div class="extra-wrap">
                                             	<h6>耗油西兰花</h6>
                                                 <p class="p1">西兰花具有防癌抗癌的功效是一种营养价值较高的蔬菜，除含有多种维生素外，还蕴藏丰富的钙、钾、铁等物质</p>
@@ -83,5 +83,14 @@
     	<{include file="common/footer.tpl"}>
     </footer>
     <script type="text/javascript"> Cufon.now(); </script>
+    <script>
+        $(function() {        
+            $('.zoom').hoverZoom({
+				zoom:30
+				});
+            
+           
+        }); 
+    </script>
  </div>
 <{/block}>
