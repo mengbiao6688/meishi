@@ -18,7 +18,7 @@
                     	<div class="wrapper">
                         	<article class="col-1">
                                 <div class="indent-left">
-                                	<h3 class="p2">Advice from Our Cook</h3>    
+                                	<h3><strong>Advice</strong> from Our Cook</h3>    
                                     <h6>经常做饭的朋友总会有一些厨房"绝招"，处理难搞食材得心应手。新来的菜鸟们，赶紧看看如何把一道菜的味道魔法变身的吧。 </h6>
                                     <p>你是否也有这样芬芳的记忆，无论时光怎么流逝，却也怎么也挥之不去？是奶奶亲自为你磨好的豆浆吗？是妈妈烹饪的家常小菜吗？还是与小伙伴烤的红薯吗？""在看似平常的食物中咀嚼生活的滋味，或因为亲情，或因为童心，而有了别样的情愫。</p>
                                     <div class="wrapper p3">
@@ -94,7 +94,7 @@
                                 </div>
                             </article>
                             <article class="col-2">
-                            	<h3 class="border-bot p2">Tips</h3>
+                            	<h3><strong>Tips</strong></h3>
                                 <div class="img-indent-bot">
                                    <!-- <h6>Sed perspiciatis unde </h6>-->
                                     <p class="p1"><h10>1、</h10>蒸鸡蛋羹时要用温开水搅，蛋羹鲜嫩。</p>

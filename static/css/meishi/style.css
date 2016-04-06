@@ -323,12 +323,14 @@ h6 {color:#4c4c4c;}
 	line-height:24px;
 	padding-left:20px;
 	background:url(../../img/meishi/marker-1.png) 0 7px no-repeat;
+	position:relative;
 }
 
 	.list-1 li a {
 		display:inline-block;
 		color:#000;
 		text-decoration:none;
+		position:relative;
 	}
 	/*.list-1 li a:hover { color:#E79C03;}
 	.col-1 list-1 li{ height:30px; margin-top:10px; }*/
@@ -453,8 +455,9 @@ footer {
 	overflow:hidden;
 } 
 html, body {height:100%;}
-.list{ overflow:hidden;}
-.list-1 img{ max-width:50px; max-height:50px; border:#CCC 2px solid; display:none; position:relative; z-index:50;}
+/*************************************首页的推荐部分代码******************************************/
+#page1 .list{ overflow:hidden;}
+#page1 .list-1 img{ max-width:80px; max-height:80px; border:#CCC 2px solid; display:none; position:relative;}
 /*--------------------------------------------搜索框css代码---------------------------------------------*/
 .search{ width:380px; height:40px; float:left; margin-left:40px; padding-top:20px;}
 .search .search_border{

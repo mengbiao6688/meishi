@@ -62,10 +62,10 @@
                                 <article class="col-1">
                                     <h3><strong>Recommended</strong> <em>today</em></h3>
                                     <ul class="list-1">
-                                        <li><a href="#">清炒素三丝······················营养均衡</a></li>
-                                        <img src="<{'static/img/meishi/page2/p2-1.jpg'|url}>">
-                                        <li><a href="#">美味蛋包饭······················补充蛋白</a></li>
-                                        <img src="<{'static/img/meishi/page2/p2-2.jpg'|url}>">
+                                        <li><a href="#">清炒素三丝······················营养均衡</a>
+                                        <img src="<{'static/img/meishi/page2/p2-1.jpg'|url}>"></li>
+                                        <li><a href="#">美味蛋包饭······················补充蛋白</a>
+                                        <img src="<{'static/img/meishi/page2/p2-2.jpg'|url}>"></li>
                                         <li><a href="#">蒜苗回锅肉······················开胃健脾</a></li>
                                         <img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>">
                                         <li><a href="#">耗油西兰花······················增强抵抗力</a></li>                                       <img src="<{'static/img/meishi/page2/p2-4.jpg'|url}>">
@@ -153,8 +153,12 @@
                 pagination:'.pags'
             });
         });
-        $('.col-1 .list-1 li').mouseover(function(){
-            $('.col-1 .list-1 img')	.css('display','block').sibling('display','none');
+		
+        $('.col-1 .list-1 li').hover(function(e){
+			var xx = e.originalEvent.x || e.originalEvent.layerX || 0;
+			var yy = e.originalEvent.y || e.originalEvent.layerY || 0;
+			$(this)	.find('img').css({top:yy, left:xx, display:'block'});
+           
         })
         $('.col-1 .list-1 li').mouseout(function(){
             $('.col-1 .list-1 img')	.css('display','none');
