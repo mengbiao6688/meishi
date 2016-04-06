@@ -35,8 +35,8 @@ transition-duration: 0.2s;
 
 /*---------------------------------------------recipes的图片放大效果CSS代码------------------------------------*/
 .zoom{
-	max-width:210px;
-	max-height:200px;
+	width:210px;
+	height:200px;
 	display:block;
 	position:relative;
 	overflow:hidden;
@@ -46,7 +46,7 @@ transition-duration: 0.2s;
 	display:none
 }
 .zoomOverlay{
-	position:absolute;
+	position:relative;
 	top:0;
 	left:0;
 	bottom:0;

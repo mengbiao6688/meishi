@@ -34,12 +34,13 @@ a:hover {text-decoration:none;}
 	height: 0;
 }
 
-p {margin-bottom:18px;}
+p {margin-bottom:18px;} p6{ margin-top:15px; margin-bottom:15px;}
 .p1 {margin-bottom:8px;}
 .p2 {margin-bottom:15px;}
 .p3 {margin-bottom:30px;}
 .p4 {margin-bottom:40px;}
 .p5 {margin-bottom:50px;}
+
 
 #page5 .col-2 .p2 img{ max-width:300px; max-height:223px;}
 #page7 .col-2 .p2 img{ max-width:300px; max-height:223px;}
@@ -490,8 +491,8 @@ html, body {height:100%;}
 /*----------------------------------------------各文件图片缩小 css代码------------------------------------------------*/
 #page7 .img-indent img{ max-width:210px; max-height:200px;}
 #page4 .img-indent img{ max-width:110px; height:110px;}
-#page5 .img-indent img{ max-width:210px; max-height:200px;}
-#page3 .img-indent img{ max-width:110px; max-height:150px;}
+/*#page5 .img-indent img{ max-width:210px; max-height:210px;}*/
+#page3 .img-indent img{ max-width:140px; min-height:120px;}
 /*#page7 .extra-wrap{ width:750px; float:left;}
 */#page7 .extra-wrap p8{ width:400px; height:255px; display:block; float:left; }
 /*#page7 p8{ width:330px ; height:160px; float:left;} */
