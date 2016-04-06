@@ -39,8 +39,8 @@
                         hz.hover(function() {
                             $('img', this).stop().animate({
                                 height: height + s.zoom,
-                                marginLeft: -(s.zoom),
-                                marginTop: -(s.zoom)
+                              /*  marginLeft: -(s.zoom),
+                                marginTop: -(s.zoom)*/
                             }, s.speed);
                             if(s.overlay === true) {
                                 $(this).parent().find('.zoomOverlay').stop().animate({
