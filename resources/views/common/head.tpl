@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="<{'static/css/meishi/layout.css'|url}>" type="text/css" media="screen">
 <link rel="stylesheet" href="<{'static/css/meishi/font.css'|url}>" type="text/css" >
 <link rel="stylesheet" href="<{'static/css/meishi/login.css'|url}>" type="text/css" >
+<link rel="stylesheet" href="<{'static/css/meishi/jPages.css'|url}>" type="text/css">
 <{/block}>
 
 <{block "head-scripts"}>
@@ -23,6 +24,8 @@
     <script src="<{'static/js/meishi/tms-0.3.js'|url}>" type="text/javascript"></script>
     <script src="<{'static/js/meishi/tms_presets.js'|url}>" type="text/javascript"></script>
     <script src="<{'static/js/meishi/zoom.js'|url}>"  type="text/javascript"></script>
+    <script src="<{'static/js/meishi/jPages.min.js'|url}>" type="text/javascript"></script>
+    <script src="<{'static/js/meishi/jPages.js'|url}>" type="text/javascript" ></script>
 <{/block}>
 
 
