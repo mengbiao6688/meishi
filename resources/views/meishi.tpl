@@ -11,8 +11,8 @@
         	<{include file="common/header.tpl"}>
       </header>
       <!--==============================content=================================-->
-      <div class="inner" style="height:1250px;">
-      	<div class="main" >
+      <div class="inner">
+      	<div class="main">
         	<section id="content">
             	<div class="indent">
                    <div class="wrapper">
@@ -45,7 +45,7 @@
                                              </div>
                                       </div>
                                   <h3 class="p2" style="border-bottom:#eeeeee 1px solid; margin-top:-8px; line-height:2.2em;" >做法</h3>
-                                   <!--  <div class="wrapper p3">
+                                   <!--<div class="wrapper p3">
                                			 <figure class="img-indent"><img  src="<{'static/img/meishi/page3/sss/sss.png'|url}>" alt=""/></figure>
                                  		 <div class="extra-wrap"> 
                                             <h10>1、</h10>
@@ -76,19 +76,20 @@
                                         <p>"生活水平的不断提高，人们对美食的需求也在真加，让我们看看那些菜肴获得大家的欢迎"</p>
                                         <figure class="p2"><img src="images/page2/p2-5.jpg" alt="" /></figure>
                                         <ul class="list-1 img-indent-bot">
-                                            <li><a href="#">减肥鸡蛋沙拉···················营养均衡</a></li>
+                                            　　<li><a href="#">减肥鸡蛋沙拉···················营养均衡</a></li>
                                                 <li><a href="#">猪耳麻辣香锅···················开胃健脾</a></li> 
                                                 <li><a href="#">酸辣酿尖椒······················开胃健脾</a></li> 
                                                 <li><a href="#">蟹粉鲜虾丸······················增强抵抗力</a></li>
-                                                <li><a href="#">酸辣酿尖椒·····················开胃膳食</a></li>
-                                                <li><a href="#">洋葱炒芹菜·····················利于抗癌</a></li>
-                                                <li><a href="#">脆皮香豆腐·····················美味可口</a></li>
+                                                <li><a href="#">酸辣酿尖椒······················开胃膳食</a></li>
+                                                <li><a href="#">洋葱炒芹菜······················利于抗癌</a></li>
+                                                <li><a href="#">脆皮香豆腐······················美味可口</a></li>
                                                 <li><a href="#">北京烤肉························预防贫血</a></li>                                 
                                          </ul>
                       </article>
                    </div>
                 </div>
             </section>
+             <div class="block"></div>
         </div>
       </div>
     </div>

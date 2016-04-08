@@ -18,7 +18,7 @@
                     	<div class="wrapper">
                         	<article class="col-1">
                                 <div class="indent-left">
-                                    <h3>About Us</h3>
+                                    <h3><strong>About</strong> Us</h3>
                                     <h6>我们的口号 </h6>
                                     <p>调香，调心情；品味，品人生。我们的口号是让您"天天好味口,天天好心情"。</p>
                                     <div class="wrapper p3">
@@ -34,7 +34,7 @@
                                 </div>
                                 <div class="bg">
                                     <div class="padding">
-                                        <h3>Brief Inf</h3>
+                                        <h3><strong>Brief</strong> Inf</h3>
                                         <p class="p1">美食网站制作于2016年3月，是集菜谱、健康饮食知识、烹饪技巧的专业美食网络信息服务平台。自成立以来，美食网站一直本着"一切以用户体验为导向"的经营理念，不断地为人们提供更加完善的健康饮食解决方案而努力。
    面对未来，美食网站会一直以用户体验为导向，弘扬中华民族饮食文化，通过多维度的产品展示平台为用户提供更多更优秀的内容；为了让中国人吃的更健康，我们竭尽全力！</p>
                                        <!-- <div class="wrapper">
@@ -59,7 +59,7 @@
                                 </div>
                             </article>
                             <article class="col-2">
-                            	<h3 class="border-bot">Our</h3>
+                            	<h3 class="border-bot"><strong>Our</strong></h3>
                                 <blockquote>&quot;杨慧，美食网站联合创始人，当代名厨，是餐饮协会（IFBA）重要组成成员 ， 主要方向是中国乡土菜，曾是百年荣记餐饮主厨 &quot;</blockquote>
                                 <div class="alignright img-indent-bot">
                                 	<strong class="color-3">杨慧</strong>

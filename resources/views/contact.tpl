@@ -1,12 +1,15 @@
-
 <{extends file="extends/main.block.tpl"}>
 <{include file="common/head.tpl"}>
 
 <{block "body-container"}>
 <div id="page6">
-	<header>
-    	<{include file="common/header.tpl"}>
-    </header>
+	<div id="bgSlider"></div>
+    <div class="bg_spinner"></div>
+	<div class="extra">
+        <!--==============================header=================================-->
+       <header>
+       <{include file="common/header.tpl"}>
+       </header>
         <!--==============================content================================-->
         <div class="inner">
             <div class="main">
@@ -15,7 +18,7 @@
                     	<div class="wrapper">
                         	<article class="col-1">
                             	<div class="indent-left">
-                                	<h3>Contact Form</h3>
+                                	<h3><strong>Contact</strong> Form</h3>
                                     <div class="p3">
                                         <form id="contact-form" method="post" enctype="multipart/form-data">                    
                                             <fieldset>
@@ -38,13 +41,13 @@
                                 </div>
                                 <div class="bg">
                                     <div class="padding">
-                                    	<h3>Information</h3>
+                                    	<h3><strong>Information</strong></h3>
                                        亲，我们的美食指导详细吗？满意吗？如果感觉到很实用很不错，欢迎亲来给我们点赞哦！我们的团队一定会很感谢亲的。如果觉得我们的指导还不够详细，我们也热情的欢迎大家给我们留言，大家的留言激励着我们不断前行，欢迎大家前来留言，二货，留下你的脚印吧！
                                     </div>
                                 </div>
                             </article>
                             <article class="col-2">
-                            	<h3 class="border-bot indent-bot">Our Contacts</h3>
+                            	<h3 class="border-bot indent-bot"><strong>Our</strong> Contacts</h3>
                                 <div class="img-indent-bot">
                                     <h6>湖北</h6>
                                     <dl>
@@ -84,7 +87,7 @@
                         </div>
                     </div>
                 </section>
-                <div class="block"></div>
+                 <div class="block"></div>
             </div>
         </div>
     </div>
@@ -94,4 +97,4 @@
     </footer>
     <script type="text/javascript"> Cufon.now(); </script>
 </div>
-<{/block}>}
+<{/block}>

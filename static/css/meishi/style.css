@@ -24,7 +24,7 @@ a:hover {text-decoration:none;}
 .column-1, .column-2 {float:left;}
 
 .wrapper {width:100%; overflow:hidden; position:relative;}
-.extra-wrap {overflow:hidden;}
+.extra-wrap { display:block;overflow:hidden;}
 .clear {
 	clear: both;
 	display: block;
@@ -492,13 +492,11 @@ html, body {height:100%;}
 .col-2 .img-indent-bot .p1{border-bottom:#E0e0e0 1px dotted;}
 .col-2 .img-indent-bot h10{ width:10px; height:40px; display:block; float:left; margin-right:5px; color:#CA4B00;}
 /*----------------------------------------------各文件图片缩小 css代码------------------------------------------------*/
-#page7 .img-indent img{ max-width:210px; max-height:200px;}
+
 #page4 .img-indent img{ max-width:110px; height:110px;}
 /*#page5 .img-indent img{ max-width:210px; max-height:210px;}*/
 #page3 .img-indent img{ max-width:140px; min-height:120px;}
-/*#page7 .extra-wrap{ width:750px; float:left;}
-*/#page7 .extra-wrap p8{ width:400px; height:255px; display:block; float:left; }
-/*#page7 p8{ width:330px ; height:160px; float:left;} */
+
 /**********************************             recipes遮罩层动画             ****************************************/
 .imgss{
 	width:100%;

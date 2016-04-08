@@ -19,43 +19,39 @@ transition-duration: 0.2s;
 #dlfs a img:hover{ margin-top:-5px; width:90; height:90%;}
 
 /*------------------------------------index-3中间部分代码---------------------------------*/
-/*------------------------------------cailiao部分代码---------------------------------*/
+
+
+/*------------------------------------meishi网页CSS代码---------------------------------*/
 .cailiao{ width:100%;float:left; }
-.cailiao h8{ width:48px; height:22px; display:block; float:left; color:#CA4B00;}
-.cailiao .cllb{ width:330px; height:81px; /*display:block;*/ float:left; }
-.cailiao .cllb li{ width:155px; height:29px;  float:left; padding-top:10px; border-bottom:#EEEEEE 1px solid; border-right:#EEEEEE 1px solid; border-top:#EEEEEE 1px solid; padding-left:5px; padding-right:3px;}
+.cailiao h8{ min-width:48px; min-height:22px; display:block; float:left; color:#CA4B00;}
+.cailiao .cllb{ min-width:330px; min-height:81px; /*display:block;*/ float:left; }
+.cailiao .cllb li{ min-width:155px; min-height:29px;  float:left; padding-top:10px; border-bottom:#EEEEEE 1px solid; border-right:#EEEEEE 1px solid; border-top:#EEEEEE 1px solid; padding-left:5px; padding-right:3px;}
 .cailiao .cllb li a{ color:#000; }
 .cailiao .cllb li h9{ width:100px; height:20px; display:block; float:left;}
 .cailiao .cllb li span{ color:#929292;}
+#page7 .img-indent img{ max-width:210px; max-height:200px;}
+#page7 .extra-wrap p8{ max-width:400px; max-height:255px; display:block; float:left; }
+/*#page7 .extra-wrap{ width:750px; float:left;}
+/*#page7 .wrapper p{ min-width:400px; height:200px; display:block; float:left;}*/
+/*#page7 p8{ width:330px ; height:160px; float:left;} */
+/*#page7 .wrapper { display:block; float:left;}	
+#page7 .wrapper .extra-wrap{ display:block; float:left;}*/
+	
 /*------------------------------------详细制作步骤css代码---------------------------------*/
 .step{ width:100%; height:180px; padding:5px; float:left; border-bottom:#eeeeee 1px dotted;}
 .step img{ max-width:237px; max-height:158px; display:block; float:left;}
 .step .xbz{ width:420px;; height:158px; float:left; padding-left:15px;}
 .step .xbz h10{ width:30px; height:158px; display:block; float:left; color:#CA4B00; font-size:30px; font-style:italic; }
 
+
+
+
 /*---------------------------------------------recipes的图片放大效果CSS代码------------------------------------*/
-.zoom{
-	width:210px;
-	height:200px;
-	display:block;
-	position:relative;
-	overflow:hidden;
-	border:1px solid #ddd;
-}
-.zoom img{
-	display:none
-}
-.zoomOverlay{
-	position:relative;
-	top:0;
-	left:0;
-	bottom:0;
-	right:0;
-	display:none;
-}
 #page1 .col-3 .list-1 a:hover{
 	border:1px solid #CA4B00;
 	border-radius:20px;
 	position:relative;
 	top:-3px;
 	left:-3px;}
+	
+	

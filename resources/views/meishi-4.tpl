@@ -11,7 +11,7 @@
         	<{include file="common/header.tpl"}>
       </header>
       <!--==============================content=================================-->
-      <div class="inner" style="height:1250px;">
+      <div class="inner">
       	<div class="main" >
         	<section id="content">
             	<div class="indent">
