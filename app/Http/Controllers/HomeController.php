@@ -57,27 +57,37 @@ class HomeController extends Controller
 	}
 
 	//页面
-	public function login() {
-		return $this->view('login');
-	}
+	
 
 	public function recipes() {
 		return $this->view('recipes');
+	}
+	
+	public function foods() {
+		return $this->view('foods');
 	}
 
 	public function tips() {
 		return $this->view('tips');
 	}
-
+	
+	
+	public function login() {
+		return $this->view('login');
+	}
+	
 	public function register() {
 //		$keys = 'username,password,password2';
 //		$this->_validates = $this->getScriptValidate('login',$keys);
 		return $this->view('register');
 	}
+		
+		/*public function meishi-3() {
+		return $this->view('meishi-3');
+	}*/
+	
 
-	public function foods() {
-		return $this->view('foods');
-	}
+	
 
 	//搜索页面
 	public function search(Request $request) {

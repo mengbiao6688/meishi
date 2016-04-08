@@ -42,6 +42,8 @@ $router->get('foods','HomeController@foods');
 $router->get('recipes','HomeController@recipes');
 
 $router->get('tips','HomeController@tips');
+ 
+/*$router->get('meishi-3','HomeController@meishi-3');*/
 
 $router->post('search','HomeController@search');
 

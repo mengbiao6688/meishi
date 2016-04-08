@@ -126,16 +126,7 @@
     	<{include file="common/footer.tpl"}>
     </footer>
     <script type="text/javascript"> Cufon.now(); </script>
-    <script>
-        $(function() {        
-            $('.zoom').hoverZoom({
-				zoom:50
-				});
-            
-           
-        }); 
-    </script>
-      <script>
+   <script>
   /* when document is ready */
   $(function(){
     /* initiate plugin */
@@ -152,7 +143,7 @@
 	  
 	  },function(){
 	 $('.imgss',this).css({display:'none'}); 
-		  });
+  });
   </script>
  </div>
 <{/block}>

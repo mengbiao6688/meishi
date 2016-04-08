@@ -62,17 +62,17 @@
                                 <article style=" min-width:320px;" class="col-2">
                                     <h3><strong>Recommended</strong> <em>today</em></h3>
                                     <ul class="list-1">
-                                        <li><a href="#">清炒素三丝······················营养均衡</a>
+                                        <li><a href="#meishi">清炒素三丝······················营养均衡</a>
                                         <img src="<{'static/img/meishi/page2/p2-1.jpg'|url}>"></li>
-                                        <li><a href="#">美味蛋包饭······················补充蛋白</a>
+                                        <li><a href="recipes">美味蛋包饭······················补充蛋白</a>
                                         <img src="<{'static/img/meishi/page2/p2-2.jpg'|url}>"></li>
-                                        <li><a href="#">蒜苗回锅肉······················开胃健脾</a>
+                                        <li><a href="meishi-3">蒜苗回锅肉······················开胃健脾</a>
                                         <img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>"></li>
                                         <li><a href="#">耗油西兰花······················增强抵抗力</a>                                      <img src="<{'static/img/meishi/page2/p2-4.jpg'|url}>"></li> 
 
                                     </ul>
                                     <div class="relative">
-                                        <a class="button-1" href="search.tpl">Read More</a>
+                                        <a class="button-1" href="recipes">Read More</a>
                                     </div>
                                 </article>
                                 <article style=" min-width:320px;" class="col-2">
@@ -87,7 +87,7 @@
                                         <li><a href="#">蟹粉鲜虾丸······················增强抵抗力</a>										 <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>"></li>
                                     </ul>
                                     <div class="relative">
-                                        <a class="button-1" href="search.tpl">Read More</a>
+                                        <a class="button-1" href="recipes">Read More</a>
                                     </div>
                                 </article>
                                 <article class="col-2">
@@ -103,7 +103,7 @@
                                         <img src="<{'static/img/meishi/page2/p2-11.jpg'|url}>"></li>
                                     </ul>
                                     <div class="relative">
-                                        <a class="button-1"  href="search.tpl">Read More</a>
+                                        <a class="button-1"  href="recipes">Read More</a>
                                     </div>
                                 </article>
                             </div><!-----------------wrapper结束--------------------->
@@ -116,10 +116,10 @@
                                     <h4><strong>news</strong> <em></em></h4>
                                     <p>随着季节的变化，人体内各器官的状态也有所变化，故要根据季节的不同，选择美味健身的食物，进行饮食的科学安排。</p>
                                     <ul style="height:100px;" class="list-1">
-                                        <li><a href="#">春天吃春笋、菠菜、豆芽菜、韭菜有健脾、养胃、强肾等功能</a></li>
-                                        <li><a href="#">夏天吃苦瓜、茄子、芹菜、生菜、黄瓜有清热、消肿、治咽喉的功效</a></li>
-                                        <li><a href="#">秋天吃西红柿、菜花、胡萝卜、莴苣有润肺止咳、消除疲劳、防癌功效</a></li>
-                                        <li><a href="#">冬天吃萝卜、红薯、小白菜等有清理血液、促进血液循环的作用</a></li>
+                                        <li><a href="foods">春天吃春笋、菠菜、豆芽菜、韭菜有健脾、养胃、强肾等功能</a></li>
+                                        <li><a href="foods">夏天吃苦瓜、茄子、芹菜、生菜、黄瓜有清热、消肿、治咽喉的功效</a></li>
+                                        <li><a href="foods">秋天吃西红柿、菜花、胡萝卜、莴苣有润肺止咳、消除疲劳、防癌功效</a></li>
+                                        <li><a href="foods">冬天吃萝卜、红薯、小白菜等有清理血液、促进血液循环的作用</a></li>
                                       
                                     </ul>
                                 </article>
