@@ -26,6 +26,7 @@
     <script src="<{'static/js/meishi/zoom.js'|url}>"  type="text/javascript"></script>
     <script src="<{'static/js/meishi/jPages.min.js'|url}>" type="text/javascript"></script>
     <script src="<{'static/js/meishi/jPages.js'|url}>" type="text/javascript" ></script>
+    <script src="<{'static/js/meishi/head.js'|url}>" type="text/javascript" ></script>
 <{/block}>
 
 

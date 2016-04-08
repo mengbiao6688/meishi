@@ -53,3 +53,9 @@ transition-duration: 0.2s;
 	right:0;
 	display:none;
 }
+#page1 .col-3 .list-1 a:hover{
+	border:1px solid #CA4B00;
+	border-radius:20px;
+	position:relative;
+	top:-3px;
+	left:-3px;}

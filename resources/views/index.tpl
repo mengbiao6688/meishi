@@ -59,32 +59,32 @@
                     <div class="bg">
                         <div class="padding">
                             <div class="wrapper">
-                                <article class="col-1">
+                                <article style=" min-width:320px;" class="col-2">
                                     <h3><strong>Recommended</strong> <em>today</em></h3>
                                     <ul class="list-1">
                                         <li><a href="#">清炒素三丝······················营养均衡</a>
                                         <img src="<{'static/img/meishi/page2/p2-1.jpg'|url}>"></li>
                                         <li><a href="#">美味蛋包饭······················补充蛋白</a>
                                         <img src="<{'static/img/meishi/page2/p2-2.jpg'|url}>"></li>
-                                        <li><a href="#">蒜苗回锅肉······················开胃健脾</a></li>
-                                        <img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>">
-                                        <li><a href="#">耗油西兰花······················增强抵抗力</a></li>                                       <img src="<{'static/img/meishi/page2/p2-4.jpg'|url}>">
+                                        <li><a href="#">蒜苗回锅肉······················开胃健脾</a>
+                                        <img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>"></li>
+                                        <li><a href="#">耗油西兰花······················增强抵抗力</a>                                      <img src="<{'static/img/meishi/page2/p2-4.jpg'|url}>"></li> 
 
                                     </ul>
                                     <div class="relative">
                                         <a class="button-1" href="search.tpl">Read More</a>
                                     </div>
                                 </article>
-                                <article class="col-1">
+                                <article style=" min-width:320px;" class="col-2">
                                     <h3><strong>Latest</strong> <em>recipes</em></h3>
                                     <ul class="list-1">
-                                        <li><a href="#">减肥鸡蛋沙拉···················营养均衡</a></li>
-                                        <img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>">
-                                        <li><a href="#">猪耳麻辣香锅···················开胃健脾</a></li>
-                                        <img src="<{'static/img/meishi/page2/p2-6.jpg'|url}>">
-                                        <li><a href="#">酸辣酿尖椒······················开胃健脾</a></li>
-                                        <img src="<{'static/img/meishi/page2/p2-7.jpg'|url}>">
-                                        <li><a href="#">蟹粉鲜虾丸······················增强抵抗力</a></li>										 <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>">
+                                        <li><a href="#">减肥鸡蛋沙拉···················营养均衡</a>
+                                        <img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>"></li> 
+                                        <li><a href="#">猪耳麻辣香锅···················开胃健脾</a>
+                                        <img src="<{'static/img/meishi/page2/p2-6.jpg'|url}>"></li> 
+                                        <li><a href="#">酸辣酿尖椒······················开胃健脾</a>
+                                        <img src="<{'static/img/meishi/page2/p2-7.jpg'|url}>"></li>
+                                        <li><a href="#">蟹粉鲜虾丸······················增强抵抗力</a>										 <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>"></li>
                                     </ul>
                                     <div class="relative">
                                         <a class="button-1" href="search.tpl">Read More</a>
@@ -93,14 +93,14 @@
                                 <article class="col-2">
                                     <h3><strong>Hottest</strong> <em>recipes</em></h3>
                                     <ul class="list-1">
-                                        <li><a href="#">酸辣酿尖椒··················开胃膳食</a></li>
-                                        <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>">
-                                        <li><a href="#">洋葱炒芹菜·····················利于抗癌</a></li>
-                                        <img src="<{'static/img/meishi/page2/p2-9.jpg'|url}>">
-                                        <li><a href="#">脆皮香豆腐·····················美味可口</a></li>
-                                        <img src="<{'static/img/meishi/page2/p2-10.jpg'|url}>">
-                                        <li><a href="#">北京烤肉·····················预防贫血</a></li>
-                                        <img src="<{'static/img/meishi/page2/p2-11.jpg'|url}>">
+                                        <li><a href="#">酸辣酿尖椒··················开胃膳食</a>
+                                        <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>"></li>
+                                        <li><a href="#">洋葱炒芹菜·····················利于抗癌</a>
+                                        <img src="<{'static/img/meishi/page2/p2-9.jpg'|url}>"></li>
+                                        <li><a href="#">脆皮香豆腐·····················美味可口</a>
+                                        <img src="<{'static/img/meishi/page2/p2-10.jpg'|url}>"></li>
+                                        <li><a href="#">北京烤肉·····················预防贫血</a>
+                                        <img src="<{'static/img/meishi/page2/p2-11.jpg'|url}>"></li>
                                     </ul>
                                     <div class="relative">
                                         <a class="button-1"  href="search.tpl">Read More</a>
@@ -120,8 +120,7 @@
                                         <li><a href="#">夏天吃苦瓜、茄子、芹菜、生菜、黄瓜有清热、消肿、治咽喉的功效</a></li>
                                         <li><a href="#">秋天吃西红柿、菜花、胡萝卜、莴苣有润肺止咳、消除疲劳、防癌功效</a></li>
                                         <li><a href="#">冬天吃萝卜、红薯、小白菜等有清理血液、促进血液循环的作用</a></li>
-                                        <li><a href="#">秋天吃西红柿、菜花、胡萝卜、莴苣有润肺止咳、消除疲劳、防癌功效</a></li>
-                                        <li><a href="#">冬天吃萝卜、红薯、小白菜等有清理血液、促进血液循环的作用</a></li>
+                                      
                                     </ul>
                                 </article>
                                 <div class="extra-wrap">
@@ -150,21 +149,20 @@
                 banners:'fade',
                 pauseOnHover:true,
                 waitBannerAnimation:false,
-                pagination:'.pags'
+                pagination:'.pags' 
             });
         });
 		
-        $('.col-1 .list-1 li').hover(function(e){
+        $('.col-2 .list-1 li').mousemove(function(e){
 			var xx = e.originalEvent.x || e.originalEvent.layerX || 0;
 			var yy = e.originalEvent.y || e.originalEvent.layerY || 0;
-			$(this)	.find('img').css({top:yy, left:xx, display:'block'});
+			$('img',this).css({left:xx, display:'block'});
            
         })
-        $('.col-1 .list-1 li').mouseout(function(){
-            $('.col-1 .list-1 img')	.css('display','none');
+        $('.col-2 .list-1 li').mouseout(function(){
+            $('img',this)	.css('display','none');
         })
-        $('.col-3 ul li').animate({top:100},200)
-
+		
     </script>
    </div>
 <{/block}>

@@ -22,7 +22,7 @@
                                     	<h3><strong>Good</strong> <em>Cook</em></h3>
                                        <div id="itemContainer">
                                           <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>" ><img  src="<{'static/img/meishi/page2/p2-1.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>" ><img  src="<{'static/img/meishi/page2/p2-1.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">素三丝</h6>
                                                 <p6>厨师：淡年华</p6>
@@ -31,7 +31,7 @@
                                             </div>
                                         </div>
                                            <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-2.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-2.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">美味蛋包饭 </h6>
                                                 <p6>厨师：淡年华</p6>
@@ -40,16 +40,16 @@
                                             </div>
                                         </div>
                                            <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">蒜苗回锅肉</h6>
                                                 <p6>厨师：淡年华</p6>
-                                                <p class="p1">"回锅肉是四川人初一、十五打牙祭的当家菜，逢年过节的餐桌上肯定也少不了这道当家菜，四川人对蒜苗回锅肉的热爱无需多说，这一点从那大大小小川菜馆的菜谱就能说明！一碗家常回锅肉，更能让你体会到家的温暖和味道，思乡了吗？添碗米饭，吃回锅肉吧！~".</p>
+                                                <p class="p1">"回锅肉是四川人初一、十五打牙祭的当家菜，逢年过节的餐桌上肯定也少不了这道当家菜,一碗家常回锅肉，更能让你体会到家的温暖和味道，思乡了吗？添碗米饭，吃回锅肉吧！~".</p>
                                                 <a class="button-1" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                             </div>
                                         </div>
                                             <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-4.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-4.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">耗油西兰花</h6>
                                                 <p6>厨师：淡年华</p6>
@@ -58,7 +58,7 @@
                                             </div>
                                         </div>
                                           <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>" ><img  src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>" ><img  src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">减肥鸡蛋沙拉</h6>
                                                 <p6>厨师：淡年华</p6>
@@ -67,7 +67,7 @@
                                             </div>
                                         </div>
                                            <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-6.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-6.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">猪耳麻辣香锅</h6>
                                                 <p6>厨师：淡年华</p6>
@@ -76,7 +76,7 @@
                                             </div>
                                         </div>
                                           <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-7.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-7.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">酸辣酿尖椒</h6>
                                                 <p6>厨师：淡年华</p6>
@@ -85,7 +85,7 @@
                                             </div>
                                         </div>
                                            <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-8.jpg'|url}>" alt="" /></a></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-8.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">蟹粉鲜虾丸</h6>
                                                 <p6>厨师：淡年华</p6>
@@ -126,7 +126,7 @@
     	<{include file="common/footer.tpl"}>
     </footer>
     <script type="text/javascript"> Cufon.now(); </script>
-    <!--<script>
+    <script>
         $(function() {        
             $('.zoom').hoverZoom({
 				zoom:50
@@ -134,7 +134,7 @@
             
            
         }); 
-    </script>-->
+    </script>
       <script>
   /* when document is ready */
   $(function(){
@@ -145,6 +145,14 @@
       clickStop   : true
     });
   });
+  </script>
+  <script>
+  $('.img-indent').hover(function(e){
+	$('.imgss',this).css({display:'block'});
+	  
+	  },function(){
+	 $('.imgss',this).css({display:'none'}); 
+		  });
   </script>
  </div>
 <{/block}>
