@@ -21,11 +21,11 @@ transition-duration: 0.2s;
 /*------------------------------------index-3中间部分代码---------------------------------*/
 
 
-/*------------------------------------meishi网页CSS代码---------------------------------*/
+/*------------------------------------meishi 用料网页CSS代码---------------------------------*/
 .cailiao{ width:100%;float:left; }
 .cailiao h8{ min-width:48px; min-height:22px; display:block; float:left; color:#CA4B00;}
-.cailiao .cllb{ min-width:330px; min-height:81px; /*display:block;*/ float:left; }
-.cailiao .cllb li{ min-width:155px; min-height:29px;  float:left; padding-top:10px; border-bottom:#EEEEEE 1px solid; border-right:#EEEEEE 1px solid; border-top:#EEEEEE 1px solid; padding-left:5px; padding-right:3px;}
+.cailiao .cllb{ max-width:330px; max-height:81px; /*display:block;*/ float:left; }
+.cailiao .cllb li{ min-width:155px; max-height:29px;  float:left; padding-top:10px; border-bottom:#EEEEEE 1px solid; border-right:#EEEEEE 1px solid; border-top:#EEEEEE 1px solid; padding-left:5px; padding-right:3px;}
 .cailiao .cllb li a{ color:#000; }
 .cailiao .cllb li h9{ width:100px; height:20px; display:block; float:left;}
 .cailiao .cllb li span{ color:#929292;}

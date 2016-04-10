@@ -19,18 +19,18 @@
                       <article class="col-1">
                      	 <div class="bg">
                              <div class="padding">
-                                  <h3 class="p2">Good Cook</h3>
+                                  <h3 class="p2"><strong>Good</strong> Cook</h3>
                                      <div class="wrapper p3">
                                              <figure class="img-indent"><img src="<{'attachment/resize?id='|url}><{$_meishi.pid}>" alt="" /></figure>
                                              <div class="extra-wrap">
-                                                 <h6 style="height:35px;"><{$_meishi.name}></h6>
+                                                 <h6 class="color-3" style="height:35px;"><{$_meishi.name}></h6>
                                                  <div class="cailiao">
                                                     <h8>主料</h8>
                                                     <ul class="cllb">
                                                         <li><a><h9>胡萝卜</h9><span>1段</span></a></li>
                                                         <li><a><h9>豆芽菜</h9><span>3两</span></a></li>
                                                         <li><a><h9>青椒</h9><span>2颗</span></a></li>
-                                                        <li><a><h9></h9><span></span></a></li>
+                                                        <li><a><h9>&nbsp;&nbsp;&nbsp;</h9><span>&nbsp;&nbsp;&nbsp;</span></a></li>
                                                     </ul>
                                                  </div>
                                                  <div class="cailiao"> 
@@ -44,7 +44,7 @@
                                                  </div> 
                                              </div>
                                       </div>
-                                  <h3 class="p2" style="border-bottom:#eeeeee 1px solid; margin-top:-8px; line-height:2.2em;" >做法</h3>
+                                  <h3 class="p2 color-3" style="border-bottom:#eeeeee 1px solid; margin-top:-8px; line-height:2.2em;" >做法</h3>
 
                                  <div class="img_left">
                                      <{foreach $_meishi.aids as $aid}>
@@ -62,7 +62,7 @@
                          </div>
                       </article>
                       <article class="col-2">
-                        <h3 class="border-bot p2">Popular Recepes</h3>
+                        <h3 class="border-bot p2"><strong>Popular</strong> Recepes</h3>
                                         <h6 class="color-3">美食菜谱</h6>
                                         <p>"生活水平的不断提高，人们对美食的需求也在真加，让我们看看那些菜肴获得大家的欢迎"</p>
                                         <figure class="p2"><img src="images/page2/p2-5.jpg" alt="" /></figure>
