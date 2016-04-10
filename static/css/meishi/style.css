@@ -511,3 +511,7 @@ html, body {height:100%;}
 	text-align:center;
 	padding-top:70px;
 }
+.img_left{float: left; margin-right:20px }
+.img_left figure{margin: 0;margin-bottom: 10px}
+
+.text_right {float: left;width: 300px}
