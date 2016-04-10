@@ -23,7 +23,7 @@
 			<option value="<{$item.cover_id}>" selected="selected"></option>
 			<{/foreach}><{/if}>
 		</select>
-		<div class="alert alert-info"><i class="fa fa-warning"></i> 可以上传20张图片作为美食的封面</div>
+		<div class="alert alert-info"><i class="fa fa-warning"></i> 可以上传4张图片</div>
 	</div>
 </div>
 

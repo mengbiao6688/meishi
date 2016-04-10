@@ -40,6 +40,13 @@ class HomeController extends Controller
 		if(!$meishi) {
 			return $this->failure('meishi.nomeishi',url('/'));
 		}
+
+
+
+		//删除第一张图片
+		$aids = $meishi->getCovers();
+		$aids->shift();
+		$meishi->aids = $aids->pluck('cover_id');
 		$meishi->pid = $meishi->getCover()->toArray()[0];
 		$this->_meishi = $meishi;
 

@@ -47,9 +47,11 @@
                                   <h3 class="p2" style="border-bottom:#eeeeee 1px solid; margin-top:-8px; line-height:2.2em;" >做法</h3>
 
                                  <div class="img_left">
-                                     <p><figure class="img-indent"><img  src="<{'static/img/meishi/page3/sss/sss.png'|url}>" alt=""/></figure></p>
-                                     <p><figure class="img-indent"><img  src="<{'static/img/meishi/page3/sss/sss.png'|url}>" alt=""/></figure></p>
-                                     <p><figure class="img-indent"><img  src="<{'static/img/meishi/page3/sss/sss3.png'|url}>" alt=""/></figure></p>
+                                     <{foreach $_meishi.aids as $aid}>
+                                     <p><figure class="img-indent"><img  src="<{'attachment?id='|url}><{$aid}>" alt=""/></figure></p>
+                                     <{/foreach}>
+
+
                                  </div>
                                  <div class="text_right">
                                      <{$_meishi.zuofa nofilter}>
