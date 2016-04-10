@@ -19,15 +19,15 @@
                         	<article class="col-1">
                                 <div class="bg">
                                     <div class="padding">
-                                    	<h3 class="p2">Good Cook</h3>
+                                    	<h3><strong>Good</strong> Cook</h3>
                                         <{if $_results}>
                                             <{foreach $_results as $data}>
                                             <div class="wrapper p3">
                                                 <figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'attachment/resize?id='}><{$data.pid}>" alt="" /></a></figure>
                                                 <div class="extra-wrap">
-                                                    <h6><{$data.name}></h6>
+                                                    <h6 class="color-3"><{$data.name}></h6>
                                                     <p class="p1">“<{$data.desc}>”</p>
-                                                    <a class="button-2" href="<{'meishi'}>/<{$data.id}>">Read More</a>
+                                                    <a class="button-1" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                                 </div>
                                             </div>
                                             <{/foreach}>
@@ -38,7 +38,7 @@
                                 </div>
                             </article>
                             <article class="col-2">
-                            	<h3 class="border-bot p2">Popular Recepes</h3>
+                            	<h3><strong>Popular</strong> Recepes</h3>
                                 <h6 class="color-3">美食菜谱</h6>
                                 <p>“生活水平的不断提高，人们对美食的需求也在真加，让我们看看那些菜肴获得大家的欢迎“</p>
                                 <figure class="p2"><img src="images/page2/p2-5.jpg" alt="" /></figure>

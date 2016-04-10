@@ -62,7 +62,7 @@
                                 <article style=" min-width:320px;" class="col-2">
                                     <h3><strong>Recommended</strong> <em>today</em></h3>
                                     <ul class="list-1">
-                                        <li><a href="#meishi">清炒素三丝······················营养均衡</a>
+                                        <li><a href="<{'meishi/1'|url}>">清炒素三丝······················营养均衡</a>
                                         <img src="<{'static/img/meishi/page2/p2-1.jpg'|url}>"></li>
                                         <li><a href="recipes">美味蛋包饭······················补充蛋白</a>
                                         <img src="<{'static/img/meishi/page2/p2-2.jpg'|url}>"></li>
