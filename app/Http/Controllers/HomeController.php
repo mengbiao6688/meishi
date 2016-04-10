@@ -40,7 +40,7 @@ class HomeController extends Controller
 		if(!$meishi) {
 			return $this->failure('meishi.nomeishi',url('/'));
 		}
-		$meishi->cover_id = $meishi->getCover()->toArray()[0];
+		$meishi->pid = $meishi->getCover()->toArray()[0];
 		$this->_meishi = $meishi;
 
         return $this->view('meishi');

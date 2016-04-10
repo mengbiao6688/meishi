@@ -21,7 +21,7 @@
                              <div class="padding">
                                   <h3 class="p2">Good Cook</h3>
                                      <div class="wrapper p3">
-                                             <figure class="img-indent"><img src="<{'attachment/resize?id='|url}><{$_meishi.id}>" alt="" /></figure>
+                                             <figure class="img-indent"><img src="<{'attachment/resize?id='|url}><{$_meishi.pid}>" alt="" /></figure>
                                              <div class="extra-wrap">
                                                  <h6 style="height:35px;"><{$_meishi.name}></h6>
                                                  <div class="cailiao">
