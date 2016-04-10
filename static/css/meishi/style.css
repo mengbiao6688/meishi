@@ -514,4 +514,6 @@ html, body {height:100%;}
 .img_left{float: left; margin-right:20px }
 .img_left figure{margin: 0;margin-bottom: 10px}
 
-.text_right {float: left;width: 300px}
+.text_right {float: left; margin-top:15px;max-width: 350px;}
+.text_right .extra-wrap{ min-height:180px;}
+#page7 .bg{ height:1000px;}
