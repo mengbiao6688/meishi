@@ -22,12 +22,12 @@
                                     	<h3><strong>Good</strong> <em>Cook</em></h3>
                                        <div id="itemContainer">
                                           <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>" ><img  src="<{'static/img/meishi/page2/p2-1.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi/1'|url}>" ><img  src="<{'static/img/meishi/page2/p2-1.jpg'|url}>" alt="" /></a><div class="imgss"><a href="<{'meishi/1'|url}>" ><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></a></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">素三丝</h6>
                                                 <p6>厨师：淡年华</p6>
                                                 <p class="p1">“夏天了，就想喝碗粥，就一碟子清爽的小菜。素三丝是我比较常做的，豆芽营养丰富，胡萝卜脆甜，搭配起来口感非常的好，两颗葱给提升了颜值不少，家常小菜也美味”</p>
-                                                <a class="button-1" href="/meishi" <{'meishi'}>/<{$data.id}>>Read More</a>
+                                                <a class="button-1" href="<{'meishi/1'|url}>">Read More</a>
                                             </div>
                                         </div>
                                            <div class="wrapper p3">

@@ -1,10 +1,18 @@
-$('.menu li').click(function(){
-var oA=document.getElementsByTagName('.menu a');
-for(var i=0;i<oA.length;i++){
-oA[i].onclick=function() {
-for(var i=0;i<oA.length;i++){
-oA[i].addclass=active;
-}
-}
-}
+
+
+
+/*
+$('.menu li').click(function(e){
+	
+$('a',this).addclass('active');
+
 })
+
+*/
+$(document).ready(function() {
+	$('.menu li a').click(function() {
+		var id = $(this).data('id');
+		$('.menu li a').addClass('');
+		$('.menu li a').eq(id+1).css('color','#abcdef');      	
+    });
+});
