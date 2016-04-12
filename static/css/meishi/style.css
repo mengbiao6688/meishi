@@ -459,9 +459,9 @@ html, body {height:100%;}
 #page1 .list{ overflow:hidden;}
 #page1 .list-1 img{ max-width:50px; max-height:50px; border:#CCC 2px solid; display:none; position:relative; top:-3px;  }
 /*--------------------------------------------搜索框css代码---------------------------------------------*/
-.search{ width:380px; height:40px; float:left; margin-left:40px; padding-top:20px;}
+.search{ max-width:380px; height:40px; float:left; margin-left:40px; padding-top:20px;}
 .search .search_border{
-	width:220px;
+	max-width:220px;
 	height:20px;
 	float:left;
 	border:1px solid #d3d3d3;
@@ -471,19 +471,19 @@ html, body {height:100%;}
 	
 }
 .search .search_border .search_text{
-	width:160px;
+	max-width:160px;
 	float:left;
 	margin-left:10px;
 	background:#EFEFEF;
 	border:0px;
 }
 .search .search_border .search_btn{
-	width:20px;
+	max-width:20px;
 	height:20px;
 	float:right; 
 	cursor:pointer;
 }
-.search span{ width:120px; height:20px; display:block; float:left; margin-left:35px;}
+.search span{ max-width:120px; height:20px; display:block; float:left; margin-left:35px;}
 .search span a{ color:#E2E2E2; text-decoration:none; width:40px; height:40px; display:block; float:left; margin-right:20px;}
 /*-------------------------------------------------tips css代码------------------------------------------------*/
 .col-2 .img-indent-bot .p1{border-bottom:#E0e0e0 1px dotted;}
@@ -522,6 +522,4 @@ html, body {height:100%;}
 #page7 h10{ width:30px; min-height:210px; display:block; float:left; color:#CA4B00; font-size:30px; font-style:italic; }
 #page7 p8{ max-width:300px; min-height:210px; display:block; float:left; }
 
-/*#page7 aside{ margin-right:0px; max-width:350px;}
-#page7 .img-indent img{ max-width:210px; max-height:200px;}
-#page7 .extra-wrapbz{max-height:200px; float:left;}*/
+

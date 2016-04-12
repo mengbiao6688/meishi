@@ -27,7 +27,7 @@
         <div class="main">
             <nav>
                 <ul class="menu">
-                    <li><a class="active" href="/" id="1">首页</a></li>
+                    <li><a class="active" href="/" id="1">首　　页</a></li>
                     <li><a href="/about" id="2">关于我们</a></li>
                     <li><a href="/foods" id="3">食材大全</a></li>
                     <li><a href="/tips" id="4">饮食资讯</a></li>
