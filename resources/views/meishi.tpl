@@ -65,7 +65,7 @@
                         <h3 class="border-bot p2"><strong>Popular</strong> Recepes</h3>
                                         <h6 class="color-3">美食菜谱</h6>
                                         <p>"生活水平的不断提高，人们对美食的需求也在真加，让我们看看那些菜肴获得大家的欢迎"</p>
-                                        <figure class="p2"><img src="images/page2/p2-5.jpg" alt="" /></figure>
+                                        <figure class="p2">"<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></figure>
                                         <ul class="list-1 img-indent-bot">
                                             　　<li><a href="#">减肥鸡蛋沙拉···················营养均衡</a></li>
                                                 <li><a href="#">猪耳麻辣香锅···················开胃健脾</a></li> 
