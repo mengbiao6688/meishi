@@ -9,7 +9,7 @@
  #l-1 #form ul li{ height:40px; margin-bottom:20px;}
  #l-1 #form ul li span{ line-height:40px;}
  #l-1 #form ul li .input{ width:200px; height:30px;}
- #l-1 #form ul li #button{ background:url(../../img/meishi/login-dl.jpg) no-repeat; width:105px; height:40px; display:block; margin:0 auto; margin-top:20px;}
+ #l-1 #form ul li #button{ background:url(../../img/meishi/login/login-dl.png) no-repeat; width:105px; height:40px; display:block; margin:0 auto; margin-top:20px;}
  #dlfs a img{
 transition-duration: 0.2s;
 -moz-transition-duration: 0.2s; /* Firefox 4 */

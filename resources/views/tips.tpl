@@ -24,14 +24,14 @@
                                     <div class="wrapper p3">
                                     	<figure class="img-indent"><img src="<{'static/img/meishi/tips/tips-1.jpg'|url}>" alt="" /></figure>
                                         <div class="extra-wrap">
-                                            <p6 class="color-3">厨师：潜行蜗牛</p6>
+                                            <p6 class="color-3">美食爱好者：潜行蜗牛</p6>
                                             <p class="p1">从事料理近20年，曾跟随日本人，法国人，学习料理制造,在国外学习工作多年,不断的学习创新,不断的追求精致料理菜品的变革和结合，积累丰富的经验。</p>
                                         </div>
                                     </div>
                                     <div class="wrapper p3">
                                     	<figure class="img-indent"><img src="<{'static/img/meishi/tips/tips-2.jpg'|url}>" alt="" /></figure>
                                         <div class="extra-wrap">
-                                            <p6 class="color-3">厨师：潜行蜗牛</p6>
+                                            <p6 class="color-3">美食爱好者：等风来</p6>
                                             <p class="p1">从事料理工作10年，曾到法国、日本、韩国学习料理,在国外学习工作多年,不断的学习创新,不断的追求精致料理菜品的变革和结合，积累丰富的经验。</p>
                                         </div>
                                     </div>
@@ -47,7 +47,7 @@
                                                     <div class="extra-wrap">
                                                     	<div class="margin-top">
                                                             <h6>减肥鸡蛋沙拉</h6>
-                                                            <p class="p1">作者：潜行蜗牛；</br>
+                                                            <p class="p1">美食爱好者：潜行蜗牛；</br>
                                                             主要材料是咸蛋，香菜等，有减肥功能</p>
                                                             <a class="link" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                                         </div>
@@ -60,7 +60,7 @@
                                                     <div class="extra-wrap">
                                                     	<div class="margin-top">
                                                             <h6>蟹粉鲜虾丸</h6>
-                                                            <p class="p1">作者：深呼吸；</br>
+                                                            <p class="p1">美食爱好者：深呼吸；</br>
                                                             主要材料是虾，清理肠胃，排除油脂</p>
                                                             <a class="link" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                                         </div>
@@ -75,7 +75,7 @@
                                                     <div class="extra-wrap">
                                                     	<div class="margin-top">
                                                             <h6>猪耳麻辣香锅</h6>
-                                                            <p class="p1">作者：刘倩;</br>
+                                                            <p class="p1">美食爱好者：刘倩;</br>
                                                             主要材料猪耳、辣椒，色香味俱全</p>
                                                             <a class="link" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                                         </div>
@@ -88,7 +88,7 @@
                                                     <div class="extra-wrap">
                                                     	<div class="margin-top">
                                                             <h6>洋葱炒芹菜</h6>
-                                                            <p class="p1">作者：等风来</br>
+                                                            <p class="p1">美食爱好者：等风来</br>
                                                             主要材料洋葱、芹菜，清热解毒</p>
                                                             <a class="link" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                                         </div>
