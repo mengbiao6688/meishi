@@ -1,7 +1,7 @@
 <div class="top-row">
     <div class="main">
         <div class="wrapper">
-            <h1><a href="index.html">GoodCook</a></h1>
+            <h1><a href="index.html">My Recipes</a></h1>
             <div class="search">
                 <form class="search_border" action="<{'search'|url}>" method="post" id="search">
                     <input type="hidden" name="_token" value="<{csrf_token()}>"/>

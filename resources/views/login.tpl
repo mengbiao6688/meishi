@@ -18,9 +18,9 @@
 		<div class="inner">
 			<div class="main">
 				<section id="content">
-					<div class="indent">
+					<!--<div class="indent">
 						<div class="wrapper">
-
+-->
 							<div id="l-1">
 								<img style=" display:block;  margin:0 auto;"  src="<{'static/img/meishi/denglu.png'|url}>">
 								<div id="dlfs">
@@ -43,8 +43,8 @@
 							</div>
 
 
-						</div>
-					</div><!-------------------------------indent结束------------------------>
+						<!--</div>-->
+					<!--</div>--><!-------------------------------indent结束------------------------>
 				</section><!------------------------------content结束------------------------>
 				<div class="block"></div>
 			</div><!-----------------------------main结束------------------------>

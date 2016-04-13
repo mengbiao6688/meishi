@@ -3,7 +3,7 @@
 /*------------------------------------登录、注册css代码---------------------------------*/
  #l-1{ width:430px; height:800px; margin:0 auto; margin-top:80px;}
  #l-1 #dlfs{ width:350px; height:80px; /*float:left;*/ margin:50px auto 50px auto; }
- #l-1 #dlfs img{ margin-right:30px;}
+ #l-1 #dlfs img{  max-width:75px; max-height:75px;  margin-right:30px;}
  #l-1 #form{ width:340px; height:160px; padding-top:20px; margin:0 auto;}
  #l-1 #form ul{ list-style-type:none;}
  #l-1 #form ul li{ height:40px; margin-bottom:20px;}
@@ -16,7 +16,7 @@ transition-duration: 0.2s;
 -webkit-transition-duration: 0.2s; /* Safari 和 Chrome */
 -o-transition-duration: 0.2s; /* Opera */
 }
-#dlfs a img:hover{ margin-top:-5px; width:90; height:90%;}
+#dlfs a img:hover{ margin-top:-5px;max-width:90%; height:90%;}
 
 /*------------------------------------index-3中间部分代码---------------------------------*/
 
