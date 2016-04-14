@@ -147,7 +147,7 @@
     /* initiate plugin */
     $("div.holder").jPages({
       containerID : "itemContainer",
-      pause       : 4000,
+    <!--  pause       : 4000,-->
       clickStop   : true
     });
   });

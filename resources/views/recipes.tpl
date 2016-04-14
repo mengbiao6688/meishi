@@ -58,12 +58,12 @@
                                             </div>
                                         </div>
                                           <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>" ><img  src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi/3'|url}>" ><img  src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a><div class="imgss"><a href="<{'meishi/3'|url}>"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></a></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">减肥鸡蛋沙拉</h6>
                                                 <p6>美食爱好者：淡年华</p6>
                                                 <p class="p1">"天气慢慢的又开始暖和起来了，储存了一个冬天的脂肪也该适当减减了，做了这个沙拉，既好吃又没什么热量，又清热去火，献给今天过节的女神们。"</p>
-                                                <a class="button-1" href="/meishi" <{'meishi'}>/<{$data.id}>>Read More</a>
+                                                <a class="button-1" href="<{'meishi/3'|url}>">Read More</a>
                                             </div>
                                         </div>
                                            <div class="wrapper p3">
@@ -85,12 +85,12 @@
                                             </div>
                                         </div>
                                            <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-8.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img  src="<{'static/img/meishi/page2/p2-8.jpg'|url}>" alt="" /></a><div class="imgss"><a href="<{'meishi/2'|url}>"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></a></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">蟹粉鲜虾丸</h6>
                                                 <p6>美食爱好者：淡年华</p6>
                                                 <p class="p1">"三只毛蟹搭配一斤鲜虾做丸子，清淡鲜美、还很好吃哒~~~</p>
-                                                <a class="button-1" href="<{'meishi'}>/<{$data.id}>">Read More</a>
+                                                <a class="button-1" href="<{'meishi/2'|url}>">Read More</a>
                                             </div>
                                         </div>
                                         </div>
@@ -102,7 +102,7 @@
                             	<h3><strong>Popular</strong> <em>Recepes</em></h3>
                                 <h6 class="color-3">美食菜谱</h6>
                                 <p>“生活水平的不断提高，人们对美食的需求也在真加，让我们看看那些菜肴获得大家的欢迎“</p>
-                                <figure class="p2"><img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></figure>
+                                <figure class="p2"><a href="<{'meishi/3'|url}>"><img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a></figure>
                                 <ul class="list-1 img-indent-bot">
                                 	    <li><a href="#">减肥鸡蛋沙拉···················营养均衡</a></li>
                                         <li><a href="#">猪耳麻辣香锅···················开胃健脾</a></li> 
@@ -132,7 +132,7 @@
     /* initiate plugin */
     $("div.holder").jPages({
       containerID : "itemContainer",
-      pause       : 4000,
+<!--      pause       : 4000,-->
       clickStop   : true
     });
   });

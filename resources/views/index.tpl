@@ -78,13 +78,13 @@
                                 <article style=" min-width:320px;" class="col-2">
                                     <h3><strong>Latest</strong> <em>recipes</em></h3>
                                     <ul class="list-1">
-                                        <li><a href="#">减肥鸡蛋沙拉···················营养均衡</a>
+                                        <li><a href="<{'meishi/3'|url}>">减肥鸡蛋沙拉···················营养均衡</a>
                                         <img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>"></li> 
                                         <li><a href="#">猪耳麻辣香锅···················开胃健脾</a>
                                         <img src="<{'static/img/meishi/page2/p2-6.jpg'|url}>"></li> 
                                         <li><a href="#">酸辣酿尖椒······················开胃健脾</a>
                                         <img src="<{'static/img/meishi/page2/p2-7.jpg'|url}>"></li>
-                                        <li><a href="#">蟹粉鲜虾丸······················增强抵抗力</a>										 <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>"></li>
+                                        <li><a href="<{'meishi/2'|url}>">蟹粉鲜虾丸······················增强抵抗力</a>										 <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>"></li>
                                     </ul>
                                     <div class="relative">
                                         <a class="button-1" href="recipes">Read More</a>

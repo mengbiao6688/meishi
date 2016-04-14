@@ -72,7 +72,7 @@
                                     <dl>
                                         <dt>地址：安徽省安庆市</dt>
                                         <dd><span>Tel:</span> 123456</dd>
-                                        dd><span>E-mail:</span><a href="#">mail@123456@qq.com</a></dd>
+                                        <dd><span>E-mail:</span><a href="#">mail@123456@qq.com</a></dd>
                                         <dd><span>联系人：</span>等风来</dd>
                                     </dl>
                                 </div>
