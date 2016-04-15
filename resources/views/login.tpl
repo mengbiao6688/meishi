@@ -22,12 +22,12 @@
 						<div class="wrapper">
 -->
 							<div id="l-1">
-								<img style=" display:block;  margin:0 auto;"  src="<{'static/img/meishi/denglu.png'|url}>">
+								<img style=" display:block;  margin:0 auto; position:relative;"  src="<{'static/img/meishi/denglu.png'|url}>">
 								<div id="dlfs">
 									<a href="index.html"><img src="<{'static/img/meishi/login/sy.png'|url}>"></a>
 									<a href="search.tpl"><img src="<{'static/img/meishi/login/dt2.png'|url}>"></a>
 									<a href="courses.html"><img src="<{'static/img/meishi/login/lx.png'|url}>"></a>                              　 </div>
-								<img style=" display:block;  margin:0 auto;" src="<{'static/img/meishi/login-or.png'|url}>"><!--一直到这里都是没用的图片除了那几个a标签外-->
+								<img style=" display:block;  margin:0 auto; position:relative;" src="<{'static/img/meishi/login-or.png'|url}>"><!--一直到这里都是没用的图片除了那几个a标签外-->
 								<form id="form" method="post">
 									<ul>
 										<li><span>用户名：</span><input type="text" name="username" id="username" class="input" required></li>

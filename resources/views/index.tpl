@@ -18,13 +18,13 @@
                     <div class="slider">
                         <ul class="items">
                             <li>
-                                <img src="<{'static/img/meishi/slider-img1.jpg'|url}>" alt="" />
+                                <a href="foods"><img src="<{'static/img/meishi/slider-img1.jpg'|url}>" alt="" /></a>
                                 <div class="banner">
                                     <strong class="title">
                                         <strong>Hot</strong><em>Recipe</em>
                                     </strong>
                                     <p class="p3">纯净、绿色、健康、安全食材，水果纤维利于补充水分，美肤、蔬菜纤维有利于促进身体的代谢功能</p>
-                                    <a class="button-1" href="#">Read More</a>
+                                    <a class="button-1" href="recipes">Read More</a>
                                 </div>
                             </li>
                             <li>
@@ -34,7 +34,7 @@
                                         <strong>Hot</strong><em>Recipe</em>
                                     </strong>
                                     <p>每一天膳食都需要营养搭配均衡，蔬菜、水果、肉类食品缺一不可，膳食营养均衡满足身体需要，促进生长、发育、健康</p>
-                                    <a class="button-1" href="#">Read More</a>
+                                    <a class="button-1" href="recipes">Read More</a>
                                 </div>
                             </li>
                             <li>
@@ -44,16 +44,16 @@
                                         <strong>Hot</strong><em>Recipe</em>
                                     </strong>
                                     <p>水果、蔬菜、肉类大家要购买安全、纯净、健康的食材；特别是蔬菜和肉类既要纯净、安全，还要注意烹饪方法，部分食材烹饪方式不对可能会产生毒素。</p>
-                                    <a class="button-1" href="#">Read More</a>
+                                    <a class="button-1" href="recipes">Read More</a>
                                 </div>
                             </li>
                         </ul>
                         <a class="banner-2" href="#"></a>
                     </div><!------------------slider结束图片轮播横条结束----------------->
                     <ul class="pags">
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
                     </ul>
                     <!--------------------------------------- 第2横条------------------------------------------------->
                     <div class="bg">
@@ -68,7 +68,7 @@
                                         <img src="<{'static/img/meishi/page2/p2-2.jpg'|url}>"></li>
                                         <li><a href="meishi-3">蒜苗回锅肉······················开胃健脾</a>
                                         <img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>"></li>
-                                        <li><a href="#">耗油西兰花······················增强抵抗力</a>                                      <img src="<{'static/img/meishi/page2/p2-4.jpg'|url}>"></li> 
+                                        <li><a href="#">耗油西兰花······················增强抵抗</a>                                      <img src="<{'static/img/meishi/page2/p2-4.jpg'|url}>"></li> 
 
                                     </ul>
                                     <div class="relative">
@@ -84,7 +84,7 @@
                                         <img src="<{'static/img/meishi/page2/p2-6.jpg'|url}>"></li> 
                                         <li><a href="#">酸辣酿尖椒······················开胃健脾</a>
                                         <img src="<{'static/img/meishi/page2/p2-7.jpg'|url}>"></li>
-                                        <li><a href="<{'meishi/2'|url}>">蟹粉鲜虾丸······················增强抵抗力</a>										 <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>"></li>
+                                        <li><a href="<{'meishi/2'|url}>">蟹粉鲜虾丸······················增强抵抗</a>										 <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>"></li>
                                     </ul>
                                     <div class="relative">
                                         <a class="button-1" href="recipes">Read More</a>
@@ -93,13 +93,13 @@
                                 <article class="col-2">
                                     <h3><strong>Hottest</strong> <em>recipes</em></h3>
                                     <ul class="list-1">
-                                        <li><a href="#">酸辣酿尖椒··················开胃膳食</a>
+                                        <li><a href="#">酸辣酿尖椒·····················开胃膳食</a>
                                         <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>"></li>
                                         <li><a href="#">洋葱炒芹菜·····················利于抗癌</a>
                                         <img src="<{'static/img/meishi/page2/p2-9.jpg'|url}>"></li>
                                         <li><a href="#">脆皮香豆腐·····················美味可口</a>
                                         <img src="<{'static/img/meishi/page2/p2-10.jpg'|url}>"></li>
-                                        <li><a href="#">北京烤肉·····················预防贫血</a>
+                                        <li><a href="#">北京烤肉························预防贫血</a>
                                         <img src="<{'static/img/meishi/page2/p2-11.jpg'|url}>"></li>
                                     </ul>
                                     <div class="relative">
