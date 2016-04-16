@@ -40,12 +40,12 @@
                                             </div>
                                         </div>
                                            <div class="wrapper p3">
-                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>" alt="" /></a><div class="imgss"><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></div></figure>
+                                        	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>" alt="" /></a><div class="imgss"><a href="<{'meishi/4'|url}>" ><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></a></div></figure>
                                             <div class="extra-wrap">
                                             	<h6 class="color-3">蒜苗回锅肉</h6>
                                                 <p6>美食爱好者：淡年华</p6>
                                                 <p class="p1">"回锅肉是四川人初一、十五打牙祭的当家菜，逢年过节的餐桌上肯定也少不了这道当家菜,一碗家常回锅肉，更能让你体会到家的温暖和味道，思乡了吗？添碗米饭，吃回锅肉吧！~".</p>
-                                                <a class="button-1" href="<{'meishi'}>/<{$data.id}>">Read More</a>
+                                                <a class="button-1" href="<{'meishi/1'|url}>" >Read More</a>
                                             </div>
                                         </div>
                                             <div class="wrapper p3">
@@ -102,16 +102,17 @@
                             	<h3><strong>Popular</strong> <em>Recepes</em></h3>
                                 <h6 class="color-3">美食菜谱</h6>
                                 <p>“生活水平的不断提高，人们对美食的需求也在真加，让我们看看那些菜肴获得大家的欢迎“</p>
-                                <figure class="p2"><a href="<{'meishi/3'|url}>"><img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a></figure>
+                                <figure class="p2"><a href="<{'meishi/3'|url}>"><img src="<{'static/img/meishi/page2/p2-r.jpg'|url}>" alt="" /></a></figure>
                                 <ul class="list-1 img-indent-bot">
-                                	    <li><a href="#">减肥鸡蛋沙拉···················营养均衡</a></li>
-                                        <li><a href="#">猪耳麻辣香锅···················开胃健脾</a></li> 
-                                        <li><a href="#">酸辣酿尖椒·······················开胃健脾</a></li> 
-                                        <li><a href="#">蟹粉鲜虾丸·······················增强抵抗力</a></li>
+                                        <li><a href="<{'meishi/2'|url}>">蟹粉鲜虾丸·······················增强抵抗力</a></li>
+                                	    <li><a href="<{'meishi/3'|url}>">减肥鸡蛋沙拉····················营养均衡</a></li>
+                                        <li><a href="<{'meishi/4'|url}>">蒜苗回锅肉·······················开胃健脾</a></li> 
+                                        <li><a href="<{'meishi/1'|url}>">素三丝·····························开胃健脾</a></li> 
+                                        <li><a href="<{'meishi/2'|url}>">蟹粉鲜虾丸·······················增强抵抗力</a></li>
                                 	    <li><a href="#">酸辣酿尖椒·······················开胃膳食</a></li>
                                         <li><a href="#">洋葱炒芹菜·······················利于抗癌</a></li>
                                         <li><a href="#">脆皮香豆腐·······················美味可口</a></li>
-                                        <li><a href="#">北京烤肉························预防贫血</a></li>                                 
+                                        <li><a href="#">北京烤肉··························预防贫血</a></li>                                 
                                  </ul>
                             </article>
                         </div>

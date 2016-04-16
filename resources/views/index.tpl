@@ -66,8 +66,8 @@
                                         <img src="<{'static/img/meishi/page2/p2-1.jpg'|url}>"></li>
                                         <li><a href="recipes">美味蛋包饭······················补充蛋白</a>
                                         <img src="<{'static/img/meishi/page2/p2-2.jpg'|url}>"></li>
-                                        <li><a href="meishi-3">蒜苗回锅肉······················开胃健脾</a>
-                                        <img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>"></li>
+                                        <li><a href="#">酸辣酿尖椒······················开胃膳食</a>
+                                        <img src="<{'static/img/meishi/page2/p2-7.jpg'|url}>"></li>
                                         <li><a href="#">耗油西兰花······················增强抵抗</a>                                      <img src="<{'static/img/meishi/page2/p2-4.jpg'|url}>"></li> 
 
                                     </ul>
@@ -93,8 +93,8 @@
                                 <article class="col-2">
                                     <h3><strong>Hottest</strong> <em>recipes</em></h3>
                                     <ul class="list-1">
-                                        <li><a href="#">酸辣酿尖椒·····················开胃膳食</a>
-                                        <img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>"></li>
+                                        <li><a href="<{'meishi/4'|url}>">蒜苗回锅肉·····················开胃健脾</a>
+                                        <img src="<{'static/img/meishi/page2/p2-3.jpg'|url}>"></li>
                                         <li><a href="#">洋葱炒芹菜·····················利于抗癌</a>
                                         <img src="<{'static/img/meishi/page2/p2-9.jpg'|url}>"></li>
                                         <li><a href="#">脆皮香豆腐·····················美味可口</a>

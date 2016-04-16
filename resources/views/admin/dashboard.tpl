@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]--><head>
 	<meta charset="utf-8">
 	<{include file="common/title.inc.tpl"}>
-	<meta name="csrf-token" content="<{csrf_token()}>">
+	
+<meta name="csrf-token" content="<{csrf_token()}>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="renderer" content="webkit">
@@ -40,31 +40,11 @@
 							<!-- Top Stats -->
 							<div class="col-md-8 col-lg-6">
 								<div class="row text-center">
-									<div class="col-xs-4 col-sm-3">
-										<h2 class="animation-hatch">
-											￥<strong>100</strong><br>
-											<small><i class="fa fa-thumbs-o-up"></i> 总销售</small>
-										</h2>
-									</div>
-									<div class="col-xs-4 col-sm-3">
-										<h2 class="animation-hatch">
-											￥<strong>100</strong><br>
-											<small><i class="fa fa-heart-o"></i> 总</small>
-										</h2>
-									</div>
-									<div class="col-xs-4 col-sm-3">
-										<h2 class="animation-hatch">
-											￥<strong>100</strong><br>
-											<small><i class="fa fa-calendar-o"></i> 总</small>
-										</h2>
-									</div>
+								
+									
+									
 									<!-- We hide the last stat to fit the other 3 on small devices -->
-									<div class="col-sm-3 hidden-xs">
-										<h2 class="animation-hatch">
-											<strong>100</strong><br>
-											<small><i class="fa fa-map-marker"></i> 总用户</small>
-										</h2>
-									</div>
+									
 								</div>
 							</div>
 							<!-- END Top Stats -->
@@ -80,61 +60,25 @@
 					<div class="col-sm-6 col-lg-3">
 						<!-- Widget -->
 						<a href="#" class="widget widget-hover-effect1">
-							<div class="widget-simple">
-								<div class="widget-icon pull-left themed-background-autumn animation-fadeIn">
-									<i class="gi gi-charts"></i>
-								</div>
-								<h3 class="widget-content text-right animation-pullDown">
-									+ <strong>￥100</strong><br>
-									<small>本周销售</small>
-								</h3>
-							</div>
+							
 						</a>
 						<!-- END Widget -->
 					</div>
 					<div class="col-sm-6 col-lg-3">
 						<!-- Widget -->
 						<a href="#" class="widget widget-hover-effect1">
-							<div class="widget-simple">
-								<div class="widget-icon pull-left themed-background-spring animation-fadeIn">
-									<i class="gi gi-coins"></i>
-								</div>
-								<h3 class="widget-content text-right animation-pullDown">
-									+ <strong>￥100</strong><br>
-									<small>本周</small>
-								</h3>
-							</div>
+							
 						</a>
 						<!-- END Widget -->
 					</div>
 					<div class="col-sm-6 col-lg-3">
 						<!-- Widget -->
-						<a href="#" class="widget widget-hover-effect1">
-							<div class="widget-simple">
-								<div class="widget-icon pull-left themed-background-fire animation-fadeIn">
-									<i class="gi gi-shopping_cart"></i>
-								</div>
-								<h3 class="widget-content text-right animation-pullDown">
-									+ <strong>￥100</strong>
-									<small>本周</small>
-								</h3>
-							</div>
-						</a>
+						
 						<!-- END Widget -->
 					</div>
 					<div class="col-sm-6 col-lg-3">
 						<!-- Widget -->
-						<a href="#" class="widget widget-hover-effect1">
-							<div class="widget-simple">
-								<div class="widget-icon pull-left themed-background-amethyst animation-fadeIn">
-									<i class="gi gi-qrcode"></i>
-								</div>
-								<h3 class="widget-content text-right animation-pullDown">
-									+ <strong>100</strong>
-									<small>本周用户</small>
-								</h3>
-							</div>
-						</a>
+						
 						<!-- END Widget -->
 					</div>
 				</div>
@@ -144,39 +88,12 @@
 				<div class="row">
 					<div class="col-md-6" style='display:none;'>
 						<!-- Timeline Widget -->
-						<div class="widget">
-							<div class="widget-extra themed-background-dark">
-								<h3 class="widget-content-light">
-									 <strong>动态</strong>
-								</h3>
-							</div>
-							<div class="widget-extra">
-
-							</div>
-						</div>
+		
 						<!-- END Timeline Widget -->
 					</div>
 					<div class="col-md-6">
 						<!-- Your Plan Widget -->
-						<div class="widget">
-							<div class="widget-extra themed-background-dark">
-								<h3 class="widget-content-light">
-									财务 <strong>一览</strong>
-								</h3>
-							</div>
-							<div class="widget-advanced widget-advanced-alt">
-								<!-- Widget Header -->
-								<div class="widget-header text-center themed-background">
-									<h3 class="widget-content-light text-left pull-left animation-pullDown">
-										<strong>收入</strong><br>
-										<small>单位：元</small>
-									</h3>
-									<!-- Flot Charts (initialized in js/pages/index.js), for more examples you can check out http://www.flotcharts.org/ -->
-									<div id="dash-widget-chart" class="chart"></div>
-								</div>
-								<!-- END Widget Header -->
-							</div>
-						</div>
+						
 						<!-- END Your Plan Widget -->
 
 					</div>
