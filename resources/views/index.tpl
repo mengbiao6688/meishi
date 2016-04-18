@@ -21,9 +21,9 @@
                                 <a href="foods"><img src="<{'static/img/meishi/slider-img1.jpg'|url}>" alt="" /></a>
                                 <div class="banner">
                                     <strong class="title">
-                                        <strong>Hot</strong><em>Recipe</em>
+                                        <strong>Information</strong><em></em>
                                     </strong>
-                                    <p class="p3">纯净、绿色、健康、安全食材，水果纤维利于补充水分，美肤、蔬菜纤维有利于促进身体的代谢功能</p>
+                                    <p class="p3">牛肉富含大量的蛋白质、脂肪、卡路里，还有少量卵磷脂、胆固醇、游离脂肪酸及脂溶性色素，可提供较多的热量，能滋养脾胃、强健筋骨。</p>
                                     <a class="button-1" href="recipes">Read More</a>
                                 </div>
                             </li>
@@ -31,9 +31,9 @@
                                 <img src="<{'static/img/meishi/slider-img2.jpg'|url}>" alt="" />
                                 <div class="banner">
                                     <strong class="title">
-                                        <strong>Hot</strong><em>Recipe</em>
+                                        <strong>Information</strong><em></em>
                                     </strong>
-                                    <p>每一天膳食都需要营养搭配均衡，蔬菜、水果、肉类食品缺一不可，膳食营养均衡满足身体需要，促进生长、发育、健康</p>
+                                    <p>蔬菜中含有大量水分，含少量的蛋白质、脂肪、糖类、维生素、无机盐、纤维素等营养，肉中含含大量的蛋白质、脂肪，荤素搭配，营养均衡。</p>
                                     <a class="button-1" href="recipes">Read More</a>
                                 </div>
                             </li>
@@ -41,9 +41,9 @@
                                 <img src="<{'static/img/meishi/slider-img3.jpg'|url}>" alt="" />
                                 <div class="banner">
                                     <strong class="title">
-                                        <strong>Hot</strong><em>Recipe</em>
+                                        <strong>Information</strong><em></em>
                                     </strong>
-                                    <p>水果、蔬菜、肉类大家要购买安全、纯净、健康的食材；特别是蔬菜和肉类既要纯净、安全，还要注意烹饪方法，部分食材烹饪方式不对可能会产生毒素。</p>
+                                    <p>每一天膳食都需要营养搭配均衡，蔬菜、水果、肉类食品缺一不可，膳食营养均衡满足身体需要，促进生长、发育、健康。</p>
                                     <a class="button-1" href="recipes">Read More</a>
                                 </div>
                             </li>

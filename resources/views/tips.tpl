@@ -21,7 +21,7 @@
                                 	<h3><strong>Advice</strong> from Our Cook</h3>    
                                     <p class="p1">经常做饭的朋友总会有一些厨房"绝招"，处理难搞食材得心应手。新来的菜鸟们，赶紧看看如何把一道菜的味道魔法变身的吧。 </p>
                                    <!-- <h6 style="font-size:14px; margin-top:10px; margin-bottom:10px;" class="color-3">一起来看看为我们做贡献的厨师吧！</h6>-->
-                                   <div class="ahz1">
+                                   
                                   	  <div class="wrapper p3">
                                     	<figure class="img-indent"><img src="<{'static/img/meishi/tips/tips-1.jpg'|url}>" alt="" /></figure>
                                         <div class="extra-wrap">
@@ -36,36 +36,16 @@
                                             <p class="p1">从事料理工作10年，曾到法国、日本、韩国学习料理,在国外学习工作多年,不断的学习创新,不断的追求精致料理菜品的变革和结合，积累丰富的经验。</p>
                                         </div>
                                     </div>
-                                   </div>
-                                   <!-- <div class="ahz2">
-                                  	  <div class="wrapper p3">
-                                    	<figure class="img-indent"><img src="<{'static/img/meishi/tips/tips-2.jpg'|url}>" alt="" /></figure>
-                                        <div class="extra-wrap">
-                                            <p6 class="color-3">美食爱好者：潜行蜗牛</p6>
-                                            <p class="p1">从事料理近20年，曾跟随日本人，法国人，学习料理制造,在国外学习工作多年,不断的学习创新,不断的追求精致料理菜品的变革和结合，积累丰富的经验。</p>
-                                        </div>
-                                    </div>
-                                  	 <div class="wrapper p3">
-                                    	<figure class="img-indent"><img src="<{'static/img/meishi/tips/tips-1.jpg'|url}>" alt="" /></figure>
-                                        <div class="extra-wrap">
-                                            <p6 class="color-3">美食爱好者：等风来</p6>
-                                            <p class="p1">从事料理工作10年，曾到法国、日本、韩国学习料理,在国外学习工作多年,不断的学习创新,不断的追求精致料理菜品的变革和结合，积累丰富的经验。</p>
-                                        </div>
-                                    </div>
-                                   </div>-->
-                                    <ul class="zy"> 
-                                       <li><a class="prev" href="#"></a></li> 
-                                       <li><a class="next" href="#"></a></li> 
-                                     </ul>
+ 
                                 </div>
  <!---------------------------------- 有图片的地方---------------------------------->
                                 <div class="bg">
                                     <div class="padding">
-                                        <h3 style="display:block;"><div style=" width:200px; display:block; float:left;"><strong>Represent</strong>  foods </div> 
-                                        <ul class="sx"> 
+                                        <h3 style="display:block; height:30px;"><div style=" display:block; float:left;"><strong>Represent</strong>  foods </div> 
+                                       <!-- <ul class="sx"> 
                                         <li><a href="#"></a></li> 
                                         <li><a href="#"></a></li> 
-                                        </ul>
+                                        </ul>-->
                                         </h3>
                                         
                                       	 	 <div style="margin-top:20px;" class="wrapper indent-bot">
@@ -82,7 +62,7 @@
                                                     </div>
                                                  </div>
                                                </div>
-                                            	 <div class="column-2">
+                                            	<div class="column-2">
                                             		<div class="wrapper">
                                                 	<figure class="img-indent"><a href="<{'meishi/2'|url}>"><img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>" alt="" /></a></figure>
                                                     <div class="extra-wrap">
@@ -162,15 +142,14 @@
 		  });
   
   
- /* $('.next').click(function(){
-	   	$('.ahz2').show()..end().silbings('.ahz1').hide();
-	   
-	  });
-   $('.prev').click(function(){
-	   	$('.ahz1').show().end().silbings('.ahz2').hide();
-	   
-	  });  	*/ 
-  </script>
+ 
+$(".zy ul li a").each(function(i){
+$(this).click(function(){
+$(this).addClass("current").siblings().removeClass("current");
+$(".ahz:eq("+i+")").show().siblings(".ahz").hide();
+});
+});
 
- </div>
+ </script>
+</div>
 <{/block}>

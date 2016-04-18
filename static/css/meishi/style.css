@@ -551,8 +551,8 @@ html, body {height:100%;}
 		background:url(../../img/meishi/sx.png) right top no-repeat;
 		cursor:pointer;
 	}
-	.pags li a:hover,
-	.pags li.current a {background-position:left top;}
+	/*.pags li a:hover,
+	.pags li.current a {background-position:left top;}*/
 	.pags li.current a {cursor:default;}
 
 /**********************************           tips网页的厨师爱好者左右按钮设置     ***********************************/
@@ -560,6 +560,8 @@ html, body {height:100%;}
 	width:100%;
 	height:20px;
 	float:left;
+	margin-top:-5px;
+	text-align:center;
 }
 .zy li {
 	float:left;
@@ -569,11 +571,10 @@ html, body {height:100%;}
 		display:block;
 		width:13px;
 		height:12px;
-		text-indent:-9999px;
 		background:url(../../img/meishi/tips-ahz.png) right top no-repeat;
 		cursor:pointer;
 	}
 	.zy li a:hover,
-	.zy li.current a {background-position:left top;}  
+	.zy li.current a {background-position:left top;}
 	.zy li.current a {cursor:default;}
-.ahz2{ display:none;}
+.none{ display:none;}
