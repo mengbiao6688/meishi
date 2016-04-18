@@ -9,18 +9,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="renderer" content="webkit">
-	<{include file="common/icons.inc.tpl"}>
+	<!--<{include file="common/icons.inc.tpl"}>
 	<{include file="admin/common/styles.inc.tpl"}>
 	<{include file="admin/common/scripts.inc.tpl"}>
-	<{include file="common/validate.inc.tpl"}>
+	<{include file="common/validate.inc.tpl"}>-->
 </head>
 
-<body>
+<body background="../../../static/img/meishi/login.jpg">
 	<!-- Login Alternative Row -->
 	<div style="margin-top:-10px;" class="container">
 	
 				<!-- Login Container -->
-				<div id="login-container">
+				<div style="margin-top:-10px;" id="login-container">
 					<!-- Login Title -->
 					<div class="login-title text-center">
 						<h1><strong>登录</strong></h1>

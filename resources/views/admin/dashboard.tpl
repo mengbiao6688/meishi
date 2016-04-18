@@ -15,105 +15,13 @@
 	<script src="<{'static/js/chart/flot/jquery.flot.min.js'|url}>"></script>
 </head>
 
-<body class="page-loading">
-	<{include file="admin/common/loading.inc.tpl"}>
+<body style="background:url(../../../static/img/meishi/login.jpg)">
 	<div id="page-container" class="sidebar-partial sidebar-visible-lg sidebar-no-animations">
-		<{include file="admin/sidebar.inc.tpl"}>
-
-		<!-- Main Container -->
-		<div id="main-container">
-			<{include file="admin/menubar.inc.tpl"}>
-
-			<!-- Page content -->
-			<div id="page-content">
-				<!-- Dashboard Header -->
-				<!-- For an image header add the class 'content-header-media' and an image as in the following example -->
-				<div class="content-header content-header-media">
-					<div class="header-section">
-						<div class="row">
-							<!-- Main Title (hidden on small devices for the statistics to fit) -->
-							<div class="col-md-4 col-lg-6 hidden-xs hidden-sm">
-								<h1>欢迎 <strong><{$_user.nickname}></strong> <{if $_user.gender==1}>先生<{else if $_user.gender==2}>女士<{/if}><br><small>后台其实也可以很美！</small></h1>
-							</div>
-							<!-- END Main Title -->
-
-							<!-- Top Stats -->
-							<div class="col-md-8 col-lg-6">
-								<div class="row text-center">
-								
-									
-									
-									<!-- We hide the last stat to fit the other 3 on small devices -->
-									
-								</div>
-							</div>
-							<!-- END Top Stats -->
-						</div>
-					</div>
-					<!-- For best results use an image with a resolution of 2560x248 pixels (You can also use a blurred image with ratio 10:1 - eg: 1000x100 pixels - it will adjust and look great!) -->
-					<img src="img/placeholders/headers/dashboard_header.jpg" alt="header image" class="animation-pulseSlow">
-				</div>
-				<!-- END Dashboard Header -->
-
-				<!-- Mini Top Stats Row -->
-				<div class="row">
-					<div class="col-sm-6 col-lg-3">
-						<!-- Widget -->
-						<a href="#" class="widget widget-hover-effect1">
-							
-						</a>
-						<!-- END Widget -->
-					</div>
-					<div class="col-sm-6 col-lg-3">
-						<!-- Widget -->
-						<a href="#" class="widget widget-hover-effect1">
-							
-						</a>
-						<!-- END Widget -->
-					</div>
-					<div class="col-sm-6 col-lg-3">
-						<!-- Widget -->
-						
-						<!-- END Widget -->
-					</div>
-					<div class="col-sm-6 col-lg-3">
-						<!-- Widget -->
-						
-						<!-- END Widget -->
-					</div>
-				</div>
-				<!-- END Mini Top Stats Row -->
-
-				<!-- Widgets Row -->
-				<div class="row">
-					<div class="col-md-6" style='display:none;'>
-						<!-- Timeline Widget -->
-		
-						<!-- END Timeline Widget -->
-					</div>
-					<div class="col-md-6">
-						<!-- Your Plan Widget -->
-						
-						<!-- END Your Plan Widget -->
-
-					</div>
-				</div>
-				<!-- END Widgets Row -->
-			</div>
-			<!-- END Page Content -->
-
-			<{include file="admin/copyright.inc.tpl"}>
-		</div>
-		<!-- END Main Container -->
+		<{include file="admin/sidebar.inc.tpl"}>	
+        <div style=" width:870px; height:408px; float:right;"><p style=" width:300px; hei 30px; display:block; margin:0 auto; color:#FFF; font-size:24px; font-weight:100px; margin-top:170px;">欢迎光临美食网后台</p></div>
 	</div>
-	<!-- END Page Container -->
-
-	<!-- Scroll to top link, initialized in js/app.js - scrollToTop() -->
-	<a href="#" id="to-top"><i class="fa fa-angle-double-up"></i></a>
-
-
-	<!-- Bootstrap.js, Jquery plugins and Custom JS code -->
-	<!-- <script src="js/plugins.js"></script>-->
+	
+	
 
 
 	<script>
