@@ -15,10 +15,11 @@
 	<script src="<{'static/js/chart/flot/jquery.flot.min.js'|url}>"></script>
 </head>
 
-<body style="background:url(../../../static/img/meishi/login.jpg)">
+<body>
 	<div id="page-container" class="sidebar-partial sidebar-visible-lg sidebar-no-animations">
 		<{include file="admin/sidebar.inc.tpl"}>	
-        <div style=" width:870px; height:408px; float:right;"><p style=" width:300px; hei 30px; display:block; margin:0 auto; color:#FFF; font-size:24px; font-weight:100px; margin-top:170px;">欢迎光临美食网后台</p></div>
+        <div style=" width:893px; height:50px; float:right; background:#313854;"></div>
+        <div style=" width:893px; height:387px; float:right;"><p style=" width:300px; hei 30px; display:block; margin:0 auto; color:#FFF; font-size:24px; font-weight:100px; margin-top:170px;">欢迎光临美食网后台</p></div>
 	</div>
 	
 	
