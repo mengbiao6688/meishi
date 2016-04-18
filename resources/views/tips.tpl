@@ -51,12 +51,12 @@
                                       	 	 <div style="margin-top:20px;" class="wrapper indent-bot">
                                         		<div class="column-1">
                                             	 <div class="wrapper">
-                                                	<figure class="img-indent"><a href="<{'meishi/3'|url}>"><img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a></figure>
+                                                	<figure class="img-indent"><a href="<{'meishi/1'|url}>"><img src="<{'static/img/meishi/page2/p2-1.jpg'|url}>" alt="" /></a></figure>
                                                     <div class="extra-wrap">
                                                     	<div class="margin-top">
-                                                            <h6>减肥鸡蛋沙拉</h6>
+                                                            <h6>素三丝</h6>
                                                             <p class="p1">美食爱好者：潜行蜗牛；</br>
-                                                            主要材料是咸蛋，香菜等，有减肥功能</p>
+                                                            主要材料是胡萝卜、豆芽等，色香味俱全。</p>
                                                             <a class="link" href="<{'meishi/3'|url}>">Read More</a>
                                                         </div>
                                                     </div>
@@ -77,12 +77,12 @@
                                               </div>
                                         		<div class="column-1">
                                                     <div class="wrapper">
-                                                        <figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-6.jpg'|url}>" alt="" /></a></figure>
+                                                        <figure class="img-indent"><a href="<{'meishi/3'|url}>"><img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a></figure>
                                                     <div class="extra-wrap">
                                                     	<div class="margin-top">
-                                                            <h6>猪耳麻辣香锅</h6>
+                                                            <h6>减肥鸡蛋沙拉</h6>
                                                             <p class="p1">美食爱好者：刘倩;</br>
-                                                            主要材料猪耳、辣椒，色香味俱全</p>
+                                                            主要材料鸡蛋、番茄，有减肥功效</p>
                                                             <a class="link" href="<{'meishi'}>/<{$data.id}>">Read More</a>
                                                        	 </div>
                                                    	 </div>

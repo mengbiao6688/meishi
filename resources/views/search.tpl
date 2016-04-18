@@ -19,7 +19,7 @@
                         	<article class="col-1">
                                 <div class="bg">
                                     <div class="padding">
-                                    	<h3><strong>Good</strong> Cook</h3>
+                                    	<h3><strong>Mei</strong> Shi</h3>
                                         <{if $_results}>
                                             <{foreach $_results as $data}>
                                             <div class="wrapper p3">

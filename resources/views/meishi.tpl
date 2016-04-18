@@ -19,7 +19,7 @@
                       <article class="col-1">
                      	 <div class="bg">
                              <div class="padding">
-                                  <h3 class="p2"><strong>Good</strong> Cook</h3>
+                                  <h3 class="p2"><strong>Mei</strong> Shi</h3>
                                      <div class="wrapper p3">
                                              <figure class="img-indent"><img src="<{'attachment/resize?id='|url}><{$_meishi.pid}>" alt="" /></figure>
                                              <div class="extra-wrap">

@@ -19,7 +19,7 @@
                         	<article class="col-1">
                                 <div class="bg">
                                     <div class="padding">
-                                    	<h3><strong>Good</strong> <em>Cook</em></h3>
+                                    	<h3><strong>Mei</strong> <em>Shi</em></h3>
                                        <div id="itemContainer">
                                           <div class="wrapper p3">
                                         	<figure class="img-indent"><a href="<{'meishi/1'|url}>" ><img  src="<{'static/img/meishi/page2/p2-1.jpg'|url}>" alt="" /></a><div class="imgss"><a href="<{'meishi/1'|url}>" ><img src="<{'static/img/meishi/zoom.png'|url}>" alt=""></a></div></figure>
