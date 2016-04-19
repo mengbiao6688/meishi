@@ -31,7 +31,7 @@
                                                         <div class="clear"></div>
                                                         <div class="buttons">
                                                             <a class="button-1" href="#" onClick="document.getElementById('contact-form').reset()">Clear</a>
-                                                            <a class="button-1" href="#" onClick="document.getElementById('contact-form').submit()">Send</a>
+                                                            <a class="button-1" href="/index" onClick="document.getElementById('contact-form').submit()">Send</a>
                                                         </div> 
                                                     </div>
                                                   </div>                            

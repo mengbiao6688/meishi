@@ -93,7 +93,6 @@ class HomeController extends Controller
 		return $this->view('meishi-3');
 	}*/
 	
-
 	
 
 	//搜索页面
