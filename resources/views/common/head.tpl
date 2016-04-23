@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="<{'static/css/meishi/font.css'|url}>" type="text/css" >
 <link rel="stylesheet" href="<{'static/css/meishi/login.css'|url}>" type="text/css" >
 <link rel="stylesheet" href="<{'static/css/meishi/jPages.css'|url}>" type="text/css">
+<link rel="stylesheet" href="<{'static/css/meishi/tab.css'|url}>" type="text/css">
 <{/block}>
 
 <{block "head-scripts"}>

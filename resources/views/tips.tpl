@@ -41,15 +41,15 @@
  <!---------------------------------- 有图片的地方---------------------------------->
                                 <div class="bg">
                                     <div class="padding">
-                                        <h3 style="display:block; height:30px;"><div style=" display:block; float:left;"><strong>Represent</strong>  foods </div> 
-                                       <!-- <ul class="sx"> 
-                                        <li><a href="#"></a></li> 
-                                        <li><a href="#"></a></li> 
-                                        </ul>-->
+                                        <h3 style=" width:600px; display:block; height:30px;"><div style=" width:200px; display:block; float:left;"><strong>Represent</strong>  foods </div> 
+                                           <div class="sx"> 
+                                                <a class="pre"></a>
+                                                <a class="next"></a>
+                                            </div>
                                         </h3>
-                                        
-                                      	 	 <div style="margin-top:20px;" class="wrapper indent-bot">
-                                        		<div class="column-1">
+                                      	 	 <div style="margin-top:20px; height:260px;" class="wrapper indent-bot">
+                                               <div class="shang">
+                                                <div class="column-1">
                                             	 <div class="wrapper">
                                                 	<figure class="img-indent"><a href="<{'meishi/1'|url}>"><img src="<{'static/img/meishi/page2/p2-1.jpg'|url}>" alt="" /></a></figure>
                                                     <div class="extra-wrap">
@@ -61,9 +61,9 @@
                                                         </div>
                                                     </div>
                                                  </div>
-                                               </div>
+                                                </div>
                                             	<div class="column-2">
-                                            		<div class="wrapper">
+                                            	 <div class="wrapper">
                                                 	<figure class="img-indent"><a href="<{'meishi/2'|url}>"><img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>" alt="" /></a></figure>
                                                     <div class="extra-wrap">
                                                     	<div class="margin-top">
@@ -74,11 +74,11 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                              </div>
+                                                </div>
                                         		<div class="column-1">
                                                     <div class="wrapper">
                                                         <figure class="img-indent"><a href="<{'meishi/3'|url}>"><img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a></figure>
-                                                    <div class="extra-wrap">
+                                                   		 <div class="extra-wrap">
                                                     	<div class="margin-top">
                                                             <h6>减肥鸡蛋沙拉</h6>
                                                             <p class="p1">美食爱好者：刘倩;</br>
@@ -89,7 +89,7 @@
                                                 	</div>
                                                 </div>
                                           		<div class="column-2">
-                                            		<div class="wrapper">
+                                            	  <div class="wrapper">
                                                 	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-10.jpg'|url}>" alt="" /></a></figure>
                                                      <div class="extra-wrap">
                                                     	<div class="margin-top">
@@ -100,7 +100,63 @@
                                                        	  </div>
                                                     	</div>
                                                 	</div>
-                                           		 </div>
+                                           		</div>
+                                               </div>
+                                               <div class="xia">
+                                                <div class="column-1">
+                                            	 <div class="wrapper">
+                                                	<figure class="img-indent"><a href="<{'meishi/1'|url}>"><img src="<{'static/img/meishi/page2/p2-2.jpg'|url}>" alt="" /></a></figure>
+                                                    <div class="extra-wrap">
+                                                    	<div class="margin-top">
+                                                            <h6>素三丝</h6>
+                                                            <p class="p1">美食爱好者：潜行蜗牛；</br>
+                                                            主要材料是胡萝卜、豆芽等，色香味俱全。</p>
+                                                            <a class="link" href="<{'meishi/3'|url}>">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                 </div>
+                                                </div>
+                                            	<div class="column-2">
+                                            	 <div class="wrapper">
+                                                	<figure class="img-indent"><a href="<{'meishi/2'|url}>"><img src="<{'static/img/meishi/page2/p2-8.jpg'|url}>" alt="" /></a></figure>
+                                                    <div class="extra-wrap">
+                                                    	<div class="margin-top">
+                                                            <h6>蟹粉鲜虾丸</h6>
+                                                            <p class="p1">美食爱好者：深呼吸；</br>
+                                                            主要材料是虾，清理肠胃，排除油脂</p>
+                                                            <a class="link" href="<{'meishi/2'|url}>">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                        		<div class="column-1">
+                                                    <div class="wrapper">
+                                                        <figure class="img-indent"><a href="<{'meishi/3'|url}>"><img src="<{'static/img/meishi/page2/p2-5.jpg'|url}>" alt="" /></a></figure>
+                                                   		 <div class="extra-wrap">
+                                                    	<div class="margin-top">
+                                                            <h6>减肥鸡蛋沙拉</h6>
+                                                            <p class="p1">美食爱好者：刘倩;</br>
+                                                            主要材料鸡蛋、番茄，有减肥功效</p>
+                                                            <a class="link" href="<{'meishi'}>/<{$data.id}>">Read More</a>
+                                                       	 </div>
+                                                   	 </div>
+                                                	</div>
+                                                </div>
+                                          		<div class="column-2">
+                                            	  <div class="wrapper">
+                                                	<figure class="img-indent"><a href="<{'meishi'}>/<{$data.id}>"><img src="<{'static/img/meishi/page2/p2-10.jpg'|url}>" alt="" /></a></figure>
+                                                     <div class="extra-wrap">
+                                                    	<div class="margin-top">
+                                                            <h6>洋葱炒芹菜</h6>
+                                                            <p class="p1">美食爱好者：等风来</br>
+                                                            主要材料洋葱、芹菜，清热解毒</p>
+                                                            <a class="link" href="<{'meishi'}>/<{$data.id}>">Read More</a>
+                                                       	  </div>
+                                                    	</div>
+                                                	</div>
+                                           		</div>
+                                               </div>
+                                              
                                         	 </div>
                                            
                                         
@@ -134,6 +190,9 @@
     </footer>
     <script type="text/javascript"> Cufon.now(); </script>
      <script type="text/javascript">
+	 
+	 
+	 
   $('.img-indent').hover(function(e){
 	$('.imgss',this).css({display:'block'});
 	  
@@ -142,14 +201,19 @@
 		  });
   
   
- 
+(function(){ 
 $(".zy ul li a").each(function(i){
 $(this).click(function(){
 $(this).addClass("current").siblings().removeClass("current");
 $(".ahz:eq("+i+")").show().siblings(".ahz").hide();
 });
 });
+})(jQuery);
 
+$('.sx .next').click(function(){
+	$('.xia').css(display,'block');
+	$('.shang').css(display,'none');
+})
  </script>
 </div>
 <{/block}>

@@ -25,7 +25,7 @@
 									<a href="search.tpl"><img src="<{'static/img/meishi/login/dt2.png'|url}>"></a>
 									<a href="courses.html"><img src="<{'static/img/meishi/login/lx.png'|url}>"></a>                              　 </div>
                                 <img style=" display:block;  margin:0 auto;" src="<{'static/img/meishi/login-or.png'|url}>"><!--一直到这里都是没用的图片除了那几个a标签外-->
-                                <form id="form" method="post">
+                                <form  id="form" method="post">
                                     <ul>
                                         <li><span>用户名：</span><input type="text" name="username" id="username" class="input" required></li>
                                         <li><span>密　码：</span><input type="password" name="password" id="password" class="input" required></li>
