@@ -50,10 +50,9 @@
                                         <h6>用户信息</h6>
                                         <dl>
                                             <dt>用户名：liuqian</dt>
-                                            <dd><span>Tel:</span> 123456</dd>
-                                            <dd><span>E-mail:</span><a href="mailto:mail@123456@qq.com">mail@123456@qq.com</a>
-                                            </dd>
-                                            <dd><span>联系人：</span>潜行蜗牛</dd>
+                                            <dd style="width:100%; display:block; float:left;"><span>留　言:</span></dd>
+                                           <div style="width:100%; display:block; float:left">azsff</div>
+                                           
                                         </dl>
                                     </div>
                                     <div class="img-indent-bot">
