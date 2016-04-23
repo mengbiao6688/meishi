@@ -49,7 +49,7 @@ class HomeController extends Controller
 		$meishi->aids = $aids->pluck('cover_id');
 		$meishi->pid = $meishi->getCover()->toArray()[0];
 		$this->_meishi = $meishi;
-
+		$this->_yongliao = explode("\r\n",$meishi->yongliao);
         return $this->view('meishi');
 	}
 

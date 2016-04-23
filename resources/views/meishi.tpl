@@ -27,10 +27,9 @@
                                                  <div class="cailiao">
                                                     <h8>主料</h8>
                                                     <ul class="cllb">
-                                                        <li><a><h9>胡萝卜</h9><span>1段</span></a></li>
-                                                        <li><a><h9>豆芽菜</h9><span>3两</span></a></li>
-                                                        <li><a><h9>青椒</h9><span>2颗</span></a></li>
-                                                        <li><a><h9>土豆</h9><span>一个</span></a></li>
+                                                        <{foreach $_yongliao as $yl}>
+                                                        <li><a><h9><{$yl}></h9></a></li>
+                                                        <{/foreach}>
                                                     </ul>
                                                  </div>
                                                  <div class="cailiao"> 
