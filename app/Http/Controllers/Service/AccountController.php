@@ -15,12 +15,22 @@ class AccountController extends Controller
        if($customer->count()) {
            $customer = $customer->toArray()[0];
            if($customer['password'] == md5($request->get('password'))) {
-               exit('登录成功，请尽情的享用吧！');
+               session(['customer'=>$customer]);
+               return response()->json([
+                   'success' => true,
+                   'message' => '登录成功，请尽情的享用吧！'
+               ]);
            } else {
-               exit('密码错误，不要急哦！');
+               return response()->json([
+                   'success' => false,
+                   'message' => '密码错误，不要急哦！'
+               ]);
            }
        } else {
-           exit('用户名不存在，亲！');
+           return response()->json([
+               'success' => false,
+               'message' => '用户名不存在，亲！！'
+           ]);
        }
    }
 

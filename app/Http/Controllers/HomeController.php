@@ -60,6 +60,7 @@ class HomeController extends Controller
 
 	//联系我们
 	public function contact() {
+		$this->_customer = session('customer');
 		return $this->view('contact');
 	}
 

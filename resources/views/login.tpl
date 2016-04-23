@@ -67,7 +67,10 @@
 					password:$("#password").val()
 				},
 				success:function(data) {
-					alert(data);
+					alert(data.message);
+					if(data.success) {
+						location.href = '<{'contact'|url}>';
+					}
 				}
 			});
 		});

@@ -25,12 +25,12 @@
                                                 <{csrf_field() nofilter}>
                                                 <fieldset>
                                                     <label>
-                                                        <span class="text-form">用户名:</span>
-                                                        <input type="text" name="user" id="user" required="required"/></label>
+                                                        <span class="text-form">标题:</span>
+                                                        <input type="text" name="title" id="title" required="required"/></label>
                                                     <div class="wrapper">
                                                         <div class="text-form">留言:</div>
                                                         <div class="extra-wrap">
-                                                            <textarea required="required" class="liuyan" id="liuyan" name="content"></textarea>
+                                                            <textarea required="required" class="liuyan" id="content" name="content"></textarea>
                                                             <div class="clear"></div>
                                                             <div class="buttons">
                                                                 <a class="button-1" href="javascript:void(0)"
@@ -49,9 +49,11 @@
                                     <div class="img-indent-bot">
                                         <h6>用户信息</h6>
                                         <dl>
-                                            <dt>用户名：liuqian</dt>
+                                            <dt>用户名：<{$_customer.username}></dt>
                                             <dd style="width:100%; display:block; float:left;"><span>留　言:</span></dd>
-                                           <div style="width:100%; display:block; float:left">azsff</div>
+                                           <div id="showmsg" style="width:100%; display:block; float:left">
+
+                                           </div>
                                            
                                         </dl>
                                     </div>
@@ -82,9 +84,9 @@
                 $('#cancel').click(function () {
                     $('#contact-form')[0].reset();
                 });
-                $('#send').click(function (e) {
-                    e.preventDefault();
+                $('#send').click(function () {
                     $.post("<{'service/message/add'|url}>",$('#contact-form').serialize(),function(data) {
+                        $('#showmsg').text(data.content);
                         alert(data.message);
                     });
                  });
