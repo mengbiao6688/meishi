@@ -9,6 +9,7 @@ return array(
     'CreateAttachmentsTable' => $baseDir . '/database/migrations/2000_01_01_000002_create_attachments_table.php',
     'CreateCommonTable' => $baseDir . '/database/migrations/2000_01_01_000001_create_common_table.php',
     'CreateMeishiTables' => $baseDir . '/database/migrations/2016_03_19_162518_create_meishi_tables.php',
+    'CreateMessageTable' => $baseDir . '/database/migrations/2016_04_23_111358_create_message_table.php',
     'CreateRolesTable' => $baseDir . '/database/migrations/2000_01_01_000004_create_roles_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2000_01_01_000003_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
