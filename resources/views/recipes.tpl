@@ -139,12 +139,13 @@
   });
   </script>
   <script>
+  $(function(){
   $('.img-indent').hover(function(e){
-	$('.imgss',this).css({display:'block'});
-	  
+	$('.imgss',this).css({display:'block'}); 
 	  },function(){
 	 $('.imgss',this).css({display:'none'}); 
   });
+  })(jQuery);
   </script>
  </div>
 <{/block}>

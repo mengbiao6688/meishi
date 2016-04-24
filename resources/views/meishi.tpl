@@ -28,7 +28,7 @@
                                                     <h8>主料</h8>
                                                     <ul class="cllb">
                                                         <{foreach $_yongliao as $yl}>
-                                                        <li><a><h9><{$yl}></h9></a></li>
+                                                        <li><a><h9><{$yl}></h9><span>适量</span></a></li>
                                                         <{/foreach}>
                                                     </ul>
                                                  </div>

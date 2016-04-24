@@ -100,7 +100,7 @@
                                         <li><a href="#">脆皮香豆腐·····················美味可口</a>
                                         <img src="<{'static/img/meishi/page2/p2-10.jpg'|url}>"></li>
                                         <li><a href="#">北京烤肉························预防贫血</a>
-                                        <img src="<{'static/img/meishi/page2/p2-11.jpg'|url}>"></li>
+                                        <img src="<{'static/img/meishi/page2/p2-12.jpg'|url}>"></li>
                                     </ul>
                                     <div class="relative">
                                         <a class="button-1"  href="recipes">Read More</a>

@@ -25,7 +25,7 @@ class MessageController extends Controller
             ]);
         }
         $message = Message::create([
-            'user' => $data['title'],
+            'title' => $data['title'],
             'content' => $data['content']
         ]);
         if($message->getKey()) {

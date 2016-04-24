@@ -457,7 +457,7 @@ footer {
 html, body {height:100%;}
 /*************************************首页的推荐部分代码******************************************/
 #page1 .list{ overflow:hidden;}
-#page1 .list-1 img{ max-width:50px; max-height:50px; border:#CCC 2px solid; display:none; position:relative; top:-3px;  }
+#page1 .list-1 img{ max-width:50px; max-height:50px; border:#CCC 2px solid; display:none; position:relative; top:-3px;}
 /*--------------------------------------------搜索框css代码---------------------------------------------*/
 .search{ max-width:380px; height:40px; float:left; margin-left:40px; padding-top:20px;}
 .search .search_border{
@@ -499,7 +499,7 @@ html, body {height:100%;}
 #page7 .img-indent img{ max-width:200px;}
 
 /**********************************             recipes遮罩层动画             ****************************************/
-.imgss{
+#page5 .imgss{
 	width:100%;
 	height:130px;
 	background:#000;
@@ -546,35 +546,11 @@ html, body {height:100%;}
 		height:11px;
 		float:left;
 		cursor:pointer;
+		
 	}
 	.pre{background:url(../../img/meishi/sxl.png) left top no-repeat;}
-	.next{background:url(../../img/meishi/sxr.png) right top no-repeat;}
-	.shang , .xia{ width:100%; height:100%; position:relative;}
-	.xia{ position:absolute; left:0px; top:0px; display:none;}
-	/*.pags li a:hover,
-	.pags li.current a {background-position:left top;}*/
-	.pags li.current a {cursor:default;}
+	.next{background:url(../../img/meishi/sxr.png) left top no-repeat;}
+	.tab{ width:100%; height:100%; position:relative; display:none;}
+	.on{ display:block;}
 
-/********************************** tips网页的厨师爱好者左右按钮设置 ***********************************/
-.zy {
-	width:100%;
-	height:20px;
-	float:left;
-	margin-top:-5px;
-	text-align:center;
-}
-.zy li {
-	float:left;
-	padding-right:2px;
-}
-	.zy li a {
-		display:block;
-		width:13px;
-		height:12px;
-		background:url(../../img/meishi/tips-ahz.png) right top no-repeat;
-		cursor:pointer;
-	}
-	.zy li a:hover,
-	.zy li.current a {background-position:left top;}
-	.zy li.current a {cursor:default;}
-.none{ display:none;}
+/********************************** tips网页的遮罩层 ***********************************/
